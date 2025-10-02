@@ -1,0 +1,175 @@
+{% extends "base.html" %}
+
+{% block title %}AI Setup - Get Free API Keys{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h3 class="card-title mb-0">
+                        <i class="fas fa-robot"></i> Enable AI Enhancement
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <p class="lead">Get free API keys to unlock AI-powered receipt enhancement!</p>
+                    
+                    <div class="row">
+                        <div class="col-lg-4 mb-4">
+                            <div class="card h-100 border-primary">
+                                <div class="card-header bg-primary text-white">
+                                    <h5 class="mb-0">🚀 Groq (Recommended)</h5>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled">
+                                        <li>✅ <strong>14,400 requests/day</strong></li>
+                                        <li>✅ Very fast inference</li>
+                                        <li>✅ Best for our use case</li>
+                                        <li>✅ No credit card required</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://console.groq.com/keys" target="_blank" class="btn btn-primary btn-sm">
+                                        <i class="fas fa-external-link-alt"></i> Get Groq API Key
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 mb-4">
+                            <div class="card h-100 border-info">
+                                <div class="card-header bg-info text-white">
+                                    <h5 class="mb-0">🤗 Hugging Face</h5>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled">
+                                        <li>✅ <strong>1,000 requests/month</strong></li>
+                                        <li>✅ Great fallback option</li>
+                                        <li>✅ Easy to set up</li>
+                                        <li>✅ No credit card required</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://huggingface.co/settings/tokens" target="_blank" class="btn btn-info btn-sm">
+                                        <i class="fas fa-external-link-alt"></i> Get HF Token
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 mb-4">
+                            <div class="card h-100 border-warning">
+                                <div class="card-header bg-warning text-dark">
+                                    <h5 class="mb-0">🔍 Google Gemini</h5>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled">
+                                        <li>✅ <strong>15 requests/minute</strong></li>
+                                        <li>✅ Good quality responses</li>
+                                        <li>✅ Google's AI model</li>
+                                        <li>✅ Free tier available</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://makersuite.google.com/app/apikey" target="_blank" class="btn btn-warning btn-sm">
+                                        <i class="fas fa-external-link-alt"></i> Get Gemini Key
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <h4><i class="fas fa-cogs"></i> Setup Instructions</h4>
+                    
+                    <div class="accordion" id="setupAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#groqSetup">
+                                    🚀 Groq Setup (Recommended)
+                                </button>
+                            </h2>
+                            <div id="groqSetup" class="accordion-collapse collapse show" data-bs-parent="#setupAccordion">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>Visit <a href="https://console.groq.com/keys" target="_blank">Groq Console</a></li>
+                                        <li>Sign up with your email (free account)</li>
+                                        <li>Create a new API key</li>
+                                        <li>Copy the key</li>
+                                        <li>Update your <code>.env</code> file:</li>
+                                    </ol>
+                                    <pre class="bg-light p-3 rounded"><code>LLM_PROVIDER=groq
+GROQ_API_KEY=your-actual-groq-key-here</code></pre>
+                                    <div class="alert alert-success">
+                                        <strong>Benefits:</strong> 14,400 free requests daily - perfect for receipt processing!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hfSetup">
+                                    🤗 Hugging Face Setup
+                                </button>
+                            </h2>
+                            <div id="hfSetup" class="accordion-collapse collapse" data-bs-parent="#setupAccordion">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>Visit <a href="https://huggingface.co/settings/tokens" target="_blank">Hugging Face Tokens</a></li>
+                                        <li>Sign up for free account</li>
+                                        <li>Create a new token (Read access is enough)</li>
+                                        <li>Copy the token</li>
+                                        <li>Update your <code>.env</code> file:</li>
+                                    </ol>
+                                    <pre class="bg-light p-3 rounded"><code>LLM_PROVIDER=huggingface
+HUGGINGFACE_API_KEY=your-hf-token-here</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#geminiSetup">
+                                    🔍 Google Gemini Setup
+                                </button>
+                            </h2>
+                            <div id="geminiSetup" class="accordion-collapse collapse" data-bs-parent="#setupAccordion">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li>Visit <a href="https://makersuite.google.com/app/apikey" target="_blank">Google AI Studio</a></li>
+                                        <li>Sign in with Google account</li>
+                                        <li>Create API key</li>
+                                        <li>Copy the key</li>
+                                        <li>Update your <code>.env</code> file:</li>
+                                    </ol>
+                                    <pre class="bg-light p-3 rounded"><code>LLM_PROVIDER=gemini
+GOOGLE_API_KEY=your-google-api-key-here</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="alert alert-info mt-4">
+                        <h5><i class="fas fa-lightbulb"></i> What AI Enhancement Provides:</h5>
+                        <ul class="mb-0">
+                            <li><strong>Text Cleanup:</strong> Fixes OCR errors like "ROLLEPSALL PEN" → "Rollerball Pen"</li>
+                            <li><strong>Smart Categorization:</strong> Identifies store types and purchase categories</li>
+                            <li><strong>Purchase Insights:</strong> AI analysis of your spending patterns</li>
+                            <li><strong>Amount Validation:</strong> Checks if receipt calculations make sense</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="text-center mt-4">
+                        <a href="/" class="btn btn-success btn-lg">
+                            <i class="fas fa-arrow-left"></i> Back to Receipt Processing
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,10 @@
+numpy
+pytesseract
+opencv-python
+Pillow
+pydantic
+python-dateutil
+regex
+Flask
+requests
+python-dotenv

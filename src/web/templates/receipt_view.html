@@ -1,0 +1,303 @@
+{% extends "base.html" %}
+
+{% block title %}Receipt #{{ standardized.receipt_id[:8] }}{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <!-- Header with Receipt Info -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <div class="mb-2">
+                    <h2 class="mb-1">
+                        <i class="fas fa-receipt text-primary"></i>
+                        Receipt #{{ standardized.receipt_id[:8] }}
+                    </h2>
+                    <small class="text-muted">
+                        Processed: {{ standardized.processed_at.strftime('%B %d, %Y at %I:%M %p') }}
+                    </small>
+                </div>
+                <div class="btn-group" role="group">
+                    <a href="/digital-receipt/{{ standardized.receipt_id }}" class="btn btn-success">
+                        <i class="fas fa-receipt"></i> Digital Receipt
+                    </a>
+                    <a href="/receipts" class="btn btn-outline-secondary">
+                        <i class="fas fa-list"></i> All Receipts
+                    </a>
+                    <a href="/" class="btn btn-primary">
+                        <i class="fas fa-plus"></i> New Receipt
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Receipt Display Card -->
+        <div class="col-lg-8 mb-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="card-title mb-0">
+                        <i class="fas fa-store"></i> 
+                        {{ standardized.merchant }}
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <!-- Receipt Header Info -->
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h6 class="text-muted mb-2">TRANSACTION DETAILS</h6>
+                            <div class="mb-2">
+                                <strong>Date:</strong> 
+                                {% if standardized.date %}
+                                    {{ standardized.date.strftime('%B %d, %Y') }}
+                                {% else %}
+                                    Not detected
+                                {% endif %}
+                            </div>
+                            {% if receipt.transaction_time %}
+                            <div class="mb-2">
+                                <strong>Time:</strong> {{ receipt.transaction_time }}
+                            </div>
+                            {% endif %}
+                        </div>
+                        <div class="col-md-6">
+                            <div class="confidence-badge">
+                                <h6 class="text-muted mb-2">OCR CONFIDENCE</h6>
+                                <div class="progress mb-2" style="height: 20px;">
+                                    {% set confidence_pct = (standardized.confidence_score * 100)|int %}
+                                    <div class="progress-bar 
+                                        {% if confidence_pct >= 80 %}bg-success
+                                        {% elif confidence_pct >= 60 %}bg-warning  
+                                        {% else %}bg-danger{% endif %}" 
+                                        role="progressbar" style="width: {{ confidence_pct }}%">
+                                        {{ confidence_pct }}%
+                                    </div>
+                                </div>
+                                <small class="text-muted">
+                                    {% if confidence_pct >= 80 %}Excellent
+                                    {% elif confidence_pct >= 60 %}Good
+                                    {% else %}Needs Review{% endif %}
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Items List -->
+                    <div class="mb-4">
+                        <h6 class="text-muted mb-3">ITEMS ({{ standardized.items|length }})</h6>
+                        {% if standardized.items %}
+                            <div class="receipt-items">
+                                {% for item in standardized.items %}
+                                <div class="receipt-item d-flex justify-content-between align-items-center p-3 mb-2 border rounded">
+                                    <div class="item-details flex-grow-1">
+                                        <div class="item-name h6 mb-1">{{ item.name }}</div>
+                                        {% if item.quantity and item.quantity > 1 %}
+                                            <small class="text-muted">Quantity: {{ item.quantity }}</small>
+                                        {% endif %}
+                                        {% if item.unit_price %}
+                                            <small class="text-muted">@ ${{ "%.2f"|format(item.unit_price) }} each</small>
+                                        {% endif %}
+                                    </div>
+                                    <div class="item-price">
+                                        <span class="h5 mb-0 text-success">
+                                            ${{ "%.2f"|format(item.total_price) }}
+                                        </span>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        {% else %}
+                            <div class="alert alert-warning">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                No items were detected in this receipt.
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    <!-- Totals Section -->
+                    <hr class="my-4">
+                    <div class="receipt-totals">
+                        <div class="row">
+                            <div class="col-6 col-md-3 text-center mb-3">
+                                <div class="total-item">
+                                    <div class="text-muted small">SUBTOTAL</div>
+                                    <div class="h5">${{ "%.2f"|format(standardized.subtotal) }}</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 text-center mb-3">
+                                <div class="total-item">
+                                    <div class="text-muted small">TAX</div>
+                                    <div class="h5">${{ "%.2f"|format(standardized.tax) }}</div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 text-center mb-3">
+                                <div class="total-item bg-primary text-white p-3 rounded">
+                                    <div class="small">TOTAL</div>
+                                    <div class="h3 mb-0">${{ "%.2f"|format(standardized.total) }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Side Panel -->
+        <div class="col-lg-4">
+
+            <!-- Actions Card -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">
+                        <i class="fas fa-tools"></i> Actions
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-outline-primary" onclick="exportReceipt('json')">
+                            <i class="fas fa-download"></i> Export JSON
+                        </button>
+                        <button class="btn btn-outline-success" onclick="exportReceipt('csv')">
+                            <i class="fas fa-file-csv"></i> Export CSV
+                        </button>
+                        <button class="btn btn-outline-info" onclick="shareReceipt()">
+                            <i class="fas fa-share"></i> Share Receipt
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Details Card -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">
+                        <i class="fas fa-info-circle"></i> Details
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="detail-item mb-3">
+                        <strong>Receipt ID:</strong><br>
+                        <code class="small">{{ standardized.receipt_id }}</code>
+                    </div>
+                    <div class="detail-item mb-3">
+                        <strong>Device ID:</strong><br>
+                        <code class="small">{{ standardized.device_id[:8] if standardized.device_id else 'N/A' }}...</code>
+                    </div>
+                    {% if receipt.merchant_address %}
+                    <div class="detail-item mb-3">
+                        <strong>Address:</strong><br>
+                        <small>{{ receipt.merchant_address }}</small>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Raw OCR Text (Collapsible) -->
+            <div class="card shadow-sm">
+                <div class="card-header">
+                    <button class="btn btn-link p-0 w-100 text-start" type="button" data-bs-toggle="collapse" data-bs-target="#rawText">
+                        <i class="fas fa-eye"></i> Raw OCR Text
+                        <i class="fas fa-chevron-down float-end"></i>
+                    </button>
+                </div>
+                <div class="collapse" id="rawText">
+                    <div class="card-body">
+                        <pre class="small bg-light p-2 rounded" style="max-height: 300px; overflow-y: auto;">{{ receipt.raw_text }}</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.receipt-item {
+    transition: all 0.2s ease;
+}
+.receipt-item:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transform: translateY(-1px);
+}
+.total-item {
+    transition: all 0.2s ease;
+}
+.confidence-badge {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+}
+@media (max-width: 768px) {
+    .btn-group {
+        width: 100%;
+    }
+    .btn-group .btn {
+        flex: 1;
+    }
+}
+</style>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function exportReceipt(format) {
+    const receiptData = {
+        id: '{{ standardized.receipt_id }}',
+        merchant: '{{ standardized.merchant }}',
+        date: '{{ standardized.date.isoformat() }}',
+        items: [
+            {% for item in standardized.items %}
+            {
+                "name": "{{ item.name | replace('"', '\\"') }}",
+                "quantity": {{ item.quantity or 1 }},
+                "total_price": {{ item.total_price }}
+            }{% if not loop.last %},{% endif %}
+            {% endfor %}
+        ],
+        subtotal: {{ standardized.subtotal }},
+        tax: {{ standardized.tax }},
+        total: {{ standardized.total }},
+        confidence: {{ standardized.confidence_score }}
+    };
+    
+    if (format === 'json') {
+        const dataStr = JSON.stringify(receiptData, null, 2);
+        const dataBlob = new Blob([dataStr], {type: 'application/json'});
+        const url = URL.createObjectURL(dataBlob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = `receipt_${receiptData.id.substring(0,8)}.json`;
+        link.click();
+    } else if (format === 'csv') {
+        let csv = 'Item,Quantity,Price\n';
+        receiptData.items.forEach(item => {
+            csv += `"${item.name}",${item.quantity || 1},${item.total_price}\n`;
+        });
+        csv += `\nSubtotal,,${receiptData.subtotal}\n`;
+        csv += `Tax,,${receiptData.tax}\n`;
+        csv += `Total,,${receiptData.total}\n`;
+        
+        const dataBlob = new Blob([csv], {type: 'text/csv'});
+        const url = URL.createObjectURL(dataBlob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = `receipt_${receiptData.id.substring(0,8)}.csv`;
+        link.click();
+    }
+}
+
+function shareReceipt() {
+    if (navigator.share) {
+        navigator.share({
+            title: 'Receipt from {{ standardized.merchant }}',
+            text: 'Total: ${{ "%.2f"|format(standardized.total) }}',
+            url: window.location.href
+        });
+    } else {
+        navigator.clipboard.writeText(window.location.href).then(() => {
+            alert('Receipt link copied to clipboard!');
+        });
+    }
+}
+</script>
+{% endblock %}

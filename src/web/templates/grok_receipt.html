@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+
+{% block title %}Digital Receipt{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2><i class="fas fa-receipt text-primary"></i> Processed Receipt</h2>
+            <a href="/" class="btn btn-primary mb-3">
+                <i class="fas fa-plus"></i> Process Another Receipt
+            </a>
+        </div>
+    </div>
+    
+    {% if error %}
+    <div class="alert alert-warning">
+        <h4>⚠️ Grok Processing Error</h4>
+        <p>{{ error }}</p>
+        <h5>Raw OCR Text:</h5>
+        <pre>{{ raw_text }}</pre>
+    </div>
+    {% elif structured_receipt %}
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h4>📄 Standardized Digital Receipt</h4>
+                </div>
+                <div class="card-body">
+                    <div class="receipt-display">
+                        <div class="merchant-info mb-3">
+                            <h3>{{ structured_receipt.get('merchant_name', 'Unknown Merchant') }}</h3>
+                            {% if structured_receipt.get('merchant_address') %}
+                            <p class="text-muted">{{ structured_receipt.get('merchant_address') }}</p>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="transaction-info mb-3">
+                            <div class="row">
+                                <div class="col-6">
+                                    <strong>Date:</strong> {{ structured_receipt.get('transaction_date', 'N/A') }}
+                                </div>
+                                <div class="col-6">
+                                    <strong>Time:</strong> {{ structured_receipt.get('transaction_time', 'N/A') }}
+                                </div>
+                            </div>
+                            {% if structured_receipt.get('receipt_number') %}
+                            <div class="mt-2">
+                                <strong>Receipt #:</strong> {{ structured_receipt.get('receipt_number') }}
+                            </div>
+                            {% endif %}
+                        </div>
+                        
+                        {% if structured_receipt.get('items') %}
+                        <div class="items-section mb-3">
+                            <h5>Items:</h5>
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Item</th>
+                                        <th>Qty</th>
+                                        <th>Unit Price</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for item in structured_receipt.get('items', []) %}
+                                    <tr>
+                                        <td>{{ item.get('name', 'N/A') }}</td>
+                                        <td>{{ item.get('quantity', 1) }}</td>
+                                        <td>${{ "%.2f"|format(item.get('unit_price', 0)) }}</td>
+                                        <td>${{ "%.2f"|format(item.get('total_price', 0)) }}</td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                        {% endif %}
+                        
+                        <div class="totals-section">
+                            {% if structured_receipt.get('subtotal') %}
+                            <div class="row">
+                                <div class="col-6"><strong>Subtotal:</strong></div>
+                                <div class="col-6 text-end">${{ "%.2f"|format(structured_receipt.get('subtotal', 0)) }}</div>
+                            </div>
+                            {% endif %}
+                            {% if structured_receipt.get('tax_amount') %}
+                            <div class="row">
+                                <div class="col-6"><strong>Tax:</strong></div>
+                                <div class="col-6 text-end">${{ "%.2f"|format(structured_receipt.get('tax_amount', 0)) }}</div>
+                            </div>
+                            {% endif %}
+                            {% if structured_receipt.get('total_amount') %}
+                            <div class="row border-top pt-2">
+                                <div class="col-6"><strong>Total:</strong></div>
+                                <div class="col-6 text-end"><strong>${{ "%.2f"|format(structured_receipt.get('total_amount', 0)) }}</strong></div>
+                            </div>
+                            {% endif %}
+                            {% if structured_receipt.get('payment_method') %}
+                            <div class="row mt-2">
+                                <div class="col-6"><strong>Payment:</strong></div>
+                                <div class="col-6 text-end">{{ structured_receipt.get('payment_method', '').title() }}</div>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5>🤖 Raw JSON Data</h5>
+                </div>
+                <div class="card-body">
+                    <pre><code>{{ structured_receipt | tojson(indent=2) }}</code></pre>
+                </div>
+            </div>
+            
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h5>📝 Raw OCR Text</h5>
+                </div>
+                <div class="card-body">
+                    <pre style="font-size: 0.8em;">{{ raw_text }}</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<style>
+.receipt-display {
+    font-family: monospace;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+.merchant-info h3 {
+    text-align: center;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 10px;
+}
+</style>
+{% endblock %}
