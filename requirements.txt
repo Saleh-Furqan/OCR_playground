@@ -8,3 +8,7 @@ regex
 Flask
 requests
 python-dotenv
+datasets  # For downloading CORD dataset from HuggingFace
+kaggle  # For downloading SROIE dataset from Kaggle
+scipy  # For statistical testing
+matplotlib  # For plotting benchmark results

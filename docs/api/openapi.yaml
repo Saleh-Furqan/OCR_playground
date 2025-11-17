@@ -1,0 +1,129 @@
+openapi: 3.0.3
+info:
+  title: ReTouch Receipts Ingest API
+  version: 0.1.0
+  description: API for ingesting receipt images and retrieving parsed receipts
+servers:
+  - url: https://api.retouch.example.com
+    description: Production
+  - url: https://staging.api.retouch.example.com
+    description: Staging
+  - url: http://localhost:5000
+    description: Local Dev
+security:
+  - bearerAuth: []
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    ReceiptItem:
+      type: object
+      properties:
+        description:
+          type: string
+        qty:
+          type: number
+          format: float
+          default: 1
+        unit_price:
+          type: number
+          format: float
+        total:
+          type: number
+          format: float
+      required: [description, total]
+    Receipt:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        merchant:
+          type: string
+        date:
+          type: string
+          format: date-time
+        subtotal:
+          type: number
+          format: float
+        tax:
+          type: number
+          format: float
+        total:
+          type: number
+          format: float
+        line_items:
+          type: array
+          items:
+            $ref: '#/components/schemas/ReceiptItem'
+        raw_ocr_text:
+          type: string
+        confidence:
+          type: number
+          format: float
+        assets:
+          type: object
+          properties:
+            image_url:
+              type: string
+              format: uri
+            thumbnail_url:
+              type: string
+              format: uri
+paths:
+  /api/v1/receipts/ingest:
+    post:
+      summary: Ingest a receipt image
+      description: Accepts a receipt image and begins processing. Returns an ID immediately.
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                image:
+                  type: string
+                  format: binary
+                device_id:
+                  type: string
+                timestamp:
+                  type: string
+                  format: date-time
+              required: [image]
+      responses:
+        '202':
+          description: Accepted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  receipt_id:
+                    type: string
+                    format: uuid
+                  status:
+                    type: string
+                    enum: [processing, queued]
+  /api/v1/receipts/{receipt_id}:
+    get:
+      summary: Retrieve a parsed receipt
+      parameters:
+        - in: path
+          name: receipt_id
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Receipt found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Receipt'
+        '404':
+          description: Not found

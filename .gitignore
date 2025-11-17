@@ -66,6 +66,8 @@ temp/
 .Trashes
 ehthumbs.db
 Thumbs.db
+*:Zone.Identifier
+*.Zone.Identifier
 
 # Logs
 *.log
@@ -91,7 +93,20 @@ models/
 *.gguf
 *.bin
 
-# Image files (for security)
+# Dataset images (large files - keep local only)
+data/sroie/train/img/
+data/sroie/test/img/
+data/srd/*/img/
+data/sroie_clear/*/img/
+
+# Large model files
+data/sroie/layoutlm-base-uncased/
+
+# Keep result plots but not raw data images
+!results/**/plots/*.png
+!results/**/plots/*.jpg
+
+# Image files (for security - general exclusion)
 *.jpg
 *.jpeg
 *.png

@@ -1,0 +1,724 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-17T10:53:16.689785",
+    "dataset": "sroie_full",
+    "model": "qwen2.5vl:7b",
+    "status": "in_progress"
+  },
+  "metrics": {
+    "progress": "70/70",
+    "successful": 1,
+    "failed": 69,
+    "in_progress": true
+  },
+  "detailed_results": [
+    {
+      "image": "X00016469612.jpg",
+      "ground_truth": {
+        "merchant_name": "BOOK TA .K (TAMAN DAYA) SDN BHD",
+        "transaction_date": "25/12/2018",
+        "total_amount": "9.00",
+        "address": "NO.53 55,57 & 59, JALAN SAGU 18, TAMAN DAYA, 81100 JOHOR BAHRU, JOHOR."
+      },
+      "predictions": {
+        "merchant_name": "BOOK TA .K (TAMAN DAYA) SDN BHD",
+        "transaction_date": "2018-12-25",
+        "total_amount": "9.0"
+      },
+      "time_seconds": 31.82184147834778,
+      "merchant_match": true,
+      "date_match": false,
+      "total_match": true
+    },
+    {
+      "image": "X00016469619.jpg",
+      "ground_truth": {
+        "merchant_name": "INDAH GIFT & HOME DECO",
+        "transaction_date": "19/10/2018",
+        "total_amount": "60.30",
+        "address": "27, JALAN DEDAP 13, TAMAN JOHOR JAYA, 81100 JOHOR BAHRU, JOHOR."
+      },
+      "error": "Vision LLM processing failed: Operation timed out"
+    },
+    {
+      "image": "X00016469620.jpg",
+      "ground_truth": {
+        "merchant_name": "MR D.I.Y. (JOHOR) SDN BHD",
+        "transaction_date": "12-01-19",
+        "total_amount": "33.90",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (MR DIY TESCO TERBAU)"
+      },
+      "error": "Vision LLM connection failed after 3 attempts"
+    },
+    {
+      "image": "X00016469622.jpg",
+      "ground_truth": {
+        "merchant_name": "YONGFATT ENTERPRISE",
+        "transaction_date": "25/12/2018",
+        "total_amount": "80.90",
+        "address": "NO 122.124. JALAN DEDAP 13 81100 JOHOR BAHRU"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X00016469623.jpg",
+      "ground_truth": {
+        "merchant_name": "MR D.I.Y. (M) SDN BHD",
+        "transaction_date": "18-11-18",
+        "total_amount": "30.90",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (TESCO PUTRA NILAI)"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X00016469669.jpg",
+      "ground_truth": {
+        "merchant_name": "ABC HO TRADING",
+        "transaction_date": "09/01/2019",
+        "total_amount": "31.00",
+        "address": "NO.2&4, JALAN HARMONI 3/2, TAMAN DESA HARMONI. 81100 JOHOR BAHRU JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X00016469672.jpg",
+      "ground_truth": {
+        "merchant_name": "SOON HUAT MACHINERY ENTERPRISE",
+        "transaction_date": "11/01/2019",
+        "total_amount": "327.00",
+        "address": "NO.53 JALAN PUTRA 1, TAMAN SRI PUTRA, 81200 JOHOR BAHRU JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X00016469676.jpg",
+      "ground_truth": {
+        "merchant_name": "S.H.H. MOTOR (SUNGAI RENGIT) SDN. BHD.",
+        "transaction_date": "23-01-2019",
+        "total_amount": "20.00",
+        "address": "NO. 343, JALAN KURAU, SUNGAI RENGIT, 81620 PENGERANG, JOHOR."
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005200938.jpg",
+      "ground_truth": {
+        "merchant_name": "PERNIAGAAN ZHENG HUI",
+        "transaction_date": "12/02/2018",
+        "total_amount": "112.45",
+        "address": "NO.59 JALAN PERMAS 9/5 BANDAR BARU PERMAS JAYA 81760 JOHOR BAHRU"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005230617.jpg",
+      "ground_truth": {
+        "merchant_name": "GERBANG ALAF RESTAURANTS SDN BHD",
+        "transaction_date": "18/01/2018",
+        "total_amount": "26.60",
+        "address": "LEVEL 6, BANGUNAN TH, DAMANSARA UPTOWN3 NO.3, JALAN SS21/39,47400 PETALING JAYA SELANGOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005255805.jpg",
+      "ground_truth": {
+        "merchant_name": "SAM SAM TRADING CO",
+        "transaction_date": "29-12-2017",
+        "total_amount": "14.10",
+        "address": "67,JLN MEWAH 25/63 TMN SRI MUDA, 40400 SHAH ALAM."
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005268200.jpg",
+      "ground_truth": {
+        "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "transaction_date": "15/06/2017",
+        "total_amount": "15.00",
+        "address": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005268262.jpg",
+      "ground_truth": {
+        "merchant_name": "HOME MASTER HARDWARE & ELECTRICAL",
+        "transaction_date": "22/12/2017",
+        "total_amount": "15.90",
+        "address": "NO.113G & 115G, JALAN SETIA GEMBILANG U13/BG BANDAR SETIA ALAM, 40170 BANDAR SETIA ALAM, SELANGOR."
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005268400.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN HASSANBISTRO",
+        "transaction_date": "12/28/2017",
+        "total_amount": "15.00",
+        "address": "NO.2-1-1 JALAN SEITA PRIMA Q U 13/Q SEITA ALAM 40170 SHAN ALAM SELANGOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005268472.jpg",
+      "ground_truth": {
+        "merchant_name": "ASIA MART",
+        "transaction_date": "22/12/2017",
+        "total_amount": "32.70",
+        "address": "NO.23 BATU 10, TAMAN SENTOSA, JALAN KAPAR, 42200 KLANG, SELANGOR."
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005301659.jpg",
+      "ground_truth": {
+        "merchant_name": "HOME MASTER HARDWARE & ELECTRICAL",
+        "transaction_date": "22/12/2017",
+        "total_amount": "15.90",
+        "address": "NO.113G & 115G, JALAN SETIA GEMBILANG U13/BG BANDAR SETIA ALAM, 40170 BANDAR SETIA ALAM, SELANGOR."
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005301661.jpg",
+      "ground_truth": {
+        "merchant_name": "LIGHTROOM GALLERY SDN BHD",
+        "transaction_date": "20/12/2017",
+        "total_amount": "73.00",
+        "address": "NO: 28, JALAN ASTANA 1C, BANDAR BUKIT RAJA, 41050 KLANG SELANGOR D.E, MALAYSIA"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005301667.jpg",
+      "ground_truth": {
+        "merchant_name": "LIGHTROOM GALLERY SDN BHD",
+        "transaction_date": "20/11/2017",
+        "total_amount": "39.80",
+        "address": "NO: 28, JALAN ASTANA 1C, BANDAR BUKIT RAJA, 41050 KLANG SELANGOR D.E, MALAYSIA"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005303661.jpg",
+      "ground_truth": {
+        "merchant_name": "LIGHTROOM GALLERY SDN BHD",
+        "transaction_date": "20/12/2017",
+        "total_amount": "73.00",
+        "address": "NO: 28,JALAN ASTANA 1C, BANDAR BUKIT RAJA, 41050 KLANG SELANGOR D.E, MALAYSIA"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005306399.jpg",
+      "ground_truth": {
+        "merchant_name": "SHELL ISNI PETRO TRADING",
+        "transaction_date": "18/03/18",
+        "total_amount": "86.00",
+        "address": "LOT 2685 JLN GENTING KLANG 53300 KL SITE 1066"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005337872.jpg",
+      "ground_truth": {
+        "merchant_name": "SYL ROASTED DELIGHTS SDN. BHD.",
+        "transaction_date": "06/03/2018",
+        "total_amount": "54.50",
+        "address": "75. JALAN SS 22/19, DAMANSARA JAYA, 47400 PJ"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005361883.jpg",
+      "ground_truth": {
+        "merchant_name": "TEO HENG STATIONERY & BOOKS",
+        "transaction_date": "18/01/2018",
+        "total_amount": "4.90",
+        "address": "NO. 53, JALAN BESAR, 45600 BATANG BERJUNTAI SELANGOR DARUL EHSAN"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005361895.jpg",
+      "ground_truth": {
+        "merchant_name": "FUYI MINI MARKET",
+        "transaction_date": "25/01/2018",
+        "total_amount": "9.00",
+        "address": "NO 43-45-47G, TAMAN SEJATI, IJOK, 45600 BESTARI JAYA, KUALA SELANGOR."
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005361897.jpg",
+      "ground_truth": {
+        "merchant_name": "TEO HENG STATIONERY & BOOKS",
+        "transaction_date": "17/01/2018",
+        "total_amount": "27.55",
+        "address": "NO.53, JALAN BESAR, 45600 BATANG BERJUNTAI SELANGOR DARUL EHSAN"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005361898.jpg",
+      "ground_truth": {
+        "merchant_name": "TEO HENG STATIONERY & BOOKS",
+        "transaction_date": "15/01/2018",
+        "total_amount": "55.10",
+        "address": "NO.53, JALAN BESAR, 45600 BATANG BEJUNTAL SELANGOR DARUL EHSAN"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005361900.jpg",
+      "ground_truth": {
+        "merchant_name": "TEO HENG STATIONERY & BOOKS",
+        "transaction_date": "23/01/2018",
+        "total_amount": "18.00",
+        "address": "NO.53,JALAN BESAR,45600 BATANG BERJUNTAI SELANGOR DARUL EHSAN"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005361907.jpg",
+      "ground_truth": {
+        "merchant_name": "TED HENG STATIONERY & BOOKS",
+        "transaction_date": "12/02/2018",
+        "total_amount": "153.35",
+        "address": "NO. 53, JALAN BESAR, 45600 BATANG BERJUNTAI SELANGOR DARUL EHSAN"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005361946.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "14-03-18",
+        "total_amount": "37.10",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005361950.jpg",
+      "ground_truth": {
+        "merchant_name": "99 SPEED MART S/B",
+        "transaction_date": "24-01-18",
+        "total_amount": "2.50",
+        "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1076-IJOK"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005365179.jpg",
+      "ground_truth": {
+        "merchant_name": "C W KHOO HARDWARE SDN BHD",
+        "transaction_date": "01-03-18",
+        "total_amount": "21.20",
+        "address": "NO.50,JALAN PBS 14/11, KAWASAN PERINDUSTRIAN BUKIT SERDANG,"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005433492.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "05 MAR 2018",
+        "total_amount": "$8.20",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005433494.jpg",
+      "ground_truth": {
+        "merchant_name": "AEON CO. (M) BHD",
+        "transaction_date": "06/03/2018",
+        "total_amount": "75.00",
+        "address": "3RD FLR, AEON TAMAN MALURI SD JLN JEJAKA, TAMAN MALURI CHERAS, 55100 KUALA LUMPUR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005433514.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "03 MAR 2018",
+        "total_amount": "$8.20",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI 81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005433522.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "10 MAR 2018",
+        "total_amount": "",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005433533.jpg",
+      "ground_truth": {
+        "merchant_name": "PERNIAGAAN ZHENG HUI",
+        "transaction_date": "09/03/2018",
+        "total_amount": "332.30",
+        "address": "NO.59 JALAN PERMAS 9/5 BANDAR BARU PERMAS JAYA 81750 JOHOR BAHRU"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005433538.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "12 MAR 2018",
+        "total_amount": "$8.20",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005433541.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "14 MAR 2018",
+        "total_amount": "$8.20",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005433552.jpg",
+      "ground_truth": {
+        "merchant_name": "WARAKUYA PERMAS CITY SDN BHD",
+        "transaction_date": "10/03/2018",
+        "total_amount": "57.80",
+        "address": "JALAN PERMAS UTARA 1 PERMAS JAYA 81750 MASAI JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005433553.jpg",
+      "ground_truth": {
+        "merchant_name": "YHM AEON TEBRAU CITY",
+        "transaction_date": "11/03/2018",
+        "total_amount": "13.10",
+        "address": "S117, SECOND FLOOR, AEON TEBRAU CITY, 1, JALAN DESA TEBRAU, TAMAN DESA TEBRAU, 81100 JOHOR BAHRU, JOHOR."
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005441398.jpg",
+      "ground_truth": {
+        "merchant_name": "OWNER BY CASTLE BLUE S/B",
+        "transaction_date": "30/03/2018",
+        "total_amount": "189.75",
+        "address": "AVTIVO PLAZA,LOT B-F-11, BLOCK B NO1.JALAN PJU 9/1,D'SARA AVEVUE BANDAR SRI D'SARA, 52000 KL"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005441401.jpg",
+      "ground_truth": {
+        "merchant_name": "THREE STOOGES",
+        "transaction_date": "12/03/2018",
+        "total_amount": "343.95",
+        "address": "109, SS21/1A, DAMANSARA UTAMA"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005441402.jpg",
+      "ground_truth": {
+        "merchant_name": "THREE STOOGES",
+        "transaction_date": "03/03/2018",
+        "total_amount": "174.90",
+        "address": "109, SS21/1A, DAMANSARA UTAMA"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005441407.jpg",
+      "ground_truth": {
+        "merchant_name": "TASTE OF THE WORLD SDN BHD",
+        "transaction_date": "5/3/2018",
+        "total_amount": "64.15",
+        "address": "LOT 38, 39 101 BOULEVARD, JALAN KENARI 5, BANDAR PUCHONG JAYA, 47170 PUCHONG, SELANGOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005441408.jpg",
+      "ground_truth": {
+        "merchant_name": "32 PUB & BISTRO OWN BY CNU TRADING",
+        "transaction_date": "10-03-2018",
+        "total_amount": "190.00",
+        "address": "78G, JALAN SS21/62, DAMANSARA UTAMA, 47400 PETALING JAYA."
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442327.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "18 MAR 2018",
+        "total_amount": "$8.60",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PARINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442333.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "27 MAR 2018",
+        "total_amount": "$6.90",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PARINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442338.jpg",
+      "ground_truth": {
+        "merchant_name": "PASAR MINI JIN SENG",
+        "transaction_date": "18/03/18",
+        "total_amount": "28.60",
+        "address": "379, JALAN PERMAS SATU, BANDAR BARU PERMAS JAYA 81750 PLENTONG, JOHOR."
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442341.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTAURANT SIN DU",
+        "transaction_date": "09/03/2018",
+        "total_amount": "170.00",
+        "address": "K3-113, JL IBRAHIM SULTAN 80300 JOHOR BAHRU JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442344.jpg",
+      "ground_truth": {
+        "merchant_name": "YONG TAT HARDWARE TRADING",
+        "transaction_date": "13/03/2018",
+        "total_amount": "100.90",
+        "address": "NO 4,JALAN PERJIRANAN 10, TAMAN AIR BIRU, 81700 PASIR GUDANG, JOHOR."
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442346.jpg",
+      "ground_truth": {
+        "merchant_name": "PERNIAGAAN ZHENG HUI",
+        "transaction_date": "15/03/2018",
+        "total_amount": "8.00",
+        "address": "NO.59 JALAN PERMAS 9/5 BANDAR BARU PERMAS JAYA 81750 JOHOR BAHRU"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442361.jpg",
+      "ground_truth": {
+        "merchant_name": "TIMELESS KITCHENETTE SDN BHD",
+        "transaction_date": "2018-03-23",
+        "total_amount": "593.10",
+        "address": "LOT 50, FLOOR T2,SKY AVENUE GENTING HIGHLANDS PAHANG, 69000 PAHANG MALAYSIA"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442376.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "22 MAR 2018",
+        "total_amount": "$7.60",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442378.jpg",
+      "ground_truth": {
+        "merchant_name": "PAGOH REST AND SERVICE AREA",
+        "transaction_date": "23/03/2018",
+        "total_amount": "10.00",
+        "address": "LOT R1, KWS REHAT & RAWAT PAGOH ARAH UTARA, SIMPANG AMPAT PAGOH, LEBUHRAYA UTARA SELATAN, 84600,PAGOH,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442379.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "24 MAR 2018",
+        "total_amount": "$9.20",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442383.jpg",
+      "ground_truth": {
+        "merchant_name": "CARREFOUR RESTAURANT",
+        "transaction_date": "20/03/2018",
+        "total_amount": "13.80",
+        "address": "18,JALAN PERMAS 10/7 BANDAR BARU PERMAS JAYA, MASAI,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442384.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "19 MAR 2018",
+        "total_amount": "$8.20",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442386.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "21 MAR 2018",
+        "total_amount": "$8.70",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442392.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "29 MAR 2018",
+        "total_amount": "$7.10",
+        "address": "12 JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442394.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "30 MAR 2018",
+        "total_amount": "$8.20",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005442397.jpg",
+      "ground_truth": {
+        "merchant_name": "TRIPLE SIX POINT ENTERPRISE 666",
+        "transaction_date": "25-03-2018",
+        "total_amount": "7.60",
+        "address": "NO 14 & 16 JALAN PERMAS 4/3 BANDAR BARU PERMAS JAY"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005444033.jpg",
+      "ground_truth": {
+        "merchant_name": "BENS INDEPENDENT GROCER SDN. BHD",
+        "transaction_date": "12/03/18",
+        "total_amount": "77.20",
+        "address": "LOT 6, JALAN BATAI, PLAZA BATAI, DAMANSARA HEIGHTS 50490, KUALA LUMPUR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005444037.jpg",
+      "ground_truth": {
+        "merchant_name": "NANDO'S CHICKENLAND MALAYSIA SDN BHD",
+        "transaction_date": "28 MAR 18",
+        "total_amount": "129.30",
+        "address": "UNIT G-13, GROUND FLOOR, NO.1 JLN KIARA, MONT KIARA 50480 KUALA LUMPUR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005444045.jpg",
+      "ground_truth": {
+        "merchant_name": "99 SPEED MART S/B",
+        "transaction_date": "19-03-18",
+        "total_amount": "11.40",
+        "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1245-DESA SRI HARTAMAS"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005447832.jpg",
+      "ground_truth": {
+        "merchant_name": "PETRODELI ENTERPRISE",
+        "transaction_date": "26/02/18",
+        "total_amount": "85.54",
+        "address": "LOT 485, TMN LEMBAH KERAMAT JLN ULU KELANG,  54200 KUALA LUMPUR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005447833.jpg",
+      "ground_truth": {
+        "merchant_name": "SUN WONG KUT SDN BHD",
+        "transaction_date": "21/02/18",
+        "total_amount": "88.17",
+        "address": "176 JLN SUNGEI BESI 57100 KUALA LUMPUR."
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005447839.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTAURANT JIAWEI JIAWEI HOUSE",
+        "transaction_date": "9/3/2018",
+        "total_amount": "65.20",
+        "address": "13, JLN TASIK UTAMA 8 MEDAN NIAGA DAMAI SG BESI 57000 KL"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005447840.jpg",
+      "ground_truth": {
+        "merchant_name": "PASARAYA BORONG PINTAR SDN BHD",
+        "transaction_date": "14/03/2018",
+        "total_amount": "8.20",
+        "address": "NO 19-G& 19-1& 19-2 JALAN TASIK UTAMA 4, MEDAN NIAGA TASIK DAMAI"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005447848.jpg",
+      "ground_truth": {
+        "merchant_name": "LIAN CHI PU TIAN VEGETARIAN RESTAURANT SDN BHD",
+        "transaction_date": "06/01/18",
+        "total_amount": "53.55",
+        "address": "54,JALAN SS23/11 TAMAN SEA,47400 PETALING JAYA,SELANGOR"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005447850.jpg",
+      "ground_truth": {
+        "merchant_name": "PASARAYA BORONG PINTAR SDN BHD",
+        "transaction_date": "20180304",
+        "total_amount": "3.20",
+        "address": "NO 19-G& 19-1& 19-2 JALAN TASIK UTAMA 4, MEDAN NIAGA TASIK DAMAI"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    },
+    {
+      "image": "X51005447852.jpg",
+      "ground_truth": {
+        "merchant_name": "99 SPEED MART S/B",
+        "transaction_date": "20-02-18",
+        "total_amount": "9.90",
+        "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1249-TMN PANDAN CAHAYA"
+      },
+      "error": "Vision model qwen2.5vl:7b not available"
+    }
+  ]
+}

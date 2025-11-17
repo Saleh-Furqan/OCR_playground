@@ -52,18 +52,20 @@ class EnhancedOCRProcessor:
         else:
             logger.error("❌ Tesseract not available - OCR will fail")
         
-        # Try to initialize PaddleOCR if available
+        # Try to initialize PaddleOCR if available with OPTIMAL settings for receipts
         if PADDLEOCR_AVAILABLE:
             try:
+                # Best practices from PaddleOCR 2025 research
+                # Using PaddleX 3.x API with proper parameter names
                 self.engines['paddle'] = PaddleOCR(
-                    use_angle_cls=True,
-                    lang='en',
-                    show_log=False,
-                    use_gpu=False
+                    use_textline_orientation=True,  # Enable text angle classification (new param name)
+                    lang='en'  # English language
                 )
-                logger.info("✅ PaddleOCR initialized successfully")
+                logger.info("✅ PaddleOCR initialized successfully with receipt-optimized settings")
             except Exception as e:
                 logger.warning(f"❌ PaddleOCR initialization failed: {e}")
+                import traceback
+                traceback.print_exc()
         
         # Try to initialize EasyOCR if available  
         if EASYOCR_AVAILABLE:
@@ -456,39 +458,60 @@ class EnhancedOCRProcessor:
             return deskewed
     
     def extract_text_paddle(self, image: np.ndarray) -> Tuple[str, float]:
-        """Extract text using PaddleOCR"""
+        """Extract text using PaddleOCR with proper predict() method (PaddleX 3.x API)"""
         try:
-            # Convert numpy array to PIL Image
-            pil_image = Image.fromarray(image)
-            
-            # Convert PIL to bytes for PaddleOCR
-            img_byte_arr = io.BytesIO()
-            pil_image.save(img_byte_arr, format='PNG')
-            img_byte_arr = img_byte_arr.getvalue()
-            
-            result = self.engines['paddle'].ocr(img_byte_arr, cls=True)
-            
-            if result and result[0]:
-                text_lines = []
-                total_confidence = 0
-                count = 0
-                
-                for line in result[0]:
-                    if len(line) >= 2:
-                        text = line[1][0]
-                        confidence = line[1][1]
-                        text_lines.append(text)
-                        total_confidence += confidence
-                        count += 1
-                
-                full_text = '\n'.join(text_lines)
-                avg_confidence = total_confidence / count if count > 0 else 0
-                
-                return full_text, avg_confidence
-            
+            # PaddleX 3.x uses predict() method
+            # Accepts numpy array or image path
+            # Returns: [OCRResult dict with 'rec_texts' and 'rec_scores']
+
+            # Save numpy array to temp file (PaddleX 3.x predict works better with file paths)
+            import tempfile
+            import os
+
+            with tempfile.NamedTemporaryFile(suffix='.png', delete=False) as tmp:
+                pil_img = Image.fromarray(image)
+                pil_img.save(tmp.name)
+                tmp_path = tmp.name
+
+            try:
+                # Call predict() method with textline orientation
+                results = self.engines['paddle'].predict(tmp_path, use_textline_orientation=True)
+
+                if results and len(results) > 0:
+                    # results[0] is OCRResult dict
+                    result = results[0]
+
+                    # Extract text and scores from new API
+                    text_lines = result.get('rec_texts', [])
+                    confidences = result.get('rec_scores', [])
+
+                    if text_lines and confidences:
+                        # Filter low confidence
+                        filtered_lines = []
+                        filtered_confs = []
+                        for text, conf in zip(text_lines, confidences):
+                            if conf > 0.5:  # Filter low confidence
+                                filtered_lines.append(text)
+                                filtered_confs.append(conf)
+
+                        if filtered_lines:
+                            # Join with newlines to preserve structure
+                            full_text = '\n'.join(filtered_lines)
+                            avg_confidence = sum(filtered_confs) / len(filtered_confs) if filtered_confs else 0
+
+                            logger.info(f"  PaddleOCR extracted {len(filtered_lines)} lines, avg confidence: {avg_confidence:.2f}")
+                            return full_text, avg_confidence
+
+            finally:
+                # Clean up temp file
+                if os.path.exists(tmp_path):
+                    os.unlink(tmp_path)
+
         except Exception as e:
             logger.warning(f"PaddleOCR extraction failed: {e}")
-        
+            import traceback
+            traceback.print_exc()
+
         return "", 0.0
     
     def extract_text_easy(self, image: np.ndarray) -> Tuple[str, float]:

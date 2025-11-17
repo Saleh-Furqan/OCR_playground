@@ -1,0 +1,2916 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-17T10:23:56.787760",
+    "dataset": "sroie_full",
+    "batch_number": 3,
+    "status": "in_progress"
+  },
+  "batch_metrics": {
+    "batch_number": 3,
+    "progress": "200/208",
+    "successful": 200,
+    "in_progress": true
+  },
+  "detailed_results": [
+    {
+      "image": "X51006857265.jpg",
+      "ground_truth": {
+        "merchant_name": "MPH BOOKSTORES SDN BHD",
+        "transaction_date": "11/12/2017",
+        "total_amount": "31.45",
+        "address": "LOT S319, 2ND FLOOR, 1 UTAMA SHOPPING CENTRE, NO1, LEBUH BANDAR UTAMA,47800 P.JAYA"
+      },
+      "extracted_lines": 43,
+      "avg_confidence": 0.9705024514087411,
+      "time_seconds": 6.541417598724365,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MPH BOOKSTORES SDN BHD GST No: 000542572544 MPH One Utama Phase 2 Lot S319, 2nd Floor, 1 Utama Shopping Centre, No1, Lebuh Bandar Utama, 47800 P.Jaya Tel:03-77259003 Fax:03--77224003 STICKERS & OTHER GIFT 2312475009906 3x10.49 31.47 S Total Amount(incl. GST) 31.47 Rounding -0.02 TOTL 31.45 CASH 50.00 CHANGE 18.55 0.00. 0.00 109 %0 -Z 29.69 1.78 S- 6% GST ITEMS: 3 CASHIER: TRAIN2 TRAINEE STAFF TRANS: 009628 INVOICE NO: 008558 SHF:1 P0S:12 04BFRTL 11/12/2017 21:42: 10 Goods sold are non-returnable Exchanges may be made for books only within 7 days from the date of purchase with this receipt (Conditions apply) Thank You for Shopping at MPH AT ONE UTAMA"
+    },
+    {
+      "image": "X51006857660.jpg",
+      "ground_truth": {
+        "merchant_name": "BECON STATIONER BECON ENTERPRISE SDN BHD",
+        "transaction_date": "13-09-2017",
+        "total_amount": "247.55",
+        "address": "NO.41G, JLN SS21/60, DAMANSARA UTAMA, 47400 PJ, SELANGOR."
+      },
+      "extracted_lines": 72,
+      "avg_confidence": 0.9748629646168815,
+      "time_seconds": 7.385465145111084,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "BECON STATIONER Becon Enterprise Sdn Bhd (82256-V) Damansara Utama Outlet No.41G,J1n S521/60.Damansara Utama, 47400 PJ. Selangor. Tel: 603 7732 0925 GST No.000670859264 Tax Invoice: : 0017756 Cashier : Norlida Mohd Rashdi Date \u2022 13-09-2017 Time : 1648 Pos No 181 Shift : 1 MEMBER PRICE Name SIA BAN YI . Point 496 Product Name Code Qty @ U/(RM) GST Total(RM) Payment Voucher UEW 6\"x7t\" (5's/pack) SR 131.40 #1011801-5 18 @ 7.30 CD-R MAXELL (MX-CDR) 100's 1  92.80 SR 92.80 #1120221 CD SLEEVE REFILL: DATBAO DB1O3 (VR100)/KAYE SR 8.50 #1120472 1 @ 8.50 PUNCHER MAX DP-F2BN 1 @ 14.85 SR 14.85 #1240302-02 247.55 Sub Total 14.01 (GST) 0.00 Rounding Total Include GST 247.55 300.00 Cash 52.45 Change 27.30 Customer Saving from RRP Price Inclusive of GsT6% Amount(RM) Tax(RM) GST Summary 233.54 14.01 SR@6.00% Thank You for shopping at BEcon. Goods sold are not exchangable refundable"
+    },
+    {
+      "image": "X51006867435.jpg",
+      "ground_truth": {
+        "merchant_name": "GUARDIAN HEALTH AND BEAUTY SDN BHD",
+        "transaction_date": "18/05/18",
+        "total_amount": "2.28",
+        "address": "NO 15 JALAN BANDAR RAWANG 10 BANDAR BARU RAWANG"
+      },
+      "extracted_lines": 39,
+      "avg_confidence": 0.9489970650428381,
+      "time_seconds": 3.6769704818725586,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Guardian Health And Heauty Sdn Bhd Bandar \"Baru Kawang No 15 Jalan Bandar Kawang 10 Bandar Haru Kawang 1e1:03-60432032 Company Reg #101083-1 GS1 Keg #000899874816 KM 121062680 100 Pl0S 500mL 2.28 SUBIVIAL 2.28 IUIAL (GSI INCL) 2.28 LASH 3.00 RuundinG adjustments 0.02 CHANGE DUE 0.70 GSI - Kate -GSI EXCI -bSI Amt 56% 2.15 0.13 Thank You For Shopping At buardian All Amounts Are in kM Goods sold are non-retundable. Dispensed medicines sold are not returnable. All exchanges and returns including buardian brand products must be made within 'Ydays with original receipts and product in original condition. St:8282 Ctr2 10:2055 (axInv:21777 17:45 18/05/18"
+    },
+    {
+      "image": "X51006867436.jpg",
+      "ground_truth": {
+        "merchant_name": "GUARDIAN HEALTH AND BEAUTY SDN BHD",
+        "transaction_date": "24/05/18",
+        "total_amount": "4.50",
+        "address": "NO 15 JALAN BANDAR RAWANG 10 BANDAR BARU RAWANG"
+      },
+      "extracted_lines": 45,
+      "avg_confidence": 0.9262178672684563,
+      "time_seconds": 4.330334424972534,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Guardian Health And Heauty Sdn Bhd Bandar Baru Kawang No 15 Jalan Bandar Kawang 10 Bandar Bary Kawang 1e1:03-60932032 Company Keg #1101083-1 GS1 Reg #000899874816 KM 121056217 PRINGLES SUUR/CK 4.80 S SUBIUIAL 4.80 DISCUUNIABLE 4.80 6% IKX Z DISC 0.24 Keason: DO 4.51 SUBIUIAL 0.01- RuundinG adjusinEnis 4.50 IUIAL (GSI INLL) 4.50 CASH 0.24 Your savings fur TUday GSI - Rate e -----bSI ExCl - GSI Ant 6% 4.25 0.26 Ihank You For Shopping At buardian All Amounts Are in kM Goods soid are non-retundable. Vispensed medicines sold are not returnable. All exchanges and returns including Guardian brand products must be made within Ydays with orlginal receipts and product in original condition. St:8282 Ctr2 10:2065 1ax1nv:98701 24/05/18"
+    },
+    {
+      "image": "X51006882603.jpg",
+      "ground_truth": {
+        "merchant_name": "ECO-SHOP MARKETING SDN BHD",
+        "transaction_date": "26/02/2018",
+        "total_amount": "16.30",
+        "address": "LOT F1-01, 6, JALAN 8/27A, SEKSYEN 5 WANGSA MAJU, 53300 KUALA LUMPUR, WILAYAH PERSEKUTUAN KUALA LUMPUR, MALAYSIA."
+      },
+      "extracted_lines": 68,
+      "avg_confidence": 0.9865332727923113,
+      "time_seconds": 4.572976350784302,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "TAX INVOICE Eco-Shop Marketing Sdn Bhd GST Reg. No : 000313901056 Company No : 734055-M Lot F1-01. 6, Jalan 8/27A, Seksyen 5 Wangsa Maju, 53300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia. INV No # : BWMC02000047293 26/02/2018 17:31 CS: ROSSYAFIQAH ANIS BINTI RAMLI [BWMO034 STK QTY RM JT5501 - CHOPSTICK HOLDER 72/1 65045039@2.33 1 2.33 PLIERS 6\" 110G 120PCS(PELAYAR 74020030@2.33 1 2.33 771-2 MULTI PURPOSE FOOD TONGS 63065005@2.33 3 6.99 LS301 SCALESCRAPER -LARGE 360 63165004@2.33 1 2.33 PVC WALL PLUG 4'S 240/10-(PLUG 74065001@2.33 1 2.33 Total: 7 16.31 Rounding Adj: -0.01 Balance Due: 16.30 Payment (Cash) : 17.00 0.70 Change (Cash) : GST Summary 15.40 0.91 SR 6% 0.00 0.00 ZR 0% Produce Bill for Exchange No Cash Refund Within 3 Days Thank you Again"
+    },
+    {
+      "image": "X51006912960.jpg",
+      "ground_truth": {
+        "merchant_name": "DE MAXIMUM THAI EXPRESS SDN BHD",
+        "transaction_date": "17/05/2018",
+        "total_amount": "30.70",
+        "address": "BLK 2, UNIT G1 & G2, BESTARI TERRACE, LOT PTD 182908 & PTD 143216, JALAN DANGA, TAMAN NUSA BESTARI, 81300"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006912972.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "15 MAY 2018",
+        "total_amount": "$8.20",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006912974.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "30 MAY 2018",
+        "total_amount": "$8.70",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913007.jpg",
+      "ground_truth": {
+        "merchant_name": "AEON CO. (M) BHD",
+        "transaction_date": "27/05/2018",
+        "total_amount": "99.90",
+        "address": "3RD FLR, AEON TAMAN MALURI SC JLN JEJAKA, TAMAN MALURI CHERAS, 55100 KUALA LUMPUR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913019.jpg",
+      "ground_truth": {
+        "merchant_name": "AEON CO. (M) BHD",
+        "transaction_date": "11/05/2018",
+        "total_amount": "476.80",
+        "address": "3RD FLR, AEON TAMAN MALURI SC JLN JEJAKA, TAMAN MALURI CHERAS, 55100 KUALA LUMPUR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913023.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "16 MAY 2018",
+        "total_amount": "$8.20",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913024.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "14 MAY 2018",
+        "total_amount": "$8.90",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913028.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "07 MAY 2018",
+        "total_amount": "$8.70",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913030.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "10 MAY 2018",
+        "total_amount": "$10.30",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913031.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "09 MAY 2018",
+        "total_amount": "$6.60",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913051.jpg",
+      "ground_truth": {
+        "merchant_name": "THE TOAST F&B SDN BHD",
+        "transaction_date": "11/05/2018",
+        "total_amount": "31.00",
+        "address": "LOT 2110&2111 JALAN PERMAS UTARA BANDAR BARU PERMAS 81750 JOHOR BAHRU JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913054.jpg",
+      "ground_truth": {
+        "merchant_name": "DE LUXE CIRCLE FRESH MART SDN BHD",
+        "transaction_date": "12/05/18",
+        "total_amount": "12.00",
+        "address": "NO. 89&91, JALAN UTAMA, TAMAN MUTIA RINI, 81300 SKUDAI, JOHOR."
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913055.jpg",
+      "ground_truth": {
+        "merchant_name": "VERBENA CONFECTIONERY SDN BHD",
+        "transaction_date": "12/05/2018",
+        "total_amount": "75.70",
+        "address": "1, JALAN SUTERA TANJUNG 8/4, TMN SUTERA UTAMA, 81300 SKUDAI, JB."
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913059.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "22 MAY 2018",
+        "total_amount": "$11.40",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913068.jpg",
+      "ground_truth": {
+        "merchant_name": "GERBANG ALAF RESTAURANTS SDN BHD",
+        "transaction_date": "25/05/2018",
+        "total_amount": "11.10",
+        "address": "LEVEL 6, BANGUNAN TH, DAMANSARA UPTOWN3 NO.3, JALAN SS21/39,47400 PETA ING JAYA SELANGOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913070.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "24 MAY 2018",
+        "total_amount": "$8.40",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913073.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "27 MAY 2018",
+        "total_amount": "$10.70",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51006913074.jpg",
+      "ground_truth": {
+        "merchant_name": "DOMINO'S PIZZA TAMAN UNIVERSITI",
+        "transaction_date": "08/05/18",
+        "total_amount": "6.70",
+        "address": "30, JLN KEBUDAYAAN 7, TMN UNIVERSITI 81300 SKUDAI, JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007103578.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "06-04-18",
+        "total_amount": "RM 31.20",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 58,
+      "avg_confidence": 0.9759114466864487,
+      "time_seconds": 5.527484893798828,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SDN BHD (CO.REG :860671-D) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKUNG, 43300 SERI KEMBANGAN, SELANGOR (GST ID NO :000306020352) (IOI PUCHONG) -TAX INVOICE- ACRYLIC TAPE 18MM*1.5M S UA12 - 12/144 9036391 4 X 2.90 11.60 DBL SIDE CLEAR ACRYLIC TAPE VST1O6C *S WA1O - 8/64 9554100363103 1 X 11.90 11.90 TEST PEN 886A S XG02XA21 - 24/600 9020529 1 X 1.90 1.90 S/DRIVER 860 4# (+) *6730003*TR *S LF31/2 - 12/240 9071681 1 X 3.30 3.30 COL.SCREWDRIVER 4' +\u2021TR *S LB31 - 12/240 9072218 1 X 2.50 2.50 Item(s) : 5 Qty(s) : 8 Total Incl. GST@6% RM 31.20 EDC RM 31.20 ************4116 (VISA) GST @6% included in total RM 1.77 06-04-18 16:46 SH01 ZJ86 T1 R000115147 OPERATOR TRAINEE CASHIER EXCHANGE ARE ALLOWED WITHIN 7 DAY WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51007103599.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "11-04-18",
+        "total_amount": "RM 9.00",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 38,
+      "avg_confidence": 0.98231829153864,
+      "time_seconds": 4.548100471496582,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "31804021 MR. D.I.Y. (M) SDN BHD (CO.REG :860671-D) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID NO :000306020352) (IOI PUCHONG) -TAX INVOICE- OPENER SS MT-005 *S AI31 - 12/108 9064430 1 X 8.80 8.80 PLASTIC BAGS S 99999 1 X 0.20 0.20 Item(s) : 2 Qty(s) : 2 Total Incl. GST@6% RM 9.00 CASH RM 10.00 CHANGE RM 1.00 GST @6% included in total RM 0.51 11-04-18 17:42 SH01 ZJ86 T2 R000116475 OPERATOR IOIT - NUR FATIHAH EXCHANGE ARE ALLOWED WITHIN 7 DAY WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51007103639.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "19-04-18",
+        "total_amount": "RM 15.40",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 50,
+      "avg_confidence": 0.9777731120586395,
+      "time_seconds": 5.047301530838013,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SDN BHD (CO.REG :860671-D) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000306020352) (IOI PUCHONG) -TAX INVOICE- S CAULKING GUN KE41-51/2 - 50 1 X 6.30 6.30 9071604 *S S/B HEAVY DUTY SCOURPAD 5S B315 WA10 - 24/72 2.50 5.00 9555559040027 2 X *S VIP HANDLE DUSTPAN 370 2.5' WA12 - 12/144 1 X 3.90 3.90 9555221303467 *S PLASTIC BAGS 1 X 0.20 0.20 66666 Qty(s) : 5 Item(s) : 4 Total Incl. GST@6% RM 15.40 CASH RM 15.40 GST @6% included in total RM 0.87 19-04-18 17:39 SH01 ZJ86 * T1 R000118079 OPERATOR TRAINEE CASHIER EXCHANGE ARE ALLOWED WITHIN 7 DAY WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51007103641.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "19-04-18",
+        "total_amount": "RM 34.80",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 57,
+      "avg_confidence": 0.9895561787120083,
+      "time_seconds": 4.860773086547852,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SDN BHD (CO.REG :860671-D) LOT 1851-A & 1851-8, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID NO :000306020352) (IOI PUCHONG) -TAX INVOICE- *S DOUBLE EXT B0X 10Y 40/016 CBD4110 WA29 - 20 9553114461423 1 X 25.90 25.90 SPONGE S/MAGIC 4S *S GB06 - 24/288 9064350 1 X 0.90 0.90 SPONGE MESH FO04-4S S BD52 - 10/100 6928794601200 1 X 2.30 2.30 COLANDER RM20202# S BQ21-31/2 - 12/144 6926292505723 1 X 5.50 5.50 PLASTIC BAGS *S 99999 1 X 0.20 0.20 Item(s) : 5 Qty(s) : 5 Total Incl. GST@6% RM 34.80 CASH RM 100.00 CHANGE RM 65.20 GST @6% included in total RM 1.97 19-04-18 18:04 SH01 ZJ86 T1 R000118085 OPERATOR TRAINEE CASHIER EXCHANGE ARE ALLOWED WITHIN 7 DAY WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51007103643.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "19-04-18",
+        "total_amount": "RM 34.80",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 59,
+      "avg_confidence": 0.987714428012654,
+      "time_seconds": 5.9397804737091064,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SDN BHD (CO.REG :860671-D) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000306020352) (IOI PUCHONG) -TAX INVOICE- DOUBLE EXT B0X 10Y 40/016 CBD4110 S WA29 - 20 9553114461423 1 X 25.90 25.90 SPONGE S/MAGIC 4S *S GB06 - 24/288 9064350 1 X 0.90 0.90 SPONGE MESH FO04-4S *S BD52 - 10/100 6928794601200 1 X 2.30 2.30 COLANDER RM20202# *S BQ21-31/2 - 12/144 6926292505723 1 X 5.50 5.50 PLASTIC BAGS *S 99999 1 X 0.20 0.20 Item(s) : 5 Qty(s) : 5 Total Incl. GST@6% RM 34.80 CASH RM 100.00 CHANGE RM 65.20 GST @6% included in total RM 1.97 * 19-04-18 18:04 SH01 ZJ86 T1 R000118085 OPERATOR TRAINEE CASHIER EXCHANGE ARE ALLOWED WITHIN 7 DAY WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51007103675.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "25-04-18",
+        "total_amount": "48.10",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 45,
+      "avg_confidence": 0.9759362591637506,
+      "time_seconds": 5.047667980194092,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SDN BHD (CO.REG :860671-D) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000306020352) (IOI PUCHONG) -TAX INVOICE- RUBBER BOOTS P/968BK-SIZE8 (BLACK) *S WA6O - 6/48 9555590501204 1 X 9.90 9.90 SEKOPLAS H/D GARBAGE 89CM*117cm 10s S WA57 - 16 3557002081113 4 X 9.50 38.00 PLASTIC BAGS *S 99999 1 X 0.20 0.20 Item(s) : 3 Qty(s) : 6 Total Incl. GST@6% RM 48.10 CASH RM 50.20 CHANGE RM 2.10 GST @6% included in total RM 2.72 25-04-18 16:46 SH01 ZJ86 T1 R000119242 OPERATOR TRAINEE CASHIER EXCHANGE ARE ALLOWED WITHIN 7 DAY WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51007103681.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "26-04-18",
+        "total_amount": "2.10",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 29,
+      "avg_confidence": 0.9889896470924904,
+      "time_seconds": 4.6541078090667725,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SON BHD (CO.REG :860671-D) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000306020352) (IOI PUCHONG) -TAX INVOICE- BRUSH 1.5' 628 S KE51 - 12/720 9071503 1 X 2.10 2.10 Item(s) : 1 Qty(s) : 1 Total Incl. GST@6% RM 2.10 CASH RM 2.10 GST @6% included in total RM 0.12 26-04-18 16:59 SH01 ZJ86 T2 R000120516 OPERATOR TRAINEE CASHIER EXCHANGE ARE ALLOWED WITHIN 7 DAY WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51007103688.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "27-04-18",
+        "total_amount": "38.00",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 32,
+      "avg_confidence": 0.9857250731438398,
+      "time_seconds": 4.7049055099487305,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SDN BHD (CO.REG :860671-D) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000306020352) (IOI PUCHONG) -TAX INVOICE- SEKOPLAS H/D GARBAGE 89CM*117Cm 10s S WA57 - 16 9557002081113 4 X 9.50 38.00 Item(s) : 1 Qty(s) : 4 Total Incl. GST@6% RM 38.00 CASH RM 50.00 CHANGE RM 12.00 GST @6% included in total RM 2.15 * 27-04-18 16:26 SH01 ZJ86 T2 R000120718 OPERATOR TRAINEE CASHIER EXCHANGE ARE ALLOWED WITHIN 7 DAY WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51007103691.jpg",
+      "ground_truth": {
+        "merchant_name": "AEON CO. (M) BHD",
+        "transaction_date": "28/04/2018",
+        "total_amount": "26.10",
+        "address": "3RD FLR, AEON TAMAN MALURI SC JLN JEJAKA, TAMAN MALURI CHERAS, 55100 KUALA LUMPUR"
+      },
+      "extracted_lines": 45,
+      "avg_confidence": 0.9676744752460056,
+      "time_seconds": 5.754357576370239,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "AEON CO. (M) BHD (126926-H) 3RD FLR, AEON TAMAN MALURI SC JLN JEJAKA, TAMAN MALURI CHERAS, 55100 KUALA LUMPUR GST ID : 002017394688 SHOPPING HOURS SUN-THU: 1000 HRS - 2200 HRS FRI-SAT:1000 HRS - 2300 HRS 1x 000006142384 - 25100 UTOR MUNCHY'S CREAM 3x 000005709410 18.60SR TOPVALU BESTPRI @6.20 Sub-tota Total Sales Incl GST 20.11 Rounding Adj -0.01 Total After Adj Incl GST 26.10 CASH 50.00 Item Count 4 Change Amt 23.90 Invoice No: 2018042810080010325 GST Summary Amount Tax SR @ 6% 24.63 1.48 Total 24.63 1.48 28/04/2018 15:35 1008 001 0010325 0304662 HEMADAS A/L BALOO Aeon BaNDaR PuChONg TEL 1-300-80-AEON (2366) THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN"
+    },
+    {
+      "image": "X51007103692.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "28-04-18",
+        "total_amount": "53.20",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 46,
+      "avg_confidence": 0.984773135703543,
+      "time_seconds": 5.6076295375823975,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "31804058 MR. D.I.Y. (M) SDN BHD (CO.REG :860671-D) LOT 1851-A & 1851-8, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000306020352) (IOI PUCHONG) -TAX INVOICE- ALUMINIUM F0IL 25SQ# 30CM*7.62M S BJ41/2-52 - 24 9069295 1 X 5.50 5.50 SEKOPLAS H/D GARBAGE 89CM*117cm 10s S NA58 - 16 9557002081113 5 X 9.50 47.50 PLASTIC BAGS S 99999 1 X 0.20 0.20 [tem(s) : 3 Qty(s) : 7 [otal Incl. GST@6% RM 53.20 CASH RM 100.20 CHANGE RM 47.00 GST @6% included in total RM 3.01 28-04-18 15:40 SH01 ZJ86 T3 R000064333 OPERATOR TRAINEE CASHIER EXCHANGE ARE ALLOWED WITHIN 7 DAY WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51007103702.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "30-04-18",
+        "total_amount": "5.00",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 38,
+      "avg_confidence": 0.98707094631697,
+      "time_seconds": 5.38102388381958,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SDN BHD (CO.REG :860671-D) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000306020352) (IOI PUCHONG) -TAX INVOICE- *S LAVA FO0D CONTAINER FC202 500m1 WA26 - 12/144 1.80 1.80 1 X 9555047302026 S LAVA CANISTER CST7700 530m1 WA33 - 12/144 2 X 1.60 3.20 9555047301890 Qty(s) : 3 Item(s) : 2 RM 5.00 Total Incl. GST@6% RM 50.00 CASH CHANGE RM 45.00 GST @6% included in total RM 0.28 30-04-18 18:17 SH01 ZJ86 T2 R000121653 OPERATOR TRAINEE CASHIER EXCHANGE ARE ALLOWED WITHIN 7 DAY WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51007135037.jpg",
+      "ground_truth": {
+        "merchant_name": "S&Y STATIONERY",
+        "transaction_date": "05-JAN-2017",
+        "total_amount": "72.00",
+        "address": "NO. 36G JALAN BULAN BM U5/BM, BANDAR PINGGIRAN SUBANG, SEKSYEN U5, 40150 SHAH ALAM, SELANGOR."
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9691538624465466,
+      "time_seconds": 5.6758222579956055,
+      "merchant_match": true,
+      "date_match": false,
+      "total_match": true,
+      "extracted_text": "S&Y STATIONERY (002050590-H) NO. 36G JALAN BULAN BM U5/BM, BaNDaR PINGgIRaN SUBANG, SEKSYEN U5, 40150 SHAH ALAM, SELANGOR. TEL / FAX : 0163307491 / 0378317491 EMAIL: snystationery@hotmail.com TEL: 0163307491 / 0378317491 FAX: 0378317491 E-Mail: snystationery@hotmail,.com (GST Reg No : 000906854400) S/P : SALES Inv No : CS-0004323 05-Jan-2017 03:17:50 PM INVOICE UOM No.Description Code Qty U/Price Total(MYR) PCS 1 LION FILE 6'S SPRING FILE 1 MFF350 50 1.60 80.00 SR -8.00 Discount @10.00% Item Count : 50 72.00 Total Sales Incl. GST @6% : 72.00 Total Amount Payable : Cash Received : 100.00 Change: 28.00 Amount (MYR) Tax (MYR) GST Summary SR = 6% 67.92 4.08 GOODS SOLD ARE NOT RETURNABLE/REFUNDABLE"
+    },
+    {
+      "image": "X51007135247.jpg",
+      "ground_truth": {
+        "merchant_name": "99 SPEED MART S/B",
+        "transaction_date": "07-02-17",
+        "total_amount": "37.45",
+        "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR"
+      },
+      "extracted_lines": 33,
+      "avg_confidence": 0.960391494360837,
+      "time_seconds": 4.569765567779541,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "99 SPEED MART S/8 (519537-X) LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1299-SUBANG PERHAI GST ID. NO : 000181747712 INVOICE NO : 17936/102/T0275 06: 34PM 562004 07-02-17 0857 INDOCAFE COFFEEMIX 3IN RM29.95 5 407 CADBURY CHOCOLATE HAZEL RM7.49 5 Total Sales (Inclusive GSt) RM 37.44 Rounding Adjustaent RM .01 Rounding RH 37.45 CREDIT RM 37.45 CHANGE RM .00 6ST Summary Amount(RH) Tax(RM) y.9 = 5 35.32 2.12 Thank You. Please come again Keep the invoice for applicable returns"
+    },
+    {
+      "image": "X51007225398.jpg",
+      "ground_truth": {
+        "merchant_name": "ENW HARDWARE CENTRE (M) SDN. BHD.",
+        "transaction_date": "13/04/2018",
+        "total_amount": "27.00",
+        "address": "NO: G3, BLK G, JLN PJU 1A/3, ARA DAMANSARA, 47301 PETALING JAYA, SELANGOR DARUL EHSAN."
+      },
+      "extracted_lines": 46,
+      "avg_confidence": 0.9784317262794661,
+      "time_seconds": 4.445548057556152,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "ENW Hardware Centre (M) Sdn. Bhd. Co. Reg. No.: 795225-A GST Reg. No. : 000155453440 No: G3, BIk G, JIn PJU 1AV3, Ara Damansara, 47301 Petaling Jaya, Selangor Darul Ehsan TEL: 03-7832 6929,012-659 9829 13/04/2018 Tax Invoice No. CS00233394 Cash Sale (Ara D'sara) Tel: 03-7832 6929 H/P: 012-659 9829 Item Qty U.Price RM 001697 5.00 1.00 5.00 SR S10 Starter. 766271 1.00 22.00 22.00 SR 1L. 6627 Seamaster Super Glo. Total Amt Incl. GST @ 6% : 2700 Rounding Adjusment 0.00 Total Amt Payable : 27.00 Total Qty Tender 6 GST Summary Amount(RM) GST (RM) SR = 6 % 25.47 1.53 POINT : 0.00 *Goods sold are not returnable Thank you for shopping at ENW Hardware Centre (M) Sdn.shd. buy paorl"
+    },
+    {
+      "image": "X51007225399.jpg",
+      "ground_truth": {
+        "merchant_name": "ENW HARDWARE CENTRE (M) SDN. BHD.",
+        "transaction_date": "14/04/2018",
+        "total_amount": "156.00",
+        "address": "NO: G3, BLK G, JLN PJU 1A/3, ARA DAMANSARA, 47301 PETALING JAYA, SELANGOR DARUL EHSAN."
+      },
+      "extracted_lines": 64,
+      "avg_confidence": 0.9765464160591364,
+      "time_seconds": 5.0833046436309814,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "ENW Hardware Centre (M) Sdn. Bhd. Co. Reg.No.: 795225-A GST Reg. No. : 000155453440 No: G3, BIK G, JIn PJU 1A/3, Ara Damansara, 47301 Petaling Jaya, Selangor Darul Ehsan. TEL:03-7832 6929, 012-659 9829 14/04/2018 Tax Invoice No. CS00233521 Cash Sale (Ara D'sara) Tel: 03-7832 6929 H/P: 012-659 9829 Item Qty U.Price RM VEWT5 1.00 99.00 99.00 SR 5L. T_'Nippon' Vinilex EasyWash. NP N 1882T 000605 1.00 30.00 30.00 SR Cristin 4\" Blue Stripe Roller Refil 002882 1.00 3.50 3.50 SR 1\" Nylon Paint Brush. 001065 1.00 2.50 2.50 SR 4\" x 24\" Roller Handle. 001741 1.00 21.00 21.00 SR 'Clipsal' 4g 1w Switch Total Amt Incl. GST @ 6 % : 156.00 Rounding Adjusment 0.00 Total Amt Payable : 156.00 Total Qty Tender: 5 GST Summary Amount(RM) GST(RM) SR = 6 % 147.17 8.83 POIN 0.00 Goods sold are not returnable Thank you for shopping at ENW Hardware Centre (M) Sdn Bhd. buy paisd c"
+    },
+    {
+      "image": "X51007225417.jpg",
+      "ground_truth": {
+        "merchant_name": "ENW HARDWARE CENTRE (M) SDN. BHD.",
+        "transaction_date": "09/04/2018",
+        "total_amount": "51.00",
+        "address": "NO: G3, BLK G, JLN PJU 1A/3, ARA DAMANSARA, 47301 PETALING JAYA, SELANGOR DARUL EHSAN."
+      },
+      "extracted_lines": 56,
+      "avg_confidence": 0.9670508652925491,
+      "time_seconds": 5.001169443130493,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "ENW Hardwa e Centre (M) Sdn. Bhd. Co. Reg No.: 795225-A GST Reg. IO. : 000155453440 No: G3, BIk G, Jin PJU 1A/3, Ara Damansara, 47301 Petaling Jaya, Selangor Darul Ehsan. TEL 03-7832 6929, 012-659 9829 09/04/2018 Tax Invoice No.CS00232967 Cash Sale (Ara D'sara) 2 Tel: 03-7832 6929 H/P: 012-659 9829 Item Oty U.Price 001781 00 16.00 16.00 SR Big Cotton Mop 500g 002115 1.00 1.00 1.00 SR Cement. WS150 1.00 25.00 25.00 SR 320ml. WoodSheer' Mahagany - 150 102193 1.00 9.00 9.00 SR Broom -908 Total Amt incl. GST @ 6 % : 51.00 Rounding Adjusment 0.00 Total Amt Payable : 51.00 Total Qty Tender 4 GST Summary Amount(RM) GST(RM) SR= 6 % 48.10 2.90 POINT : 000 \"Goods sold are not returnable Thank you for shopping at ENW Hardware Centre (M) Sdn. Bhd. bny Frst aid"
+    },
+    {
+      "image": "X51007225442.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "27-04-18",
+        "total_amount": "23.00",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 50,
+      "avg_confidence": 0.9628153431415558,
+      "time_seconds": 4.650861024856567,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SDN BHD Co-REG:860671-D LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000306020352) (TESCO EXTRA ARA DAMANSARA) -TAX INVOICE- SUS304 HOOK 48804 S TZ11 - 12/120 9073805 1 X 9.90 9.90 NOODEN SHEET 60*20CM S AR11 - 12/192 9064189 4 X 1.90 7.60 AVA PAIL PL623 3 GALLON *S VA53 - 12/48 9555047308370 1 X 5.50 5.50 Item(s) : 3 Qty(s) : 6 TOTAL INCL. GST@6% RM 23.00 CASH RM 50.00 CHANGE RM27.00 GST Summary Amt(RM) Tax(RM) 4 GST S@6% 21.70 1.30 27-04-18 16:40 SH01 ZJ42 T1 R000235438 operaTor tADT - muHAmmad HAFIDz EXCHANGE ARE ALLOWED WITHIN 7 DAY WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51007228448.jpg",
+      "ground_truth": {
+        "merchant_name": "KFA SUPPLY",
+        "transaction_date": "27/05/2018",
+        "total_amount": "11.60",
+        "address": "125A TINGKAT BAWAH PT 1961 JALAN MALINJA SITE B 45400 SEKINCHAN SELANGOR"
+      },
+      "extracted_lines": 40,
+      "avg_confidence": 0.9834488272666931,
+      "time_seconds": 3.8875222206115723,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "KFA SUPPLY (ROC : SA0416111-K) ( GST No: 002126950400 ) 125A TINGKAT BAWAH PT 1961 JALAN MALINJA SITE B 4 5400 SEKINCHAN SELANGOR TAX INVOICE Bill No : CS0032277 Date : 27/05/2018 8:07 PM Cashier : CT001 /0001 Item Qty Price Amount STAR 74CM x79CM 10KEPING 9555794100234 1 11.60 11.60 SR Qty: 1 Total RM . 11.60 CASH 12.00 Change 0.40 GST Summary Amount Tax SR @ 6% 10.94 0.66 Total 10.94 0.66 THANK YOU PLEASE COME AGAIN"
+    },
+    {
+      "image": "X51007231336.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "13 MAY 2018",
+        "total_amount": "$8.70",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007231338.jpg",
+      "ground_truth": {
+        "merchant_name": "DIMILIKI OLEH T PLUS F&B SDN. BHD.",
+        "transaction_date": "11/05/2018",
+        "total_amount": "9.45",
+        "address": "PARADIGM MALL LOT NO.: 4F-27 & 4FK-38, 4TH FLOOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007231344.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "05 MAY 2018",
+        "total_amount": "$11.20",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007231361.jpg",
+      "ground_truth": {
+        "merchant_name": "DIMILIKI OLEH : DOVE HOLDINGS SDN BHD",
+        "transaction_date": "26/05/2018",
+        "total_amount": "164.80",
+        "address": "LOT S25, AEON TEBRAU CITY JUSCO NO 1, JLN DESA TEBRAU, TMN DESA TEBRAU, 81100 JOHOR BAHRU, JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007231365.jpg",
+      "ground_truth": {
+        "merchant_name": "OLD TOWN KOPITIAM SDN BHD",
+        "transaction_date": "05 MAY 18",
+        "total_amount": "28.50",
+        "address": "NO,35, JALAN KEBUDAYAAN 8, TAMAN UNIVERSITY,81300 SKUDAI, JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007231370.jpg",
+      "ground_truth": {
+        "merchant_name": "THE MARCO POLO KITCH BUKIT INDAH",
+        "transaction_date": "06/05/2018",
+        "total_amount": "15.15",
+        "address": "NO 35,JALAN INDAH 15/2,BUKIT INDAH 81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007231374.jpg",
+      "ground_truth": {
+        "merchant_name": "WARAKUYA PERMAS CITY SDN BHD",
+        "transaction_date": "07/05/2018",
+        "total_amount": "24.40",
+        "address": "JALAN PERMAS UTARA 1, PERMAS JAYA 81750 MASAI JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007262315.jpg",
+      "ground_truth": {
+        "merchant_name": "GERBANG ALAF RESTAURANTS SDN BHD",
+        "transaction_date": "21/05/2018",
+        "total_amount": "70.30",
+        "address": "LEVEL 6, BANGUNAN TH, DAMANSARA UPTOWN3 NO.3, JALAN SS21/39,47400 PETALING JAYA SELANGOR"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9852154205242792,
+      "time_seconds": 4.963809490203857,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "**** PROMO **** 1994 Gerbang Alaf Restaurants Sdn Bhd (65351-M) Licensee of McDonald's Level 6, Bangunan TH, Damansara Uptown3 No.3, Jalan SS21/39,47400 Petaling Jaya Selangor (GST ID No: 000504664064) McDonald's BHP Taman Melawati(#328) Tel No. 03-4162-2318 TAX INVOICE MFY Side 1 INV# 003281900047036 ORD #94 -REG #19- 21/05/2018 11:59:48 QTY ITEM TOTAL 1.Nasi McD AGSpi &Telur Set 14.95 1 Nasi McD AGSpi &Telur XTRA Sambal 1.00  1 M IceLemonTea 1 L Nasi Lemak Burger 18.55 1 L Fries 1 L 100P1us 2 Nasi McD AGSpi Set 25.90 2 M IceLemonTea 1 AyamGrgSpicy(TA) 9.90 1 4Nuggets 1P 0.00 1 French Cheese Sauce Takenut Total (incl GST) 70.30 Cas ndered 70.30 Change 0.00 TOTAL INCLUDES 6% GST 3.98 Thank You and Please Come Again. Guest Relations Center : 1300-13-1300"
+    },
+    {
+      "image": "X51007262328.jpg",
+      "ground_truth": {
+        "merchant_name": "FARMASI LIGAMAS",
+        "transaction_date": "20/05/2018",
+        "total_amount": "25.00",
+        "address": "NO. 47, JALAN MERANTI 1A, BANDAR BARU UTAMA, 44300 BATANG KALI, SELANGOR."
+      },
+      "extracted_lines": 57,
+      "avg_confidence": 0.989113101833745,
+      "time_seconds": 4.59972882270813,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "FARMASI LIGAMAS (001307026-W) NO. 47 JALAN MERANTI 1A, BANDAR BARU UTAMA, 44300 BATANG KALI, SELANGOR. TEL : 03-6057 3391 GST ID :001805213696 SIMPLIFIED TAX INVOICE CASH Doc No. CS00172418 Date:20/05/2018 Cashier : USER Time: 12:40:00 Salesperson Ref : Item Qty S/Price Amount Tax 1264 25.00 25.00 SR NON WOWEN 3 PLY FACE MASK EAR LOOP 50'S Total Qty: 1 25.00 Total Sales (Excluding GST): 23.58 Discount: 0.00 Total GST: 1.42 Rounding: 0.00 Total Sales (Inclusive of GST) : 25.00 CASH : 50.00 Change : 25.00 GST SUMMARY Tax Code % Amt(RM) Tax(RM) SR 6 23.58 1.42 Total : 23.58 1.42 GOODS SOLD ARE NOT RETURNABLE, THANK YOU."
+    },
+    {
+      "image": "X51007262330.jpg",
+      "ground_truth": {
+        "merchant_name": "SWC ENTERPRISE SDN BHD",
+        "transaction_date": "23/03/2018",
+        "total_amount": "41.20",
+        "address": "5-7, JALAN MAHAGONI 7/1 SEKSYEN 4, BANDAR UTAMA, 44300 BATANG KALI, SELANGOR"
+      },
+      "extracted_lines": 45,
+      "avg_confidence": 0.9823574542999267,
+      "time_seconds": 3.8507955074310303,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SWC ENTERPRISE SDNBHD (1125830-U) 5-7, JALAN MAHAGONI 7/1 SEKSYEN 4, BANDAR UTAMA, 44300 BATANG KALI, SELANGOR 03-60571377 GST ID : 002017808384 Tax Inv0ice No : 0051808219001118 005001(BATANGKALI-1) 118 001 23/03/2018 19:08:32 OPEN CODE-SR ITEM 0025679 U 2x11.80 23.60 S 00255679U 2x8.80 17.60 S Item 2 SubTotal Incl GST 41.20 ty 4 Spec.Disc 0.00 Saving 0.00 Rounding 0.00 Total 41.20 Cash 512.00 Change 470.80 GST Summary Anount(RM) Tax(RM) (6%) 38.86 2.34 23/03/2018 19:08:32 OODS SOLD ONLY EXCHANGEABLE WITHIN 3 DAYS GOODS SOLD ARE NOT REFUNDABLE THANK YOU FOR YOUR KIND SUPPORT PLEASE COME AGAIN"
+    },
+    {
+      "image": "X51007339094.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "22/05/2017",
+        "total_amount": "35.00",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9862286361555258,
+      "time_seconds": 4.817120313644409,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31GS33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID NO: 001531760640 Owned By: TAX INVOICE SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.7002-0014 SONOFAX - EC THERMAL ROLL (BLUE) - (57MMx60MMx12MM) (10ROLL/PKT) 1 X 35.0000 35.00 SR Total Sales Inclusive GsT @6% 35.00 Discount 0.00 Total 35.00 Round Adj 0.00 Final Total 35.00 CASH 40.00 CHANGE 5.00 GST Summary Amount(RM) Tax(RM) SR @ 6% 33.02 1.98 INV NO: CS-SA-0086229 Date: 22/05/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339095.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "05/09/2017",
+        "total_amount": "14.90",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 52,
+      "avg_confidence": 0.9891711450540103,
+      "time_seconds": 5.194160461425781,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937. Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2012-0013 PUNCH CARD WITH HOLE 1 X 11.9000 11.90 SR 2.2012-0011 WORKER'S CARD (1-15) 100'S (WOC-115) 1 X 3.0000 3.00 SR Total Sales Inclusive GST @6% 14.90 Discount 0.00 Total 14.90 Round Adj 0.00 Final Total 14.90 CASH 20.00 CHANGE 5.10 GST Summary Amount(RM) Tax(RM) SR @ 6% 14.06 0.84 INV NO: CS-SA-0108558 Date: 05/09/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339097.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "10/04/2017",
+        "total_amount": "8.70",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 47,
+      "avg_confidence": 0.9663642378563576,
+      "time_seconds": 4.729093551635742,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-33624137 GST ID NO: 001531760640 TAX INVOICE Owned By: SANYU SUPPLY SDN BHD (135772-K) CASH SALES COUNTER 1. 2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 3 X 2.9000 8.70 SR Total Sales Inclusive GST @6% 8.70 Discount 0.00 Total 8.70 Round Adj 0.00 Final Total 8.70 CASH 10.00 CHANGE 1.30 GST Summary Amount(RM) Tax(RM) SR @ 6% 8.21 0.49 INV NO: CS-SA-0077188 Date : 10/04/2017 1 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339098.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "18/04/2017",
+        "total_amount": "8.70",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9889255228141943,
+      "time_seconds": 4.683210849761963,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 Owned By : TAX INVOICE SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 3 X 2.9000 8.70 SR Total Sales Inclusive Gs @6% 8.70 Discount 0.00 Total 8.70 Round Adj 0.00 Final Total 8.70 CASH 10.00 CHANGE 1.30 GST Summary Amount(RM) Tax(RM) SR @ 5% 8.21 0.49 INV NO: CS-SA-0079030 Date : 18/04/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAG! ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339100.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "18/04/2017",
+        "total_amount": "3.00",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9796740598976612,
+      "time_seconds": 4.732375144958496,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID NO: 001531760640 Owned By TAX INVOICE SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2002-0001 LAMINATING FILM A4 SIZE (220MMx310MM) 1 X 3.0000 3.00 SR Total Sales Inclusive GST @6% 3.00 Discount 0.00 Total 3.00 Round Acj 0.00 FinatTotal 3.00 CASH 20.00 CHANGE 17.00 GST Summary Amount(RM) Tax(RM) 2.83 0.17 SR @ 6% INV NO: CS-SA-0078908 Date : 18/04/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR P ROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339106.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "07/05/2017",
+        "total_amount": "43.7",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 55,
+      "avg_confidence": 0.9867821921001781,
+      "time_seconds": 5.249078750610352,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID NO: 001531760640 TAX INVOICE Owned By: SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.7002-0014 SONOFAX - EC THERMAL ROLL (BLUE) -(57MMx60MMx12MM) (10ROLL/PKT) 1 X 35.0000 35.00 SR 2.2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 3 X 2.9000 8.70 SR Total Sales Inclusive GST @6% 43.70 Discount 0.00 Total 43.70 Round Adj 0.00 Final Total 43.70 CASH 50.00 CHANGE 6.30 GST Summary Amount(RM) Tax(RM) SR @ 6% 41.23 2.47 INV NO: CS-SA-0082716 Date: 07/05/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339107.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "04/04/2017",
+        "total_amount": "14.90",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 54,
+      "avg_confidence": 0.9851231023117348,
+      "time_seconds": 4.9562602043151855,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID NO: 001531760640 Owned By TAX INVOICE SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 4 X 2.9000 11.60 SR 2.2012-0042 CASH BOOK 80PGS A4 70GSM CARD COVER (SCB-4012) 1 X 3.3000 3.30 SR Total Sales Inclusive GST @6% 14.90 Discount 0.00 Total 14.90 Round Adj 0.00 Final Total 14.90 CASH 20.00 CHANGE 5.10 GST Summary Amount(RM) Tax(RM) SR @ 6% 14.06 0.84 INV NO: CS-SA-0075638 Date : 04/04/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339110.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "05/07/2017",
+        "total_amount": "2.00",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 47,
+      "avg_confidence": 0.9886927947084955,
+      "time_seconds": 4.728188514709473,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.2011-0025 MAX STAPLE 10-1M 2 X 1.0000 2.00 SR Total Sales Inclusive GST @6% 2.00 Discount 0.00 Total 2.00 Round Adj 0.00 Final Total 2.00 CASH 2.00 CHANGE 0.00 GST Summary Amount(RM) Tax(RM) SR @ 6% 1.89 0.11 INV NO: CS-SA-0093978 Date: 05/07/2017 Goods sold are not Returnable Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339111.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "12/08/2017",
+        "total_amount": "3.00",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 47,
+      "avg_confidence": 0.9888127433492783,
+      "time_seconds": 4.701812505722046,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By: SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2011-0025 MAX STAPLE 10-1M 3 X 1.0000 3.00 SR Total Sales Inclusive GST @6% 3.00 Discount 0.00 Total 3.00 Round Adj 0.00 Final Total 3.00 CASH 3.00 CHANGE 0.00 GST Summary Amount(RM) Tax(RM) SR @ 6% 2.83 0.17 INV NO: CS-SA-0103617 Date : 12/08/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGi ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339112.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "24/05/2017",
+        "total_amount": "5.80",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9844244383275509,
+      "time_seconds": 4.8374621868133545,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID NO: 001531760640 TAX INVOICE Owned By: SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 2 X 2.9000 5.80 SR Total Sales Inclusive GST @6% 5.80 Discount 0.00 Total 5.80 Round Adj 0.00 Final Total 5.80 CASH 6.00 CHANGE 0.20 GST Summary Amount(RM) Tax(RM) SR @ 6% 5.47 0.33 INV NO: CS-SA-0086778 Date : 24/05/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** ow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339113.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "24/07/2017",
+        "total_amount": "5.80",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9851200580596924,
+      "time_seconds": 4.8142478466033936,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By: SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 2 X 2.9000 5.80 SR Total Sales Inclusive GST @6% 5.80 Discount 0.00 Total 5.80 Round Adj 0.00 Final Total 5.80 CASH 6.00 CHANGE 0.20 GST Summary Amount(RM) Tax(RM) SR @ 6% 5.47 0.33 INV NO: CS-SA-0098805 Date: 24/07/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339114.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "14/12/2017",
+        "total_amount": "36.00",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 54,
+      "avg_confidence": 0.9866035415066613,
+      "time_seconds": 5.336266040802002,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.7002-0014 SONOFAX - EC THERMAL ROLL (BLUE) - (57MMx60MMx12MM) (10ROLL/PKT) 1 X 36.0000 36.00 SR Total Sales Inclusive GST @6% 36.00 Discount 0.00 Total 36.00 Round Adj 0.00 Final Total 36.00 CASH 50.00 CHANGE 14.00 GST Summary Amount(RM) Tax(RM) SR @ 6% 33.96 2.04 INV NO: CS-SA-0130363 Date : 14/12/2017 Total Qty: 1 Print Time : Thursday, 14 December, 2017 12:48:02 F Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339115.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "31/10/2017",
+        "total_amount": "3.90",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9909060237308344,
+      "time_seconds": 4.825462341308594,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2012-0043 JOURNAL BOOK 80PGS A4 70G CARD COVER (SJB-4013) 1 X 3.9000 3.90 SR Total Sales Inclusive GST @6% 3.90 Discount 0.00 Total 3.90 Round Adj 0.00 Final Total 3.90 CASH 10.00 CHANGE 6.10 Amount(RM) Tax(RM) GST Summary SR @ 6% 3.68 0.22 INV NO: CS-SA-0121215 Date : 31/10/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339117.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "01/11/2017",
+        "total_amount": "33.50",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 54,
+      "avg_confidence": 0.9888008071316613,
+      "time_seconds": 5.192373275756836,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2022-0124 DEFLECT-O 120 x 55MM L SHAPE TAG HOLDER (LANDSCAPE) (DDKRL-120X55) 5 X 2.2000 11.00 SR 2. 2020-0231 7\" POP MOBILE STAND (M- 1755) 5 X 4.5000 22.50 SR Total Sales Inclusive GST @6% 33.50 Discount 0.00 Total 33.50 Round Adj 0.00 Final Total 33.50 CASH 50.00 CHANGE 16.50 GST Summary Amount(RM) Tax(RM) SR @ 6% 31.60 1.90 INV NO: CS-SA-0121370 Date: 01/11/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook: Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339118.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "07/11/2017",
+        "total_amount": "2.00",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 47,
+      "avg_confidence": 0.9899159137238848,
+      "time_seconds": 4.79897403717041,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2011-0025 MAX STAPLE 10-1M 2 X 1.0000 2.00 SR Total Sales Inclusive GST @6% 2.00 Discount 0.00 Total 2.00 Round Adj 0.00 Final Total 2.00 CASH 2.00 CHANGE 0.00 Amount(RM) Tax(RM) GST Summary 1.89 0.11 SR @ 6% INV NO: CS-SA-0122858 Date: 07/11/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339120.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "18/11/2017",
+        "total_amount": "9.30",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 53,
+      "avg_confidence": 0.9909720836945299,
+      "time_seconds": 5.060197591781616,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 Owned By : TAX INVOICE SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.2012-0021 SB-5882 CAMIS NCR BILL BOOK 5\"x8\" (BB-5882) 1 X 3.5000 3.50 SR 2. 2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 2 X 2.9000 5.80 SR Total Sales Inclusive GST @6% 9.30 Discount 0.00 Total 9.30 Round Adj 0.00 Final Total 9.30 CASH 50.00 CHANGE 40.70 GST Summary Amount(RM) Tax(RM) SR @ 6% 8.77 0.53 INV NO: CS-SA-0125293 Date: 18/11/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339126.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "20/09/2017",
+        "total_amount": "12.00",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 52,
+      "avg_confidence": 0.9715270806963627,
+      "time_seconds": 5.424914360046387,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYUSTATIONERYSHOP NO. 31G&33G, JALAN SETIA INDAH X U13/X 40170 SETIA ALAM 6 Mobile /Whatsapps : +6012-918 7937. Tel: +603-3362 4137 GST ID NO: 001531760640  TAX INVOICE Owned By: SANYU SUPPLY SON BHD (1135772-K) CASH SALES COUNTER 1.5000-0001 PHOTOCOPY SERVICES - A4 SIZE 100 X 0.1000 10.00 SR 2.9100-0007 CUTTING CHARGES 1 X2.0000 2.00 SR Total Sales Inclusive GST @6% 12.00 Discount 0.00 Total 12.00 Round Adj 0.00 Final Total 12.00 CASH 15.00 CHANGE 3.00 GST Summary Amount(RM) Tax(RM) SR @ 6% 11.32. 0.68 INV NO: CS-SA-0112280 Date : 20/09/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI **PLEASE KEEPTHIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Station"
+    },
+    {
+      "image": "X51007339130.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "20/10/2017",
+        "total_amount": "8.70",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 47,
+      "avg_confidence": 0.9906486526448676,
+      "time_seconds": 4.917468547821045,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 3 X 2.9000 8.70 SR Total Sales Inclusive GST @6% 8.70 Discount 0.00 Total 8.70 Round Adj 0.00 Final Total 8.70 CASH 10.00 CHANGE 1.30 GST Summary Amount(RM) Tax(RM) SR @ 6% 8.21 0.49 INV NO: CS-SA-0118810 Date: 20/10/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339131.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "18/09/2017",
+        "total_amount": "12.40",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 52,
+      "avg_confidence": 0.9855202436447144,
+      "time_seconds": 5.088529586791992,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G833G, JALAN SETIA INDAH X U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID NO: 001531760640 TAX INVOICE Owned By SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER ARTLINE 500A W/BOARD 1.2005-0263 MARKER - BLACK 3.70 SR 1 X3.7000 2.2012-0029 RESTAURANT ORDER CHIT NCI 3.5\"x6\" 8.70 SR 3 X 2.9000 Total Sales Inclusive GST @6% 12.40 Discount 0.00 Total 12.40 Round Adj 0.00 Final Total 12.40 CASH 15.00 CHANGE 2.60 GST Summary Amount(RM) Tax(RM) SR @ 6% 11.70 0.70 INV NO: CS-SA-0111837 Date : 18/09/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI **PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Statignery"
+    },
+    {
+      "image": "X51007339132.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "06/09/2017",
+        "total_amount": "8.70",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 45,
+      "avg_confidence": 0.9850262337260776,
+      "time_seconds": 5.164184093475342,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 3 X 2.9000 8.70 SR Total Sales Inclusive GST @6% 8.70 Discount 0.00 Total 8.70 Round Adj 0.00 Final Total 8.70 CASH 10.00 CHANGE 1.30 GST Summary Amount(RM) Tax(RM) SR @ 6% 8.21 0.49 INV NO: CS-SA-0108918 Date : 06/09/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEI"
+    },
+    {
+      "image": "X51007339133.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "27/10/2017",
+        "total_amount": "8.70",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 47,
+      "avg_confidence": 0.9881885673137422,
+      "time_seconds": 5.288026571273804,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 Owned By : TAX INVOICE SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 3 X 2.9000 8.70 SR Total Sales Inclusive GST @6% 8.70 Discount 0.00 Total 8.70 Round Adj 0.00 Final Total 8.70 CASH 10.00 CHANGE 1.30 GST Summary Amount(RM) Tax(RM) SR @ 6% 8.21 0.49 INV NO: CS-SA-0120436 Date: 27/10/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339135.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "06/11/2017",
+        "total_amount": "8.70",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 49,
+      "avg_confidence": 0.9850976430639928,
+      "time_seconds": 5.237209320068359,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By: SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 3 X 2.9000 8.70 SR Total Sales Inclusive GST @6% 8.70 Discount 0.00 Total 8.70 Round Adj 0.00 Final Total 8.70 CASH 10.00 CHANGE 1.30 Amount(RM) Tax(RM) GST Summary 8.21 0.49 SR @ 6% INV NO: CS-SA-0122588 Date: 06/11/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME A IN TERIMA KASIH SILA DA NG LAGI ** PLEASE KEEP THIS RECEIPT POR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339136.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "28/12/2017",
+        "total_amount": "46.90",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 66,
+      "avg_confidence": 0.9913528073917736,
+      "time_seconds": 6.1461501121521,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 Owned By : TAX INVOICE SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.2008-0040 PRO ADHESIVE LABEL (WHITE) 2585 1 X 2.2000 2.20 SR - 2.2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 3 X 2.9000 8.70 SR 3.7002-0014 SONOFAX - EC THERMAL ROLL (BLUE) - (57MMx60MMx12MM) (10ROLL/PKT) 1 X 36.0000 36.00 SR Total Sales Inclusive GST @6% 46.90 Discount 0.00 Total 46.90 Round Adj 0.00 Final Total 46.90 CASH 100.00 CHANGE 53.10 GST Summary Amount(RM) Tax(RM) SR @ 6% 44.25 2.65 INV NO: CS-SA-0133215 Date : 28/12/2017 Total Qty: 5 Print Time : Thursday, 28 December, 2017 5:26:39 PM Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339139.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "21/03/2017",
+        "total_amount": "10.00",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 46,
+      "avg_confidence": 0.9819404754949652,
+      "time_seconds": 4.999533653259277,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 Owned By: TAX INVOICE SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.2046-0021 POM POM (M-2314) 2 X 5.0000 10.00 SR Total Sales Inclusive GST @6% 10.00 Discount 0.00 Total 10.00 Round Adj 0.00 Final Total 10.00 CASH 20.00 CHANGE 10.00 GST Summary Amount(RM) Tax(RM) SR @ 6% 9.43 0.57 INV NO: CS-SA-0073011 Date: 21/03/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339146.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "28/03/2017",
+        "total_amount": "16.50",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 53,
+      "avg_confidence": 0.9835075758538157,
+      "time_seconds": 5.0316321849823,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID NO: 001531760640 TAX INVOICE Owned By: SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.2044-0137 ARTLINE EG-40 GLUE STICK 40G 1 X 5.6000 5.60 SR 2.2000-0002 IK YELLOW SIMILI PAPER - A4 70GSM (450's/REAM) 1 X 10.9000 10.90 SR Total Sales Inclusive GST @6% 16.50 Discount 0.00 Total 16.50 Round Adj 0.00 Final Total 16.50 CASH 50.00 CHANGE 33.50 Amount(RM) Tax(RM) GST Summary SR @ 6% 15.57 0.93 INV NO: CS-SA-0074397 Date: 28/03/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook: Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339150.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "18/07/2017",
+        "total_amount": "35.00",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 49,
+      "avg_confidence": 0.9893098862803712,
+      "time_seconds": 4.613144159317017,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 Owned By : TAX INVOICE SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 7002-0014 SONOFAX - EC THERMAL ROLL (BLUE) - (57MMx60MMx12MM) (10ROLL/PKT) 1 X 35.0000 35.00 SR Total Sales Inclusive GST @6% 35.00 Discount 0.00 Total 35.00 Round Adj 0.00 Final Total 35.00 CASH 50.00 CHANGE 15.00 GST Summary Amount(RM) Tax(RM) SR @ 6% 33.02 1.98 INV NO: CS-SA-0097366 Date : 18/07/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339151.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "15/07/2017",
+        "total_amount": "8.70",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9875957990686098,
+      "time_seconds": 4.696023464202881,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 3 X 2.9000 8.70 SR Total Sales Inclusive GST @6% 8.70 Discount 0.00 Total 8.70 Round Adj 0.00 Final Total 8.70 CASH 10.00 CHANGE 1.30 Amount(RM) Tax(RM) GST Summary SR @ 6% 8.21 0.49 INV NO: CS-SA-0096677 Date: 15/07/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339152.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "06/07/2017",
+        "total_amount": "4.50",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9893561651309332,
+      "time_seconds": 4.645664691925049,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 Owned By : TAX INVOICE SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2000-0063 S-69 MULTI PURPOSE PAPER 40'S A4 120GSM 1 X 4.5000 4.50 SR Total Sales Inclusive GST @6% 4.50 Discount 0.00 Total 4.50 Round Adj 0.00 Final Total 4.50 CASH 50.00 CHANGE 45.50 GST Summary Amount(RM) Tax(RM) SR @ 6% 4.25 0.25 INV NO: CS-SA-0094236 Date : 06/07/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook: Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339156.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "08/07/2017",
+        "total_amount": "8.70",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 49,
+      "avg_confidence": 0.9825448539792275,
+      "time_seconds": 4.56531834602356,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 Owned By : TAX INVOICE SANYU SUPPLY SDN BHD (1135772- CASH SALES COUNTER 1. 2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 3 X 2.9000 8.70 SR Total Sales Inclusive GST @6% 8.70 Discount 0.00 Total 8.70 Round Adj 0.00 Final Total 8.70 CASH 10.00 N CHANGE 1.30 GST Summary Amount(RM) Tax(RM) SR @ 6% 8.21 0.49 INV NO: CS-SA-0094876 Date : 08/07/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook: Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339157.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "19/07/2017",
+        "total_amount": "5.00",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9855274620155493,
+      "time_seconds": 4.799083232879639,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 Owned By: TAX INVOICE SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 5000-0001 PHOTOCOPY SERVICES - A4 SIZE 50 X 0.1000 5.00 SR Total Sales Inclusive GST @6% 5.00 Discount 0.00 Total 5.00 Round Adj 0.00 Final Total 5.00 CASH 5.00 CHANGE 0.00 GST Summary Amount(RM) Tax(RM) SR @ 6% 4.72 0.28 INV NO: CS-SA-0097493 Date : 19/07/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** ow us in Facebook: Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339158.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "19/07/2017",
+        "total_amount": "5.00",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 47,
+      "avg_confidence": 0.9889233074289687,
+      "time_seconds": 4.6634299755096436,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 5000-0001 PHOTOCOPY SERVICES - A4 SIZE 50 X 0.1000 5.00 SR Total Sales Inclusive GST @6% 5.00 Discount 0.00 Total 5.00 Round Adj 0.00 Final Total 5.00 CASH 100.00 CHANGE 95.00 Amount(RM) Tax(RM) GST Summary 4.72 0.28 SR @ 6% Date : 19/07/2017 INV NO: CS-SA-0097491 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339162.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "02/12/2017",
+        "total_amount": "8.70",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 53,
+      "avg_confidence": 0.9908842140773557,
+      "time_seconds": 4.892401456832886,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 3 X 2.9000 8.70 SR Total Sales Inclusive GST @6% 8.70 Discount 0.00 Total 8.70 Round Adj 0.00 Final Total 8.70 CASH 10.00 CHANGE 1.30 GST Summary Amount(RM) Tax(RM) SR @ 6% 8.21 0.49 INV NO: CS-SA-0128032 Date : 02/12/2017 Total Qty: 3 Print Time : Saturday, 2 December, 2017 7:07:39 PM Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339164.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "26/11/2017",
+        "total_amount": "9.30",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 53,
+      "avg_confidence": 0.9886960477199195,
+      "time_seconds": 5.36569881439209,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1.2012-0021 SB-5882 CAMIS NCR BILL BOCk 5\"x8\" (BB-5882) 1 X 3.5000 3.50 SR 2.2012-0029 RESTAURANT ORDER CHIT NCR 3.5\"x6\" 2 X 2.9000 5.80 SR Total Sales Inclusive GST @6% 9.30 Discount 0.00 Total 9.30 Round Adj 0.00 Final Total 9.30 CASH 10.00 CHANGE 0.70 GST Summary Amount(RM) Tax(RM) SR @ 6% 8.77 0.53 INV NO: CS-SA-0126902 Date: 26/11/2017 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339165.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "29/11/2017",
+        "total_amount": "33.60",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 59,
+      "avg_confidence": 0.9854598712112944,
+      "time_seconds": 5.557574510574341,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 Owned By : TAX INVOICE SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 5002-0080 WIRE O (3:1) DOUBLE WIRE A4 34 L00PS - 6.4MM (WHITE) 6 X 4.0000 24.00 SR 2. 5002-0004 PVC- RIGID SHEET BINDING CC A4 12 X 0.8000 9.60 SR Total Sales Inclusive GST @6% 33.60 Discount 0.00 Total 33.60 Round Adj 0.00 Final Total 33.60 CASH 50.00 CHANGE 16.40 GST Summary Amount(RM) Tax(RM) SR @ 6% 31.70 1.90 INV NO: CS-SA-0127449 Date : 29/11/2017 Total Qty: 18 Print Time : Wednesday, 29 November, 2017 4:18:55 Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339166.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "04/12/2017",
+        "total_amount": "3.90",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 52,
+      "avg_confidence": 0.9895073095193276,
+      "time_seconds": 5.039957761764526,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2000-0240 CAMPAP CR 36364 A4 10S BRIEF CARD (CAMPAP ARTO) 1 X 3.9000 3.90 SR Total Sales Inclusive GST @6% 3.90 Discount 0.00 Total 3.90 Round Adj 0.00 Final Total 3.90 CASH 10.00 CHANGE 6.10 GST Summary Amount(RM) Tax(RM) SR @ 6% 3.68 0.22 INV NO: CS-SA-0128324 Date : 04/12/2017 Total Qty: 1 Print Time : Monday, 4 December, 2017 1:55:54 PM Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339167.jpg",
+      "ground_truth": {
+        "merchant_name": "SANYU STATIONERY SHOP",
+        "transaction_date": "11/12/2017",
+        "total_amount": "7.00",
+        "address": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM"
+      },
+      "extracted_lines": 53,
+      "avg_confidence": 0.9889768924353257,
+      "time_seconds": 5.213905572891235,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANYU STATIONERY SHOP NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM Mobile /Whatsapps : +6012-918 7937 Tel: +603-3362 4137 GST ID No: 001531760640 TAX INVOICE Owned By : SANYU SUPPLY SDN BHD (1135772-K) CASH SALES COUNTER 1. 2012-0021 SB-5882 CAMIS NCR BILL BOOK 5\"x8\" (BB-5882) 2 X 3.5000 7.00 SR Total Sales Inclusive GST @6% 7.00 Discount 0.00 Total 7.00 Round Adj 0.00 Final Total 7.00 CASH 7.00 CHANGE 0.00 GST Summary Amount(RM) Tax(RM) SR @ 6% 6.60 0.40 INV NO: CS-SA-0129861 Date : 11/12/2017 Total Qty: 2 Print Time : Monday, 11 December, 2017 8:47:34 PM Goods sold are not Returnable & Refundable THANK YOU FOR YOUR PATRONAGE PLEASE COME AGAIN. TERIMA KASIH SILA DATANG LAGI ** PLEASE KEEP THIS RECEIPT FOR PROVE OF PURCHASE DATE FOR I.T PRODUCT WARRANTY PURPOSE ** Follow us in Facebook : Sanyu.Stationery"
+    },
+    {
+      "image": "X51007339639.jpg",
+      "ground_truth": {
+        "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "transaction_date": "13/07/2017",
+        "total_amount": "4.00",
+        "address": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,"
+      },
+      "extracted_lines": 60,
+      "avg_confidence": 0.9004393940170606,
+      "time_seconds": 5.8236589431762695,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": ". AIK HUAT HARDWARE ENTERPRISEY(SETIA ALAMT SDN BIID 822737-X NO. 17-G, JALAN 9ETIA INDAH (X) U13/X, SETTA ALAN, SEKSYEN U13, 40170 SHAH ALAM TELE 012 - 6651783 FA41 03 - 33623689 GST NO: 000394529768 SIMPLIFIED TAX INVOICE CASH RECEIPT #: C9P0397224 DATE: 13/07/2017 SALESPERSON AH002 TIME: 08:13:00 ITEM QTY U/P AMUUNT (RM) (RM 4060150000005 7 4.00 4.00 s 15AMP UMS PLUG TOP (SIRIM) TOTAL QUANTITY T SUB-TOTAL (GS1) 4.00 DISC 0.00 ROUNDING 0.00 TOTAL 4.00 CASH 20.00 CHANGE 16-00 XGST 0 6% INCLUDED IN (OTAL GST SUMMARY CODE AMOUNT % TAX/ANT SR 3.77 6 0.23 TAX TOTALE 0.23 ODODS SOLD ARE NOT REPUNDABLE EN 5NSOOHD NO8 1OK MNVHL PIS PROVIDE ORIGINAL BILL POR OCODS NOINENAL MO M I NIHIM WNIH COODS MUST BE IN ONIGINAL SIATE TO ENTITLED ROR EXCHANGE"
+    },
+    {
+      "image": "X51007339642.jpg",
+      "ground_truth": {
+        "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "transaction_date": "28/09/2017",
+        "total_amount": "14.00",
+        "address": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,"
+      },
+      "extracted_lines": 57,
+      "avg_confidence": 0.925797876035958,
+      "time_seconds": 5.7606201171875,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "AIK HUAT HARDWARE ENTERPRISEL(SETIA ALAM) SDN'BHD 822737-X NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM TEL: 012 -6651793 FAX: 03 - 33623608 GST NO: 000394528768 SINPLIFIED TAX INVDICE ASH ECEIPT #: C5P0408083 DAIE: 28/09/2017 ALESPERSON : AH002 TINE:15:10:00 TEM OTY U/P AMOUNT (RM) (RM) 079567600084 1 14.00 14,00 s 77ML WD 40 ANTI-RUST LUBRICANT OTAL QUANTITY 4 SUB-TOTAL (GST) 14.00 DISC 0.00 ROUNDING 0.00 TOTAL 14.00 CASH 14.00 CHANGE 0.00 *GST @ 6% INCLUDED IN TOTAL GST SUMMARY CODE AMOUNT % TAX/AUT 13.21 6 0.79 GR TAX JOTAL: 0.79 CCODS SOLD ARE NOT REPUNDABLE THANE YOU FOR CHOOSING US MLS FROVIDE CRIGINAL EILL FOR (LOLS XCHANGE WITHIN 1 REEE BROM TRANSACTLON KI OL WIVLS MVNIOING M HH ISNN SCOOO ENTITLED POR EXCHANGE"
+    },
+    {
+      "image": "X51007339643.jpg",
+      "ground_truth": {
+        "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "transaction_date": "30/03/2017",
+        "total_amount": "6.00",
+        "address": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,"
+      },
+      "extracted_lines": 57,
+      "avg_confidence": 0.9643764987326505,
+      "time_seconds": 5.693450689315796,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "AIK HUAT HARDWARE ENTERPRISE TTSETIA ALAH) SDN'BHD 822737-X NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM TEL: 012 - 6651783 FAX: 03 - 33623608 GST NO: 000394528768 SIMPLIFIED TAX INVOICE CASH RECEIPT #: CSP0382398 DATE: 30/03/2017 SALESPERSON : AH002 TIME: 16:44:00 ITEM QTY U/P AMOUNT (RM) (RM) 6521000000008 1 6.00 6.06 s 8\"X 3.6MM(1OOPCS)BLACK CABLE TIES TOTAL QUANTITY 1 SUB-TOTAL (GST) 6.00 DISC 0.00 ROUNDING 0.00 TOTAL 6-00 CASH 20.00 CHANGE 14.00 7O1O1 NI (3OONI Z9 0 199X GST SUMMARY CODE AMOUNT % TAX/AMT SR 5.66 6 0.34 TAX TOTAL: 0.34 GOODS SOLD ARE NOT REFUNDABLE, THANK YOU FOR CHOOSING US. PLS PROVIDE ORIGINAL BILL FOR GOODS EXCHANGE WITHIN 1 WEEK FROH TRANSACTION GOODS MUST BE IN ORIGINAL STATE TO BE ENIITLED FOR EXCHANGE."
+    },
+    {
+      "image": "X51007339647.jpg",
+      "ground_truth": {
+        "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "transaction_date": "15/11/2017",
+        "total_amount": "16.00",
+        "address": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,"
+      },
+      "extracted_lines": 57,
+      "avg_confidence": 0.9492767379994977,
+      "time_seconds": 6.29106879234314,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "ATK HUAT HARDWAKE ENTERPRISEYSETIA ALAM) SDN BHU 822737-X NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALan, TEL: 012 - 6651783 FAX: 03 - 33623608 GST NO: 000394528768 SINPLIFIED TAX INVOICE CASH RECEIPT #: CSP0415638 DAfE: 15/11/2017 SALESPERSON : AH019 TIME: 15:34:00 ITEM QTY U/P ANOUNT (RM) (RM) 120000143  16.00 16.00 s SCHNEIDER VIVACE 15A S/SOCKET TOTAL QUANTITY 1 SUB-TOTAL_ (GST) 16.00 DISC 0.00 ROUNDING 0.00 TOTAL 16-00 CASH 15-00 CHANGE 0.00 *GST 0 6% INCLUDED IN TOTAL GST SUMMARY CODE AMOUNT % TAX/ANT SR 15.09 6 0.91 TAX TOTAL: 0.91 GOODS SOLD ARE NOT REPUNDABLE, THANK YOU POR CHOOSING US. PLS PROVIDE ORIGINAL BILL FOR GOODS EXCHANGE WITHIN 1 WEEE FROM TRANSACTION GOODS MUST BE IN ORIGINAL SIATE TO BE BNTITLED FOR EXLHANGZ."
+    },
+    {
+      "image": "X51007339648.jpg",
+      "ground_truth": {
+        "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "transaction_date": "12/09/2017",
+        "total_amount": "30.00",
+        "address": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,"
+      },
+      "extracted_lines": 57,
+      "avg_confidence": 0.964196934511787,
+      "time_seconds": 5.756376028060913,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "AIK HUAT, HARDWARE ENTERPRISE.(SETIA ALAM) SDN 'BHO 822737-X NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAN, Seksyen U13, 40170 Shah Alam TEL: 012 - 6651783 FAX: 03 - 33623608 GST NO: 000394528768 SIMPLIFIED TAX INVOICE CASH RECEIPT #: CSP0405591 DATE: 12/09/2017 SALESPERSON : AHO19 TINE: 15:22:00 ITEM QTY U/P AMOUNT (RM) (RM) 9555783202031 1 30.00 30.00 s 7001 CZ LEVER SINK TYPE SINK TAP TOTAL QUANTITY 1 SUB-TOTAL (GST) 30.00 DISC 0.00 ROUNDING 0.00 TOTAL 30.00 CASH 30.00 CHANGE 0.00 *GST @ 6% INCLUDED IN TOTAL GST SUMMARY CODE AMOUNT % TAX/AMT SR 28.30 6 1.70 TAX TOTAL: 1.70 GOODS SOLD ARE NOT REPUNDABLE, THANK YOU FOR CHOOSING US. PLS PROVIDE ORIGINAL BILL POR GOODS EXCHANGE WITHIN 1 WEEK FROM TRANSACTION H OU UIIS TNIOIN NE H LAN SOOCO ENTITLED FOR EXCHANGE."
+    },
+    {
+      "image": "X51007339650.jpg",
+      "ground_truth": {
+        "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "transaction_date": "13/12/2017",
+        "total_amount": "24.00",
+        "address": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,"
+      },
+      "extracted_lines": 57,
+      "avg_confidence": 0.9680937486782408,
+      "time_seconds": 5.247834920883179,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM).SDN'BHD 922737-X NO. 17-G, JALAN SETIA INDAH (X U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM. TEL: 012 - 6651783 FAX: 03 - 33623608 GST NO: 000394528768 SINPLIFIED TAX INVOICE CASH RECEIPT #: CSP0420207 DATE: 13/12/2017 SALESPERSON  AH019 TINE: 17:58:00 ITEM QTY U/P AMOUNT (RM) (RM) 8710163220987 2 12.00 24.00 5 PHILIPS 18W/E27/827 ESSENTIAL BULB W/WHI TOTAL QUANTITY 2 SUB-TOTAL_(GST) 24.00 DISC 0.00 ROUNDING 0.00 TOTAL 24.00 CASH 100.00 CHANGE 76.00 *GST @ 6% INCLUDED IN TUTAL GST SUMMARY CODE AMOUNT % TAX/ANT SR 22.64 6 1.36 TAX TOTAL: 1.36 COODS SOLD ARE NOT REFUNDABLE,. THANE YOU FOR CHOOSING US. PLS PROVIDE ORIGINAL BILL FOK GOODS EXCHANGE WITHIN 1 WEEK FROM TRANSACTLON GOODS MUST BE IN ORIGINAL STATE TO BE ENTITLED POR EXCHANGE."
+    },
+    {
+      "image": "X51007339651.jpg",
+      "ground_truth": {
+        "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "transaction_date": "29/12/2017",
+        "total_amount": "7.00",
+        "address": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,"
+      },
+      "extracted_lines": 57,
+      "avg_confidence": 0.9553409574324625,
+      "time_seconds": 5.529764652252197,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "AIK HUAT HARDWARE ENTERPRISERRSETIA ALAH) SDN'BHD 822737-X NO. 17-6, JALAN SETIA INDAH (X) U13/X, SETIA ALAM SEKSYEN U13, 40170 SHAH ALAM TEL: 012 - 6651783 FAX: 03 - 33623608 GST NOT 000394528768 SIMPLIFIED TAX INVOICE CASH RECEIPT #: CSP0422870 DATE: 29/12/2017 SALESPERSON  AH019 TIME: 14:30:00 ITEM QTY U/P AMOUNT (RM) (RM) 4060010002913 Cd 3.50 7.00 s UMS 13A SWITCH SOCKET(PC-2913A) TOTAL QUANTITY 2 SUB-TOTAL (GST) 7.00 DISC 0.00 ROUNDING 0.00 TOTAL 7.00 CASH 50.00 CHANGE 43-00 *GST @ 6X INCLUDED IN TOTAL GST SUMMARY CODE AMOUNT % TAX/ANT 6.60 6 0.40 SR TAX TOTAL: 0.40 GOODS SOLD ARE NOT REPUNDABLE, THANE YOU FOR CHOOSING US. PLS PROVIDE ORIGINAL BILL FOR GOODS ERXCHANCE WITHIN 1 WERE FROM IRANSACTION GOODS MUST BE IN ORIGINAL STATE TO BE ENTITLED FOR EXLHANCE."
+    },
+    {
+      "image": "X51007339653.jpg",
+      "ground_truth": {
+        "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "transaction_date": "15/09/2017",
+        "total_amount": "24.00",
+        "address": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,"
+      },
+      "extracted_lines": 54,
+      "avg_confidence": 0.9629766345024109,
+      "time_seconds": 4.797053575515747,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "AIK HUAT HARDWAKE ENTERPRISE TSETIA ALAM) SDN \"BHD 822737-X NO. 17-G, JALAN SETIA INDAH (X) UI3/X, SETIA ALAM SEKSYEN U13, 4D170 ShAH ALAm. TEL: 012 - 6651783 FAX: 03 - 33623608 GST NO: 000394528768 SIMPLIFIED TAX INVOICE ounter. CASH RECEIPT #: CSP0406159 DATE: 15/09/2017 SALESPERSON : AHO02 TIME: 17:57:00 ITEM QTY U/P AMOUNT (RM) (RM) 9200310000040 3 8.00 24.06 s 40MM 2K/beLLE PADloCK 77 TOTAL QUANTITY 3 SUB-TOTAL (GST) 24,00 DISC 0.00 ROUNDING 0.00 TOTAL 24.00 CASH 50.00 CHANGE 26.00 *6ST @ 6% INCLUDED IN TOTAL GST SUMMARY CODE AMOUNT % TAX/AMT SR 22.64 6 1.36 TAX TOTAL: 1.36 GOODS SOLD THAN"
+    },
+    {
+      "image": "X51007339656.jpg",
+      "ground_truth": {
+        "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "transaction_date": "10/05/2017",
+        "total_amount": "16.00",
+        "address": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,"
+      },
+      "extracted_lines": 58,
+      "avg_confidence": 0.9553804166358093,
+      "time_seconds": 5.890829801559448,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHO 822737-X NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM TEL: 012 - 6651783 FAX: 03 - 33623608 GST NO: 000394528768 SINPLIFIED TAX INVOICE CASH RECEIPT #: CSP0388298 DATE: 10/05/2017 SALESPERSON : AHO02 TIME: 16:22:00 ITEM QTY U/P AMOUNT (RM) (RM) 120000143 1 16.00 16.00 s SCHNEIDER VIVACE 15A S/SOCKET TOTAL QUANTITY 1 SUB-TOTAL (GST) 16.00 DISC 0.00 ROUNDING 0.00 TOTAL 16-00 CASH 16-00 CHANGE 0.00 *GST @ 6% INCLUDED IN TOTAL GST SUMMARY CODE AMOUNT % TAX/AMT SR 15.09 6 0.91 TAX TOTAL: 0.91 GOODS SOLD ARE NOT REFUNDABLE, SN ONISOOKO OH NOL INVHL FLS PROVIDE ORIGINAL BILL FOR GOODS BEENNL WONN YEHN I EAIA BEEHIIN HE OL UIVIS TNIOINO NI 18 IERA SCOCO ENTITLED FOR EXCHANCE."
+    },
+    {
+      "image": "X51007339657.jpg",
+      "ground_truth": {
+        "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "transaction_date": "25/12/2017",
+        "total_amount": "2.50",
+        "address": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,"
+      },
+      "extracted_lines": 63,
+      "avg_confidence": 0.9430499530973888,
+      "time_seconds": 6.509358644485474,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "AIK HUAT HAKDWARE ENTERPRISEPKSETIA ALAM) SDN BHU 822737-X NO. 17-G, JALAN SETIA INDAH (X) UY3/X, SETIA ALAM SEKSYEN U13, 40170 SHAH ALAM, TEL: 012 - 6651783 FAX: 03 - 33623608 GST NO: 000394528768 SIMPLIFIED TAX INVOICE CASH RECEIPT #: CSP0422102 DATE: 25/12/2017 SALESPERSON : AH019 7INE: 15:46:00 ITEN QTY U/P ANOUNT {RM) (RM) 4536000000012  2.00 2.00 5 1/2\" PVC BIB TAP ?? 2000070000010 1 0.50 0.30 s 9001 BM SEALING TAPE (YELLOW) 77? TOTAL QUANTITY 2 SUB-TOTAL (GST) 2.50 DISC 0.00 ROUNDING 0.00 TOTAL 2.50 CASH 10.00 CHANGE 7-50 *GST @ 6% INCLUDED IN TOTAL GST SUMMARY CODE AMOUNT % TAX/AMT 2.36 6 0.14 SR TAX TOTALE 0.14 ODODS SOILD ARE NOT RUFUNDABLE, THANE YOU FOR CHOOSING US. MLS FROVIDE ORTGINAL BILL FOR CODS EXCHANGE WITHIN 1 WEEK FROM TRANSACTION COODS MUST BE IN ORIGINAL STATE TO LE ENTITLED FOR EXCHANGE."
+    },
+    {
+      "image": "X51007339658.jpg",
+      "ground_truth": {
+        "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "transaction_date": "04/09/2017",
+        "total_amount": "28.00",
+        "address": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,"
+      },
+      "extracted_lines": 58,
+      "avg_confidence": 0.9347345212410236,
+      "time_seconds": 6.2896809577941895,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "d9  GAS!!! DAPUR AIK HUAT HARUWART ENTERPRISE TSETIA ALAM) SDN BHU 822737-X NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM TEL: 012 - 6651783 FAX: 03 - 33623608 GST NO: 000394528768 SINPLIFIED TAX INVOICE CASH RECEIPT #: CSP0404314 DATE: 04/09/2017 SALESPERSON : AH019 TIME: 12:01:00 ITEM QTY U/P AMOUNT (RM) (RM) 9555019100268 1 28.00 28.00 S MILDX M268 GAS REGULATOR H/D TOTAL QUANTITY 1 SUB-TOTAL (GST) 28.00 DISC 0.00 ROUNDING 0.00 TOTAL 26.00 CASH 40.00 CHANGE 12.00 *GST @ 6% INCLUDED IN TOTAL GST SUMMARY AMOUNT TAX/ANT CODE 26.42 6 1.58 SR TAX TOTAL: 1.58 GOODS SOLD ARE NOT REPUNDABLL, EN ONISCOHD HOH NOA MNVHL PLS PROVIDE ORIGINAL BILL FOR COODS EXCHANGE RITHIN 1 WEEE FROM TRANSACTION GOODE MUST BE IN ORTOINW, GIEIE TO ME ENTITLED FOR EXCHANCE"
+    },
+    {
+      "image": "X51007391372.jpg",
+      "ground_truth": {
+        "merchant_name": "FY EAGLE ENTERPRISE",
+        "transaction_date": "24/05/2018",
+        "total_amount": "52.00",
+        "address": "NO. 42, JALAN PBS 14/11, TAMAN PERINDUSTRIAN BUKIT SERDANG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 62,
+      "avg_confidence": 0.9762807415137368,
+      "time_seconds": 5.8427393436431885,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "002065464-X NO. 42, JALAN PBS 14/11. TAMAN PERINDUSTRIAN BUKIT SERDANG, 43300 SERI KEMBANGAN, SELANGOR TEL: 03-89433143 FAX: 03-89433143 GST NO: 001663156224 TAX INVOICE RECEIPT #: C500040529 DATE: 24/05/2018 SALESPERSON: TIME: 09:21:00 CASHIER : USER ITEM QTY U/P AMOUNT (RM) (RM) 15894 1 22.00 22.00 SR:BPCS AA ENERGIZER(BP.ME)WF 15895 2 22.00 22.00 SR:8PCS AAA ENERGIZER(BP.SC)WF 12139 1 8.00 8.00 SR:EVEREADY SHD AA 4PC 1215BP4(YO.PM)-WF TOTAL QUANTITY 3 SUB-TOTAL 49.06 DISC 0.00 GST 2.94 ROUNDING 0.00 TOTAL 52.00 CASH 52.00 CHANGE 0.00 GST SUMMARY CODE AMOUNT % TAX/AMT SR 49.06 6 2.94 TAX TOTAL: 2.94 GOODS SOLD ARE NOT RETURNABLE, THANK YOU."
+    },
+    {
+      "image": "X51007419197.jpg",
+      "ground_truth": {
+        "merchant_name": "MYNEWS RETAIL SB",
+        "transaction_date": "28/06/2018",
+        "total_amount": "6.00",
+        "address": "UNIT 105, BLOCK A,PUSAT DAGANGAN PHILEO DAMANSARA, NO.9, JALAN 16/11,,46350,PETALING JAYA,SELANGOR"
+      },
+      "extracted_lines": 36,
+      "avg_confidence": 0.9847888814078437,
+      "time_seconds": 4.2674877643585205,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "TQ FOR SHOPPING WITH myNEWS.cOm PUSAT DAGANGAN PHILEO DAMANSARA UNIT 105, BLOCK A,PUSAT DAGANGAN PHILEO DAMANSARA, NO. 9, JALAN 16/11,46350,PETALING JAYA,SELANGOR myNEWScareline : 1800 88 1231 myNEWScareline@mynews.com.my MYNEWS RETAIL SB(306295-X) FKA BISON STORES SB TAX REG ID CBP 000709361664 QTY PRICE DISC AMT GP GREENCELL EXTRA HEAVY DUTY AAA 4+2 1 6.00 0.00 6.00 SR SUB TOTAL 6.00 GRAND TOTAL 6.00 CASH 50.00 MYR 50.00 CHANGE DUE 44.00 TOTAL QTY 1 SR : 0 % GOODS : 6.00 TAX: 0.00 28/06/2018 3:11:35 PM BILL 1856-608-9161\u00b72806180322 PRICE IS GST INCLUSIVE"
+    },
+    {
+      "image": "X51007579726.jpg",
+      "ground_truth": {
+        "merchant_name": "RAPID RAIL SDN BHD",
+        "transaction_date": "18/06/2018",
+        "total_amount": "RM 30.00",
+        "address": "NO.1 JALAN PJU 1A/46, OFF JALAN LAPANGAN TERBANG SUBANG PETALING JAYA SELANGOR 47301"
+      },
+      "extracted_lines": 56,
+      "avg_confidence": 0.9579767116478511,
+      "time_seconds": 5.337145090103149,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MRT aperated by raplidKL TAX INVOICE RAPID RAIL SCN BHD NO.1 JALAN PJU 1AV4B, OFF JALAN LAPANGAN TERBANG SUBANG PETALING JAYA SELANGOR 47301 GST Reg. No : 001345261568 OTP Sale receipt TSC : 22MG00SUBS----11002 Agent ID : 114500 SHIFT ID : 38599 Transaction : 89 Date : 18/06/2018 08:18.00 Description Quantity Amount Tax (RM) code Media nb 3097352783 Balance before RM1.90 Balance after RM31.40 TNG Reload RM 30 1 RM 29.50 ES Reload Fee 1 RM 0.50 SR Total RM 30.00 Rounding RM 0.00 Including GST RM0.00 GST Summary Arount GST SR=GST 0.00%: RM 0.50 RM 0.00 ES=GST 0.00% RM 29.50 RM 0.00 Payment mode Amount Cash RM30.00 AAxA Please retain receipt for reference J"
+    },
+    {
+      "image": "X51007843145.jpg",
+      "ground_truth": {
+        "merchant_name": "ESJAY FUEL ENTERPRISE",
+        "transaction_date": "30-06-2018",
+        "total_amount": "50.00",
+        "address": "LOT PTD 101051 JALAN PERMAS 10/10 81750 MASAI, JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846269.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "04 JUN 2018",
+        "total_amount": "RM7.70",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846270.jpg",
+      "ground_truth": {
+        "merchant_name": "MOONLIGHT CAKE HOUSE SDN BHD",
+        "transaction_date": "04/06/2018",
+        "total_amount": "RM21.85",
+        "address": "NO.1, JALAN PERMAS 10/5, BANDAR BARU PERMAS JAYA 81750 JOHOR BAHRU, JOHOR."
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846286.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "09 JUN 2018",
+        "total_amount": "RM7.70",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846301.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "10 JUN 2018",
+        "total_amount": "RM8.50",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846302.jpg",
+      "ground_truth": {
+        "merchant_name": "MOONLIGHT CAKE HOUSE SDN BHD",
+        "transaction_date": "09/06/2018",
+        "total_amount": "RM15.40",
+        "address": "NO.1, JALAN PERMAS 10/5, BANDAR BARU PERMAS JAYA 81750 JOHOR BAHRU, JOHOR."
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846305.jpg",
+      "ground_truth": {
+        "merchant_name": "AEON CO. (M) BHD",
+        "transaction_date": "10/06/2018",
+        "total_amount": "127.35",
+        "address": "3RD FLR, AEON TAMAN MALURI SC JLN JEJAKA, TAMAN MALURI CHERAS, 55100 KUALA LUMPUR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846307.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "12 JUN 2018",
+        "total_amount": "RM7.70",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846309.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "11 JUN 2018",
+        "total_amount": "RM6.00",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846325.jpg",
+      "ground_truth": {
+        "merchant_name": "DE LUXE CIRCLE FRESH MART SDN BHD",
+        "transaction_date": "02/06/18",
+        "total_amount": "25.85",
+        "address": "NO.89&91, JALAN UTAMA, TAMAN MUTIA RINI, 81300 SKUDAI, JOHOR."
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846326.jpg",
+      "ground_truth": {
+        "merchant_name": "LEMON TREE RESTAURANT JTJ FOODS SDN BHD",
+        "transaction_date": "6/1/2018",
+        "total_amount": "10.30",
+        "address": "NO 3, JALAN PERMAS 10/8, BANDAR BARU PERMAS JAYA, 81750 MASAI, JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846350.jpg",
+      "ground_truth": {
+        "merchant_name": "PASARAYA CINWA SDN BHD",
+        "transaction_date": "15/06/2018",
+        "total_amount": "14.20",
+        "address": "NO.6,8, 10& 12 JALAN PERMAS 4/3 BANDAR BARU PERMAS JAYA, 81750 JOHOR BAHRU,JOHOR."
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846353.jpg",
+      "ground_truth": {
+        "merchant_name": "THE TOAST F&B SDN BHD",
+        "transaction_date": "16/06/2018",
+        "total_amount": "28.15",
+        "address": "LOT 2110&2111 JALAN PERMAS UTARA BANDAR BARU PERMAS 81750 JOHOR BAHRU JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846357.jpg",
+      "ground_truth": {
+        "merchant_name": "KEDAI RUNCIT ZBH",
+        "transaction_date": "01/06/2018",
+        "total_amount": "RM43.40",
+        "address": "NO.17,JALAN PERMAS 1/7, BANDAR BARU PERMAS JAYA,81750,MASAI"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846366.jpg",
+      "ground_truth": {
+        "merchant_name": "AEON CO. (M) BHD",
+        "transaction_date": "12/06/2018",
+        "total_amount": "38.60",
+        "address": "3RD FLR, AEON TAMAN MALURI SC JLN JEJAKA, TAMAN MALURI CHERAS, 55100 KUALA LUMPUR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846368.jpg",
+      "ground_truth": {
+        "merchant_name": "GRANDMA HOMES RESTAURANT",
+        "transaction_date": "13/06/2018",
+        "total_amount": "473.30",
+        "address": "NO.3 & 5, JALAN PERMAS 11, BANDAR BARU PERMAS JAYA, 81750 MASAI, JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846370.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "16 JUN 2018",
+        "total_amount": "RM7.70",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU, JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846388.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "18 JUN 2018",
+        "total_amount": "RM8.20",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU, JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846391.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "20 JUN 2018",
+        "total_amount": "RM8.20",
+        "address": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU, JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846393.jpg",
+      "ground_truth": {
+        "merchant_name": "MOONLIGHT CAKE HOUSE SDN BHD",
+        "transaction_date": "20/06/2018",
+        "total_amount": "RM14.20",
+        "address": "NO.1, JALAN PERMAS 10/5, BANDAR BARU PERMAS JAYA 81750 JOHOR BAHRU, JOHOR."
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846395.jpg",
+      "ground_truth": {
+        "merchant_name": "GERBANG ALAF RESTAURANTS SDN BHD",
+        "transaction_date": "24/06/2018",
+        "total_amount": "12.80",
+        "address": "LEVEL 6, BANGUNAN TH, DAMANSARA UPTOWN3 NO.3, JALAN SS21/39, 47400 PETALING JAYA SELANGOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846398.jpg",
+      "ground_truth": {
+        "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "transaction_date": "22 JUN 2018",
+        "total_amount": "RM8.50",
+        "address": "12, JALAN TAMPOL 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846410.jpg",
+      "ground_truth": {
+        "merchant_name": "IDEAL MENU GROUP SDN BHD",
+        "transaction_date": "10/06/2018",
+        "total_amount": "12.00",
+        "address": "31,31A, JALAN HANG TUAH 9, TAMAN SKUDAI BARU, 81300 SKUDAI, JOHOR"
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846412.jpg",
+      "ground_truth": {
+        "merchant_name": "LAVENDER CONFECTIONERY & BAKERY S/B",
+        "transaction_date": "17/06/2018",
+        "total_amount": "26.50",
+        "address": "LOT G29 & G30, AEON MALL TEBRAU CITY, NO. 1, JALAN DESA TEBRAU, TAMAN DESA TEBRAU, 81100 JOHOR BAHRU."
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51007846451.jpg",
+      "ground_truth": {
+        "merchant_name": "PASIR EMAS HARDWARE SDN BHD",
+        "transaction_date": "23/06/18",
+        "total_amount": "36.00",
+        "address": "NO 69, JALAN PENGKALAN 5, TAMAN PASIR EMAS, KG PASIR PUTIH, 81700 PASIR GUDANG, JOHOR."
+      },
+      "skipped": "Image too large (>4500px), causes WSL crash"
+    },
+    {
+      "image": "X51008030560.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN DE COFFEE O",
+        "transaction_date": "03/04/2018",
+        "total_amount": "11.60",
+        "address": "NO 33, 35, G F ,JALAN TEMENGGUNG 3/9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 57,
+      "avg_confidence": 0.9851257299122057,
+      "time_seconds": 5.813894033432007,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "RESTORAN DE COFFEE O NO 33, 35, G F.JALAN TEMENGGUNG 3/9. BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR GST NO. : 002062008320 TAX INVOICE Receipt # CS00119810 Date 03/04/2018 Time: 12:32:00 (GST) (GST) Item Qty Price AMOUNT SR: COFFEE O (T.AWAY) 1 2.30 2.30 SR: TEA (T.AWAY) 1 2.40 2.40 SR: COFFEE (T.AWAY) 2 2.40 4.80 SR: SOYA BEAN (T AWAY) 1 2 10 2 10 TOTAL 5 11.60 (Excluded GST) Sub Total 10 94 Total GST 0.66 TOTAL 11.60 GST SUMMARY Tax Code % Amount GST SR 6 10.94 0.66 Total : 10.94 0.66 GOODS SOLD ARE NOT RETURNABLE, THANK YOU"
+    },
+    {
+      "image": "X51008030565.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "04-04-2018",
+        "total_amount": "7.80",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 53,
+      "avg_confidence": 0.9755886185843989,
+      "time_seconds": 6.580112934112549,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "restoran wan sheng 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Ch\u00e9ras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1076565 Cashier: Thandar Date : 04-04-2018 14:26:20 Description Qty U.price Total TAX Teh (B) 1 1 x 2.20 2.20 SR Cham (B) 1 X 2.20 2.20 SR Milo (B) 1 x 2.80 2.80 SR Take Away 3 x 0.20 0.60 SR Total QTY: 6 7.37 fotal (Excluding GST): GST payable (6%): 0.43 fotal (Inclusive of GST): 7.80 7.80 TOTAL : CASH : 7.80 Gst Summary Amount(RM) Tax(RM) SR (@ 6%) 7.37 0.43"
+    },
+    {
+      "image": "X51008030566.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "09-04-2018",
+        "total_amount": "8.60",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 52,
+      "avg_confidence": 0.9738726489819013,
+      "time_seconds": 6.034556150436401,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Restoran Wan Sheng 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1085405 Cashier: Thandar Date : 09-04-2018 13:16:21 Description Qty U.price Total TAX Teh (B) 1 X 2.20 2.20 SR Cham (B) 1 x 2.20 2.20 SR Herbal Tea 2 x 1.70 3.40 SR Take Away 4 X 0.20 0.80 SR Total QTY: 8 Total (Excluding GST): 8.11 GST payable (6%): 0.49 otal (Inclusive of GST): 8.60 TOTAL: 8.60 CASH : 8.60 GSt Summary Amount(RM) Tax(RM) SR (%9 0) 8.11 0.49"
+    },
+    {
+      "image": "X51008042777.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "26-05-2018",
+        "total_amount": "4.80",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 43,
+      "avg_confidence": 0.9858725874922997,
+      "time_seconds": 6.011641502380371,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "restoran wan Sheng 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1159923 Cashier: Thandar Date : 26-05-2018 15:16:13 Description Qty U.price Total TAX Teh (B) 2x 2.20 4.40 SR Take Away 2x 0.20 0.40 SR Total QTY: 4 Total (Excluding GST): 4.54 GST payable (6%): 0.26 Total (Inclusive of GST): 4.80 TOTAL : 4.80 CASH : 4.80 GST Summary Amount(RM) Tax(RM) SR (@ 6%) 4.54 0.26"
+    },
+    {
+      "image": "X51008042778.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "05-05-2018",
+        "total_amount": "19.40",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9819899847110113,
+      "time_seconds": 5.881390571594238,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "RESTORAN WAN SHENG 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1126479 Cashier: Thandar Date : 05-05-2018 11:25:29 Description Qty U.price Total TAX Cham (B) 1 x 2.20 2.20 SR Dunhill 1 \u00d7 17.00 17.00 SR Take Away 1 x 0.20 0.20 SR Total QTY: 3 Total(Excluding GST): 18.31 GSTpayable (6%): 1.09 Total (Inclusive of GST): 19.40 TOTAL : 19.40 CASH : 19.40 GST Summary Amount(RM) Tax(RM) SR (@ 6%) 18.31 1.09"
+    },
+    {
+      "image": "X51008042782.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "02-04-2018",
+        "total_amount": "6.70",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9783433514336745,
+      "time_seconds": 5.410859107971191,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Restoran Wan Sheng 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1074908 Cashier: Thandar Date : 02-04-2018 15:14:07 Description Qty U.price Total TAX Teh (B) 2 x 2.20 4.40 SR Herbal Tea 1 x 1.70 1.70 SR Take Away 3 x 0.20 0.60 SR Total QTY: 6 Total (Excluding GST): 6.33 GST payable (6%): 0.37 Total (Inclusive of GST): 6.70 TOTAL: 6.70 CASH : 6.70 GST Summary Amount(RM) Tax(RM) SR (@ 6%) 6.33 0.37"
+    },
+    {
+      "image": "X51008042783.jpg",
+      "ground_truth": {
+        "merchant_name": "GERBANG ALAF RESTAURANTS SDN BHD",
+        "transaction_date": "11/05/2018",
+        "total_amount": "18.90",
+        "address": "LEVEL 6, BANGUNAN TH, DAMANSARA UPTOWN3 NO.3, JALAN SS21/39,47400 PETALING JAYA SELANGOR"
+      },
+      "extracted_lines": 35,
+      "avg_confidence": 0.9802862814494542,
+      "time_seconds": 5.561081171035767,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "158 Gerbang Alaf Restaurants Sdn Bhd (65351-M) Licensee of McDonald's Level 6, Bangunan TH, Damansara Uptown3 No.3, Jalan SS21/39,47400 Petaling Jaya Selangor (GST ID No: 000504664064) McDonald's Shell Mahkota Cheras OT (#36 Tel No. 03-9010-9849 TAX INVOICE MFY Side 1 INV# 003621900031356 ORD #58 -REG #19- 11/05/2018 20:22:56 QTY ITEM TOTAL 1 L MoChicken 11.10 1 L Coke 1 L Fries 1 6Nuggets 7.80 1 French Cheese Sauce TakeOut Total (incl GST) 18.90 Total Rounded 18.90 Cash Tendered 50.00 Change 31.10 TOtAl INCLUDES 6% GST 1.07 Thank You and Please Come Again. Guest Relations Center : 1300-13-1300"
+    },
+    {
+      "image": "X51008042791.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "06-05-2018",
+        "total_amount": "2.40",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 43,
+      "avg_confidence": 0.9442950487136841,
+      "time_seconds": 5.655791997909546,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Restoran wan Sheng 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1128507 Cashier: Thandar  Date : 06-05-2018 12:43:19 Description Qty U.price Total TAX Kopi (B) 1 x 2.20 2.20 SR Take Away } x 0.20 0.20 SR Total QTY: 2 Total (Excluding GST): 2.27 GST payable (6%): 0.13 Total (Inclusive of GSi): 2.40 2.40 2.40 GST Summary Amount(RM) Tax(RM) (%9 ) 2.27 SR 0.13"
+    },
+    {
+      "image": "X51008042792.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "06-05-2018",
+        "total_amount": "5.00",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 44,
+      "avg_confidence": 0.97501717236909,
+      "time_seconds": 5.244913578033447,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "restoran wan Sheng 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1128461 Cashier: Thandar Date : 06-05-2018 12:22:06 Description aty U.price Total TAX Teh (B) 1 X 2.20 2.20 SR Milo (B) 1 X 2.80 2.80 SR Total QTY: 2 Total (Excluding GST): 4.72 GST payable (6%): 0.28 Total (Inclusive of GST): 5.00 TOTAL: 5.00 CASH : 5.00 GST Summary Amount(RM) Tax(RM) SR (@ 6%) 4.72 0.28"
+    },
+    {
+      "image": "X51008042793.jpg",
+      "ground_truth": {
+        "merchant_name": "SANG KEE CHERAS RESTAURANT",
+        "transaction_date": "03/05/2018",
+        "total_amount": "2.50",
+        "address": "69, JALAN TEMENGGUNG 3/9 BANDAR MAHKOTA CHERAS 43200 CHERAS SELANGOR"
+      },
+      "extracted_lines": 39,
+      "avg_confidence": 0.9712542723386716,
+      "time_seconds": 5.191556930541992,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SANG KEE CHERAS RESTAURANT (001310559-U) 69, JALAN TEMENGGUNG 3/9 BANDAR MAHKOTA CHERAS 43200 CHERAS SELANGOR ( NOID GST001226018816 ) TAX INVOICE NO. :74285 999 1:01-01 03/05/2018 20:24 EMSRel:18060320240)_74285_dhh2476558+014 BCODE QTY U/PRICE AMT 9556570105139 1 2.50 2.50s ALL SOFT DRINK CAN SUB-TOTAL 2.50 Total GST() 0.14 Total item) 1 Total Quanuty : 1 RM Total Incl GST 2.50 Pay Cash 2.50 Change 0.00 THANK YOU PLEASE COME AGAIN GST Taxabie Amt GST Amt"
+    },
+    {
+      "image": "X51008063849.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "28-05-18",
+        "total_amount": "2.70",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 35,
+      "avg_confidence": 0.9872533849307469,
+      "time_seconds": 4.714698076248169,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SDN BHD (CO REG : 860871-D) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No : 000306020352) (MELAWATI MALL) -TAX INVOICE- UNI CLASSIC QUALITY BOND UC-1701B 17 S WA20 - 6/144 9557950917038 1 X 2.70 2.70 Item(s) : 1 Qty(s) : 1 Total Incl. GST@6% RM 2.70 CASH RM 10.00 CHANGE RM 7.30 GST Summary Amt(RM) Tax(RM) GST S@6% 2.55 0.15 28-05-18 17:00 SH01 ZJ94 T3 R000059251 OPERATOR MLWC - NORAZLINA EXCHANGE ARE ALLOWED WITHIN 7 DAYS WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51008064061.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "03-05-18",
+        "total_amount": "69.20",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 45,
+      "avg_confidence": 0.9898459447754754,
+      "time_seconds": 7.54420018196106,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SDN BHD (CO REG : 860871-D) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No : 000306020352) (MELAWATI MALL) -TAX INVOICE- ARTLINE WHITEBOARD MAKER PEN 500A (R S WA25 - 24/288 4974052854583 1 X 3.10 3.10 ARTLINE WHITEBOARD MAKER PEN 5O0A (B S WA26 - 24/288 4974052854569 1 X 3.10 3.10 S MAGNETIC WHITEB0ARD LD001# 120*90CM HC07-08 - 6 9087397 1 X 63.00 63.00 Item(s) : 3 Qty(s) : 3 Total Incl. GST@6% RM 69.20 CASH RM 69.20 GST Summary Amt(RM) Tax(RM) GST S@6% 65.28 3.92 03-05-18 14:12 SH02 ZJ94 T1 R000090406 OPERATOR MLWC - SITI AISHAH EXCHANGE ARE ALLOWED WITHIN 7 DAYS WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51008099041.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "30-06-2018",
+        "total_amount": "4.20",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 38,
+      "avg_confidence": 0.9797130007492868,
+      "time_seconds": 6.526169538497925,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Restoran Wan Sheng 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1219461 Cashier: Thandar Date :30-06-2018 22:16:06 Description Qty U.price Total TAX Coke 1 x 2.10 2.10 ZRL Soya Bean 1 x 2.10 2.10 ZRL Total QTY: 2 Total (Excluding GST): 4.20 Total (Inclusive of GST): 4.20 TOTAL: 4.20 CASH : 4.20 GST Summary Amount(RM) Tax(RM) ZRL (%0 ) 4.20 0.00"
+    },
+    {
+      "image": "X51008099043.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "23-06-2018",
+        "total_amount": "4.60",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 41,
+      "avg_confidence": 0.9599214138054266,
+      "time_seconds": 6.803811311721802,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "RESTORAN WAN SHENG 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1207108 Cashier: Nicole Date : 23-06-2018 17:31:54 Description Qty U.price Total TAX Teh (B) 1 x 2.10 2.10 ZRL Cham(B) 1 x 2.10 2.10 ZRL Take Away 2 x 0.20 0.40 ZRL Total QTY: 4 Total (Excluding GST): 4.60 Total (Inclusive of GST): 4.60 4.60 TOTOLE 4.60 CASH : Amount(RM) Tax(RM) GST Summary 4.60 (%0 ) 0.00 ZRL"
+    },
+    {
+      "image": "X51008099044.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "18-06-2018",
+        "total_amount": "6.50",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 46,
+      "avg_confidence": 0.9526321525159089,
+      "time_seconds": 6.6447813510894775,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Restoran Wan Sheng 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1199976 Cashier: Nicole Date : 18-06-2018 16:15:47 Description Qty U.price Total TAX Teh (B) 1 x 2.10 2.10 ZRL Cham (B) x 1 2.10 2.10 ZRL Soya Bean X 1 1.70 1.70 ZRL Take Away 3 x 0.20 0.60 ZRL Total QTY: 6 otal (Excluding GST): 6.50 fotal (Inclusive of GST): 6.50 TOTAL: 6.50 CASH : 6.50 GST Summary Amount(RM) Tax(RM) Z.RI. (%0) 6.50 0.00"
+    },
+    {
+      "image": "X51008099046.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "12-06-2018",
+        "total_amount": "4.60",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 42,
+      "avg_confidence": 0.9772475163141886,
+      "time_seconds": 5.87236213684082,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Restoran Wan Sheng 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1188875 Cashier: Nicole Date : 12-06-2018 17:46:16 Descript ion Qty U.price Total TAX Teh (B) 1 x 2.10 2.10 ZRL Cham (B) 1 x 2.10 2.10 ZRL Take Away 2 x 0.20 0.40 ZRL Total QTY: 4 Total (Excluding GST): 4.60 Total (Inclusive of GST): 4.60 4.60 TOTAL: 4.60 CASH : Amount(RM) Tax(RM) GST Summary (%0) 4.60 0.00 ZRL"
+    },
+    {
+      "image": "X51008099048.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "09-06-2018",
+        "total_amount": "4.80",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 42,
+      "avg_confidence": 0.9553803013903754,
+      "time_seconds": 7.2667505741119385,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "RESTORAN WAN SHENG 002043319-W No. 2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No. : 1183154 Cashier: Thandar Date : 09-06-2018 16:00:43 Description Qty U. price Total TAX Teh (B) \u00d7 L 2.20 2.20 ZRL Cham(B) 1 \u00d7 2.20 2.20 ZRL Take Away 2 \u00d7 0.20 0.40 ZRL Total QTY: 4 Total (Excluding GST): 4.80 Total (Inclusive of GST): 4.80 :TTOLE 4.80 CASH : 4.80 GST Summary Amount (RM) Tax (RM) ZRL (%0 ) 4.80 0.00"
+    },
+    {
+      "image": "X51008099049.jpg",
+      "ground_truth": {
+        "merchant_name": "PAPPARICH BMC",
+        "transaction_date": "15 JUN 18",
+        "total_amount": "17.22",
+        "address": "NO.19 & 21 JALAN TEMENGGUNG 23/9 BANDAR MAHKOTA CHERAS 43200 SELANGOR DARUL EHSAN, MALAYSIA"
+      },
+      "extracted_lines": 49,
+      "avg_confidence": 0.9292646111274252,
+      "time_seconds": 7.541638374328613,
+      "merchant_match": true,
+      "date_match": false,
+      "total_match": true,
+      "extracted_text": "PappaRich BMC NO.19 & 21 JALAN TEMENGGUNG 23/9 BANDAR MANKOTa CHERAS 43200 SElangor Darul eHSan, Malaysia TAX INVOICE GST ID:0 0 0 16 42 700 8 0 2 COUNTER1 2003 saifui Chk 274898 Guest 1 15 Jun 18 08:34:31 PM TBL35 / 1 B02 HalF Bl EgG E  4.53 S - B03 HNN TST+b+k E 5.57 S - D19CHAM (I) E 5.57 S CASH 20.00 15.67 Subtotal 15.67 10% Srv Chg 1.55 Total: 17.22 RND ADJ 0.02- TTL ATF RND 17.20 Payment 20.00 Change Due 2.80 -2003 CLOSED 15 Jun 18 09:08:37 PM-- THANK YOU! PLEASE COME AGAIN! GST AT 0% GSTSummary Amount(RM) GST(RM) S=GST @0%: 17.20 0.00 Z=GST @0%: 0.00 0.00"
+    },
+    {
+      "image": "X51008099054.jpg",
+      "ground_truth": {
+        "merchant_name": "10 GRAM GOURMET SBN BHD",
+        "transaction_date": "11-06-2018",
+        "total_amount": "15.00",
+        "address": "NO 3, JALAN TEMENGGUNG 27/9 BANDAR MAHKOTA CHERAS, 43200 SELANGOR."
+      },
+      "extracted_lines": 41,
+      "avg_confidence": 0.9854393674106132,
+      "time_seconds": 7.668744087219238,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "10 GRAM Gourmet Sbn Bhd (1152264-K) No 3, Jalan Temenggung 27/9, Bandar Mahkota Cheras, 43200 Selangor. (GST Reg. No : 002055098368) Tax Invoice Table - Check #: 514658 Pax(s): 0 Date : 11-06-2018 12:51:34 Cashier: Cashier Morning Description Qty U.price Total TAX P02 Spaghetti Aglio Olio Chicken Breast 1 x 15.00 15.00 SR Total (Excluding GST): 15.00 Total GST (0%): 0.00 Total (Inclusive of GST): 15.00 TOTAL: 15.00 Closed: 8888 11-06-2018 12:52:21 Server: Cashier Morning CASH : 15.00 GST Summary Amount(RM)Tax(RM) SR (@ 0%) 15.00 0.00 **** Thank You ****"
+    },
+    {
+      "image": "X51008099071.jpg",
+      "ground_truth": {
+        "merchant_name": "LEONG HENG SHELL SERVICE STATION",
+        "transaction_date": "20/06/18",
+        "total_amount": "50.00",
+        "address": "LOT 26151 BANDAR SG LONG, 11 1/4 MILES CHERAS, 43000 KAJANG, SELANGOR"
+      },
+      "extracted_lines": 38,
+      "avg_confidence": 0.9843165748997739,
+      "time_seconds": 6.307547092437744,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "LEONG HENG SHELL SERVICE STATION Company No :256628-W LOT 26151 BANDAR SG LONG, 11 1/4 MILES CHERAS, 43000 KAJANG, SELANGOR Site : 2188 Telephone : 03-90805318 GST No : 001934041088 Invoice number: 01000339450 Pre auth code A01A1529424173 22.73 litre Pump # 06 FuelSave 95 RM 50.00 C 2.200 RM / litre Total RM 50.00 Cash RM 50.00 Rellef GST C RM 0.00 Total Gross C RM 50.00 Cashier: KKHALEK Date Time Num_ POS CNo Shift 20/06/18 00:05 90554 01 4145 331 Diesel & Petrol RoN95 given relief under Section 56(3) (b) GST Act 2014 Thank You and Please Come Again"
+    },
+    {
+      "image": "X51008099073.jpg",
+      "ground_truth": {
+        "merchant_name": "PROSPER NIAGA",
+        "transaction_date": "26/06/18",
+        "total_amount": "100.00",
+        "address": "LOT PT 1138 ,PT 33122, BANDAR MAHKOTA CHERAS 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 38,
+      "avg_confidence": 0.9778305292129517,
+      "time_seconds": 6.266416788101196,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "PROSPER NIAGA Company No : SA0099552-P LOT PT 1138 ,PT 33122, BANDAR MAHKOTA CHERAS 43200 CHERAS, SELANGOR Site : 2365 Tel No: 03-90199450 GST No : 000534347776 >>>>>> Pre-Authorisation <<<<< Pre auth code A02A1530024046 38.61 litre Pump # 07 RM 100.00 K V-Power 97 2.590 RM / litre Total RM 100.00 RM Cash 100.00 0.00% SR GST xx RM 0.00 Total Gross RM 100.00 Cashier: MFikri2 This is not the final fiscal receipt Time Num POS CNo Shift Date 26/06/18 22:40 45107 02 9577 659 Diesel & Petrol RoN95 given relief under Section 56(3) (b) GST Act 2014 Thank You and Please Come Again"
+    },
+    {
+      "image": "X51008099081.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "01-06-2018",
+        "total_amount": "4.80",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 38,
+      "avg_confidence": 0.9771198442107752,
+      "time_seconds": 5.700410604476929,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "restoran wan Sheng 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1170190 Cashier: Nicole Date : 01-06-2018 18:21:09 Qty U.price Total TAX Description Cham(B) 2 x 2.20 4.40 ZRL Take Away 2 x 0.20 0.40 ZRi Total QTY: 4 Total (Excluding GST): 4.80 Total (Inclusive of GST): 4.80 TOTAL: 4.80 CASH : 4.80 GST Summary Amount(RM) Tax(RM) Z.RI. (%0 ) 4.80 0.00"
+    },
+    {
+      "image": "X51008099083.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "04-06-2018",
+        "total_amount": "6.70",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 46,
+      "avg_confidence": 0.9642811184344084,
+      "time_seconds": 6.258382797241211,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "restoran wan Sheng 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1175805 \"Cashier: Thandar Date : 04-06-2018 15:53:52 Description Qty U.price Total TAX Teh (B) 1 X 2.20 2.20 ZRL Cham (B) 1 x 2.20 2.20 ZRL Bunga Kekwa \u00d7 1 1.70 1.70 ZRL Take Away 3 x 0.20 0.60 ZRL Total QTY: 6 Total (Excluding GST): 6.70 Total (Inclusive of GST): 6.70 TOTAL : 6.70 CASH : 6.70 GST Summary Amount(RM) Tax(RM) ZRL (@ 0%) 6.70 0.00"
+    },
+    {
+      "image": "X51008099084.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "26-06-2018",
+        "total_amount": "4.60",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 41,
+      "avg_confidence": 0.9626700031321224,
+      "time_seconds": 6.077781915664673,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "RESTORAN WAN SHENG 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1212276 Cashier: Nicole Date : 26-06-2018 17:08:54 Qty Description U.price Total TAX Teh (B) 1 x 2.10 2.10 ZRL Cham (B) 2.10 1 x 2.10 ZRL Take Away 2 x 0.20 0.40 ZRL Total QTY: 4 4.60 Total (Excluding GST): 4.60 Total (Inclusive of GST): 4.60 TOTAL: 4.60 CASH : Tax(RM) Amount(RM) GST Summary 0.00 4.60 (@ 0%) R7"
+    },
+    {
+      "image": "X51008099085.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "26-06-2018",
+        "total_amount": "4.10",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 41,
+      "avg_confidence": 0.9808905793399345,
+      "time_seconds": 5.8479461669921875,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "RESTORAN WAN SHENG 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1212055 Cashier: Thandar Date : 26-06-2018 13:37:55 Description Qty U.price Total TAX Cham (B) 1 x 2.10 2.10 ZRL Bunga Kekwa 1 x 1.60 1.60 ZRL Take Away 2 x 0.20 0.40 ZRL Total QTY: 4 Total (Excluding GST): 4.10 Total (Inclusive of GST): 4.10 TOTAL: 4.10 CASH : 4.10 GST Summary Amount(RM) Tax(RM) ZRL (%0 0) 4.10 0.00"
+    },
+    {
+      "image": "X51008099087.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "11-06-2018",
+        "total_amount": "7.80",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 42,
+      "avg_confidence": 0.95550670226415,
+      "time_seconds": 6.362619161605835,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "RESTORAN WAN SHENG M-603330100 No. 2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No. : 1187070 Cashier: Thandar Date : 11-06-2018 17:11:42 Description Qty U.price Total TAX Teh (B) 2x 2.20 4.40 ZRL Milo (B) 1 x 2.80 2.80 ZRL Take Away 3 \u00d7 0.20 0.60 ZRL Total QTY: 6 Total (Excluding GST): 7.80 Total (Inclusive of GST): 7.80 TOTAL: 7.80 CASH : 7.80 GST Summary Amount (RM) Tax (RM) B8Z (@ 0%) 7.80 0.00"
+    },
+    {
+      "image": "X51008099089.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTORAN WAN SHENG",
+        "transaction_date": "20-06-2018",
+        "total_amount": "9.60",
+        "address": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR"
+      },
+      "extracted_lines": 46,
+      "avg_confidence": 0.9752479428830354,
+      "time_seconds": 6.200957775115967,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "RESTORAN WAN SHENG 002043319-W No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor GST REG NO: 001335787520 Tax Invoice INV No.: 1201504 Cashier: Thandar Date : 20-06-2018 13:11:45 Description Qty U.price Total TAX Teh (B) 1 x 2.10 2.10 ZRL Cham (B) 2 x 2.10 4.20 ZRL Nescafe (B) 1 x 2.50 2.50 ZRL Take Away 4 x 0.20 0.80 ZRL Total QTY: 8 Total (Excluding GST): 9.60 Total (Inclusive of GST): 9.60 TOTAL: 9.60 CASH : 9.60 GST Summary Amount(RM) Tax(RM) ZRL (%0 0) 9.60 0.00"
+    },
+    {
+      "image": "X51008099102.jpg",
+      "ground_truth": {
+        "merchant_name": "MIZU MENTAI SDN. BHD.",
+        "transaction_date": "04-06-2018",
+        "total_amount": "68.00",
+        "address": "NO: 1-1&2 GROUND FLOOR, JLN TEMENGGUNG 13/9, 43200 CHERAS SELANGOR."
+      },
+      "extracted_lines": 72,
+      "avg_confidence": 0.9837281025118298,
+      "time_seconds": 9.370232343673706,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "SUSHI MENTAI - MAHKOTA CHERAS MIZU MENTAI SDN. BHD. (1248446-V) NO: 1-1&2 GROUND FLOOR, JLN TEMENGGUNG 13/9, 43200CHERAS SELANGOR. (GST Reg. No : 001375580160) Tax Invoice Table 9 Order#: 120820 Bill#: V042-520388 Pax(s): 0 Date : 04-06-2018 18:11:23 Cashier: SOFYA Description Qty U.price Total TAX B1 Green Tea 3 x 1.00 3.00 SR T2 Unagi Temaki 1 x 5.80 5.80 SR R5 Tori Teriyaki Don 1 x 12.80 12.80 SR N8 Shiro Ramen 2 x 12.80 25.60 SR SB01 Sushi Yellow 5 x 1.80 9.00 SR SB02 Sushi Red 2 x 2.80 5.60 SR Total (Excluding GST): 61.80 Serv. Charge (10%): 6.18 Total (Inclusive of GST): 67.98 RoundingAdj: 0.02 TOTAL: 68.00 Closed: ;201710016 04-06-2018 18:55:23 Server: SOFYA VISA 68.00 GST Summary Amount(RM) Tax(RM) (@ 0%) 67.98 SR 0.00 Thank you!!! Please Come Again!!!"
+    },
+    {
+      "image": "X51008114216.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (KUCHAI) SDN BHD",
+        "transaction_date": "15-06-18",
+        "total_amount": "8.95",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 36,
+      "avg_confidence": 0.968896760708756,
+      "time_seconds": 6.860052108764648,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (KUCHAI) SDN BHD (C0 Reg : 750441-W) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000473792512) (HOPOG) -TAX INVOICE- STEEL WOOL SH-2# S* EZ03 - 12/144 8970273 5 X 1.79 8.95 Item(s) : 1 Qty(s) : 5 Total Incl. GST RM 8.95 CASH RM 50.00 CHANGE RM 41.05 GST Summary Amt(RM) Tax(RM) GST SR@0% 8.95 0.00 * 15-06-18 17:12 SH02 B003 T2 R000551481 OPERATOR KPOT - SHAHRUL NIZAM EXCHANGE ARE ALLOWED WITHIN 7 DAYS WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51008114217.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (KUCHAI) SDN BHD",
+        "transaction_date": "30-06-18",
+        "total_amount": "27.25",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 52,
+      "avg_confidence": 0.9666559048570119,
+      "time_seconds": 8.031083583831787,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (KUCHAI) SDN BHD (CO Reg : 750441-W) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000473792512) (MEODOC) - TAX INVOICE KNIFE 7240 S* BB21-41-61 - 12/72 6926292571513 1 X 15.57 15.57 M/FUNCTION SCISSORS K56 S* GA07 - 12/144 6926292592327 1 X 7.45 7.45 S KIWI S/S KNIFE NO.475 5' *S WA37 - 12/480 1 X 4.25 8910041 4.25 Item(s) : 3 Qty(s) : 3 Total Incl. GST RM 27.27 ROUNDING ADJUSTMENT -RM 0.02 TOTAL ROUNDED RM 27.25 CASH RM 30.00 CHANGE RM 2.75 Amt(RM) Tax(RM) GST Summary 27.27 0.00 GST SR@0% 30-06-18 13:27 SH01 B003 T1 R000639004 OPERATOR KPOT - ASYRAF ALI EXCHANGE ARE ALLOWED WITHIN 7 DAYS WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51008114260.jpg",
+      "ground_truth": {
+        "merchant_name": "99 SPEED MART S/B",
+        "transaction_date": "02-05-18",
+        "total_amount": "23.60",
+        "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1237-TMN INDAH PERDANA"
+      },
+      "extracted_lines": 27,
+      "avg_confidence": 0.9694358066276267,
+      "time_seconds": 5.4910290241241455,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "99 SPEED MART 5/8 (519537-X) LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KlANG, SELANGOR 1237-TMN INDAH PERDANA GST ID. NO : 000181747712 INVOICE NO : 18385/103/T0148 05:03PM 570668 02-05-18 8402 MSM PRAI GULA PASIR 1K RM23.60 z @8 X RM 2.95 Total Sales (Inclusive GST) RM 23.60 CASH RM 24.00 CHANGE RM .40 GST Summary Amount(RM) Tax(RM) y.0 = 2 23.60 .00 Thank You. Please come again Keep the invoice for applicable returns"
+    },
+    {
+      "image": "X51008114262.jpg",
+      "ground_truth": {
+        "merchant_name": "99 SPEED MART S/B",
+        "transaction_date": "05-05-18",
+        "total_amount": "137.15",
+        "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1237-TMN INDAH PERDANA"
+      },
+      "extracted_lines": 32,
+      "avg_confidence": 0.9533244296908379,
+      "time_seconds": 4.512653112411499,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "99 SPEED MART 5/B (519537-X) LOT P,T, 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1237-TMN INDAH PERDANA GST ID. NO : 000181747712 INVOICE NO : 18388/103/tT0126 05:23PM 568268 05-05-18 0715 KNOrR ChICken StOCK 1K RM134.80 s E8 X RM 16.85 RM2.35 z 8048 GARDENIA ENRICHED WHIT 137.15 Total Sales (Inclusive 6ST) RM CASH RM 150.15 CHANGE RM 13.00 GST Summary Amount(RM) Tax(RN) 127.20 7.60 7.9 = 5 2.35 00 z = 0/ Thank You, Please come again Keep the invoice for applicable returns"
+    },
+    {
+      "image": "X51008114266.jpg",
+      "ground_truth": {
+        "merchant_name": "99 SPEED MART S/B",
+        "transaction_date": "13-05-18",
+        "total_amount": "22.90",
+        "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1237-TMN INDAH PERDANA"
+      },
+      "extracted_lines": 33,
+      "avg_confidence": 0.9803048552888812,
+      "time_seconds": 4.7304322719573975,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "99 SPEED MART S/B (519537-X) LOT P.T. 2811, JALAN ANGSA, JAMAN BERKELEY 41150 KLANG, SELANGOR 1237-TMN INDAH PERDANA GST ID. NO : 000181747712 INVOICE NO : 18396/102/T0362 03:46PM 568268 13-05-18 0715 KNORR CHICKEN STOCK 1K RM16.85 s 5596 HYGIENIC 7.5 INCH COLO RM6.06 5 @6 X RM 1.01 Total Sales (Inclusive GST) RM 22.91 Rounding Adjustment RM -.01 Rounding RM 22.90 CASH RM 50.00 CHANGE RM 27.10 GST Summary Amount(RM) Tax(RM) 5 = 6% 21.60 1.31 Thank You. Please come again Keep the invoice for applicable returns"
+    },
+    {
+      "image": "X51008114281.jpg",
+      "ground_truth": {
+        "merchant_name": "99 SPEED MART S/B",
+        "transaction_date": "04-06-18",
+        "total_amount": "23.40",
+        "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1237-TMN INDAH PERDANA"
+      },
+      "extracted_lines": 29,
+      "avg_confidence": 0.9384017052321598,
+      "time_seconds": 5.356838703155518,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "99 SPEED MART S/B (S19537-X) LOT P:T. 2811, JALAN ANGSA, TR RA 41150 KLANG, SELANGOR 1237-TMN INDAH PERDANA GST ID. NO : 000181747712 INVOICE NO : 18418/102/T0260 568268 04-06-18 05:36PM RM7.50 z 620 CARNATION SUSU KRIMER S @3 X RM 2.50 RM15.90 z 0715 KNORR CHICKEN STOCK 1K Total Sales RM 23.40 CASH RM 25.00 CHANGE RM 1.60 Gowons s9 Amount(RM) Tax(RM) %.0 = z 23.40 .00 Thank You. Please come again Keep the invoice for applicable returns"
+    },
+    {
+      "image": "X51008114282.jpg",
+      "ground_truth": {
+        "merchant_name": "99 SPEED MART S/B",
+        "transaction_date": "04-06-18",
+        "total_amount": "20.90",
+        "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1237-TMN INDAH PERDANA"
+      },
+      "extracted_lines": 29,
+      "avg_confidence": 0.9516178163988837,
+      "time_seconds": 6.5369062423706055,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "99 SPEED MART S/B (519537-X) LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1237-TMN INDAH PERDANA GST ID. NO : 000181747712 INVOICE NO : 18418/102/T0262 05:38PM 568268 04-06-18 620 CARNATION SUSU KRIMER S RM5.00 z @2 X RM 2.50 0715 KNORR CHICKEN STOCK 1K RM15.90 z Total Sales RM 20.90 CASH RM 21.00 CHANGE RM .10 Gewns 1T Amount(RM) Tax(RM) %.0 = z 20.90 .00 Thank You. Please come again Keep the invoice for applicable returns"
+    },
+    {
+      "image": "X51008114283.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (KUCHAI) SDN BHD",
+        "transaction_date": "11-06-18",
+        "total_amount": "11.25",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 38,
+      "avg_confidence": 0.9898071492973127,
+      "time_seconds": 6.912015199661255,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (KUCHAI) SDN BHD (C0 Reg : 750441-W) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000473792512) (KEPONG) -TAX INVOICE- EVA MEN SANDAL M1044/1 SIZE:6-10 S WA26 - 12 9555825905982 1 X 11.23 11.23 Item(s) :1 Qty(s) : 1 RM 11.23 Total Incl. GST RM 0.02 ROUNDING ADJUSTMENT RM 11.25 TOTAL ROUNDED RM 50.00 CASH RM 38.75 CHANGE Amt(RM) Tax(RM) GST Summary 11.23 0.00 GST SR@0% T2 R000550476 11-06-18 17:17 SH02 B003 OPERATOR KPOT - MUHAMMAD SHAWWAL EXCHANGE ARE ALLOWED WITHIN 7 DAYS WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51008114284.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (KUCHAI) SDN BHD",
+        "transaction_date": "25-06-18",
+        "total_amount": "17.45",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 33,
+      "avg_confidence": 0.9868759133599021,
+      "time_seconds": 6.3743157386779785,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (KUCHAI) SDN BHD (CO Reg : 750441-W) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASA-N PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000473792512) (KEPONG) - TAX INVOICE CYLINDRICAL LOCK 3871SS S* GA06-07 - 6/24 6942131718178 1 X 17.45 17.45 Item(s) : 1 Qty(s) : 1 Total Incl. GST RM 17.45 CASH RM 50.00 CHANGE RM 32.55 GST Summary Amt(RM) Tax(RM) GST SR@0% 17.45 0.00 25-06-18 11:25 SH01 B003 T1 R000637565 OPERATOR KPOT - SHAHRUL NIZAM EXCHANGE ARE ALLOWED WITHIN 7 DAYS WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51008114321.jpg",
+      "ground_truth": {
+        "merchant_name": "FILL IN ENTERPRISE",
+        "transaction_date": "03/06/18",
+        "total_amount": "100.00",
+        "address": "LOT 2407, JALAN DUA 52100 KEPONG BARU, KL"
+      },
+      "extracted_lines": 36,
+      "avg_confidence": 0.9532427257961698,
+      "time_seconds": 7.112046480178833,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "FILL IN ENterprIsE Company No: MA0057302-M Lot 2407, Jalan Dua 52100 Kepong Baru, KL Site: 2076 Telephone: 03-62587995 GST No: 001229619200 >>>sas> Pre-Authorisation s<<s< Pre auth code A01A1527956635 45.45 litre Pump # 12 Fuel Save 95 RM 100.00 C 2.200 RM / lItre Total RM 100.00 Cash RM 100.00 C P Relief GST 0.00 Total Gross C 100.00 Cashier: BHasan This is not the final fiscal receipt Date _Time Num_POS CNo Shift 03/06/18 00:23 34001 01 5093 868 Diesel & Petrol RoN95 given Relief under Section 56 (3) (b) GST Act 2014 Thank You and Please Come Again"
+    },
+    {
+      "image": "X51008122920.jpg",
+      "ground_truth": {
+        "merchant_name": "C W KHOO HARDWARE SDN BHD",
+        "transaction_date": "04-05-18",
+        "total_amount": "19.00",
+        "address": "NO.50, JALAN PBS 14/11, KAWASAN PERINDUSTRIAN BUKIT SERDANG,"
+      },
+      "extracted_lines": 54,
+      "avg_confidence": 0.9836129082573785,
+      "time_seconds": 5.62428617477417,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "(481500-M) C W KHOO HARDWARE SDN BHD NO.50 , JALAN PBS 14/11 , KAWASAN PERINDUSTRIAN BUKIT SERDANG, Tel : 03-89410243 Fax : 03-89410243 GST Reg No. : 000549584896 Tax Invoice Invoice No. : CR 1805/0201 Date : 04-05-18 12:50:51 PM Cashier No. : khoo Counter No. : c1 Printed Date : 04-05-18 12:50:53 PM Item Name Qty Unit Price Amount 2032 'ENERGIZER' BATTERY (PC) @ PKT 1 6.40 6.40 SR 9V 'ENERGIZER' BATTERY(522BP1G) @ PKT 1 11.53 11.53 SR 2 Item(s) Total (MYR) : 17.93 GST @ 6% : 1.08 Net Total (MYR) : 19.01 Rounding Adj. : -0.01 Net Total Rounded (MYR) : 19.00 Cash . 19.00 Change 0.00 GST Summary Item Amount (MYR) GST (MYR) SR @ 6% 2 17.93 1.08 Thank You. Please Come Again !"
+    },
+    {
+      "image": "X51008123446.jpg",
+      "ground_truth": {
+        "merchant_name": "DION REALTIES SDN BHD",
+        "transaction_date": "30/05/18",
+        "total_amount": "5.00",
+        "address": "MENARA DION #02-03, LEVEL 2, 27, JALAN SULTAN ISMAIL, 50250 KUALA LUMPUR."
+      },
+      "extracted_lines": 26,
+      "avg_confidence": 0.9729320567387801,
+      "time_seconds": 3.894104480743408,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Dion Realties Sdn Bhd (Co. No:20154-T) (GST Registration No : 000850247680) Henara Dian #02-03, Lavel 2, 27, Jalan Sultan Ismail, 50250 Kuala Lumpur. Tel : +6 03 2026 6386 Fax : t6 03 2026 6387 >>>TAX INVOICE<<< Tax Inv0ice no. 3521/0602/00602 30/05/18 11:01 010100 Pay park1ng ticket 5.00 RM 30/05/18 10:45 - 30/05/18 11:01 Length of stay: 0 Dy. 0 Hr. 16 Hin. 02992887002011018150387040?? Anount Incl. GST 5.00 RN Accaptad total 5.00 RM GST 6% 0.28 RH **************************************** ** Thank you ** ****************************************"
+    },
+    {
+      "image": "X51008123447.jpg",
+      "ground_truth": {
+        "merchant_name": "DION REALTIES SDN BHD",
+        "transaction_date": "28/05/18",
+        "total_amount": "5.00",
+        "address": "MENARA DION #02-03, LEVEL 2, 27, JALAN SULTAN ISMAIL, 50250 KUALA LUMPUR."
+      },
+      "extracted_lines": 28,
+      "avg_confidence": 0.9760780121598925,
+      "time_seconds": 3.174389600753784,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Dion Realties Sdn Bhd (Co. No:20154-T) (GST Registration No : 000850247680) Kenara Dion #02-03, Level 2, 27, Jalan Suitan Isnail, 50250 Kuala Lumpur. Tel : +6 03 2026 6386 Fax : t6 03 2026 6387 >>>TAX INVOICE<<< Tax Invoice no. 7698/0601/00601 28/05/18 11:41 010100 Pay parking ticket 5.00 RH 28/05/18 11:23 - 28/05/18 11:40 Length of stay: 0 Dy. 0 Hr. 17 Hin. 02992887002011018148410260?? Amount Incl. GST 5.00 RM Accapted total 10.00 RM Change 5.00 RH GST 6% 0.28 RH **************************************** ** Thank you ** **************************************"
+    },
+    {
+      "image": "X51008123450.jpg",
+      "ground_truth": {
+        "merchant_name": "SANJUNG REALITI SDN. BHD.",
+        "transaction_date": "27/06/18",
+        "total_amount": "1.50",
+        "address": "CAR PARK OFFICE, BASEMENT 1, LABUHRAYA SPRINT, PJU6A, 47400 PETALING JAYA, SELANGOR"
+      },
+      "extracted_lines": 27,
+      "avg_confidence": 0.9782126038162796,
+      "time_seconds": 3.1154472827911377,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Sanjung Realiti Sdn. Bhd. (779763-K) (GST Registration No.: 001751072768) Car Park Office, Basement 1, Labuhraya SPRINT, PJU6A, 47400 Petaling Jaya, Selangor Tel.: +603 7726 2929 Fax: +603 7726 1326 >>> TAX INVOICE <<< Tax Inv0ice No.: 0714/0601/00601 27/06/18 10:08 010100 Pay parking ticket 1.50 RM 27/06/18 09:49 - 27/06/18 10:08 Length of stay: 0 Dy. 0 Hr. 19 Min. 02472951053011038178353570?? Total amount 1.50 RH Accepted total 2.00 RH Change 0.50 RH GST 0% 0.00 RM **************************************** ** Thank you ** ****************************************"
+    },
+    {
+      "image": "X51008123451.jpg",
+      "ground_truth": {
+        "merchant_name": "C W KHOO HARDWARE SDN BHD",
+        "transaction_date": "11/06/2018",
+        "total_amount": "48.00",
+        "address": "NO.50 , JALAN PBS 14/11 , KAWASAN PERINDUSTRIAN BUKIT SERDANG,"
+      },
+      "extracted_lines": 45,
+      "avg_confidence": 0.9864989678064983,
+      "time_seconds": 4.07077431678772,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "(481500-M) C W KHOO HARDWARE SDN BHD NO.50 , JALAN PBS 14/11 , KAWASAN PERINDUSTRIAN BUKIT SERDANG, Tel : 03-89410243 Fax : 03-89410243 GST Reg No. : 000549584896 Tax Invoice Invoice No. : CR 1806/0729 Date : 11/06/2018 3:38:36 PM Cashier No. : tee Counter No. : c2 Printed Date : 11/06/2018 3:36:21 PM Item Name Qty Unit Price Amount 100# X 4L COMPRESSOR OIL @ TIN 1 48.00 48.00 SR 1 Item(s) Net Total (MYR : 48.00 Rounding Adj. : 0.00 Net Total Rounded (MYR) : 48.00 Cash \u2022\u2022 48.00 Change 0.00 GST Summary Item Amount (MYR)GST (MYR) SR@0% 1 48.00 0.00 Thank You. Please Come Again !"
+    },
+    {
+      "image": "X51008123476.jpg",
+      "ground_truth": {
+        "merchant_name": "DION REALTIES SDN BHD",
+        "transaction_date": "25/06/18",
+        "total_amount": "5.00",
+        "address": "MENARA DION #02-03, LEVEL 2, 27, JALAN SULTAN ISMAIL, 50250 KUALA LUMPUR."
+      },
+      "extracted_lines": 29,
+      "avg_confidence": 0.9783418610178191,
+      "time_seconds": 3.2665183544158936,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Dion Realties Sdn Bhd (Ca. No:20154-T) (GST Registration No : 000850247680) Menara Dian #02-03, Level 2, 27, Jalan Sultan Ismail, 50250 Kuala Lumpur. Tel : +6 03 2026 6386 Fax : +6 03 2026 6387 >>>TAX INVOICE<<< Tax Inv0ice no. 4953/0602/00602 25/06/18 11:18 010100 Pay parking ticket 5.00 RM 25/06/18 11:03 - 25/06/18 11:18 Length of stay: 0 Dy. 0 Hr. 15 Hin. 02992887002011018176397900?? Anount Incl, GST 5.00 RM Accepted total 10.00 RH Change 5.00 RM G.S.T. 0.00 0.00 RM ************************************* ** Thank you ** ****************************************"
+    },
+    {
+      "image": "X51008123580.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "17-06-18",
+        "total_amount": "8.10",
+        "address": "LOT 1851-A & 1851-B, JALAN KP3 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 52,
+      "avg_confidence": 0.9625556480426055,
+      "time_seconds": 3.900359869003296,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SDN BHD Co-REG:860671-D LOT 1851-A & 1B51-B, JALAN KP3 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000306020352) (TESCO EXTRA ARA DAMANSARA) -TAX INVOICE- WACH BALL-IS S GA01 - 12/480 9064074 2 X 1.13 2.26 SPONGE KOREA-23 *S GB12 - 12/312 9064017 2 X 2.83 5.66 PlaStIC BAGS S 99999 1 X 0.19 0.19 Item(s) : 3 Qty(s) : 5 TOTAL INCL. GST RM 8.11 Rounding Adjustment -RM 0.01 Total Rounded RM 8.10 CASH RM 50.00 CHANGE RM 41.90 GST Sumnary Amt(RM) Tax(RM) GST SR@O% 8.11 0.00 17-06-18 12:56 SH01 ZJ42 T1 R000242600 OPEFATUR TADC - ALIM ABDUL EXCHANGE ARE ALLOWED WITHIN 7 DAYS WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51008123586.jpg",
+      "ground_truth": {
+        "merchant_name": "MYNEWS RETAIL SB",
+        "transaction_date": "29/06/2018",
+        "total_amount": "7.70",
+        "address": "OASIS VILLAGE LOUNGE 2, GROUND FLOOR, OASIS VILLAGE,NO 2, JALAN PJU 1A/7A, OASIS SQUARE,OASIS DAMANSARA., 47301, PETALING JAYA,SELANGOR"
+      },
+      "extracted_lines": 48,
+      "avg_confidence": 0.9902804543574651,
+      "time_seconds": 3.863248586654663,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "TQ FOR SHOPPING WITH myNEWS.cOM OASIS VILLAGE LOUNGE 2, GROUND FLOOR, OASIS VILLAGE, NO 2, JALAN PJU 1A/7A, CASIS SQUARE,OASIS DAMANSARA. 47301,PETALING JAYA,SELANGOR myNEWScareline : 1800 88 1231 myNEWScareline@ mynews.com.my MYNEWS RETAIL SB(306295-X) FKA BISON STORES SB TAX REG ID CBP 000709361664 QTY PRICE DISC AMT HE-333-3S UNICORN BALL PEN BLUE 1 1.90 0.00 1.90 SR HE-3S 70 UNICORN MARKER BK 1 4.50 0.00 4.50 SR MR.BANANA 140G 1 1.30 0.00 1.30 SR SUB TOTAL 7.70 GRAND TOTAL 7.70 CASH 8.00 MYR 8.00 CHANGE DUE 0.30 TOTAL QTY 3 SR : 0% GOODS: 7.70 TAX : 0.00 29/06/2018 8:26:57 AM BILL 4449 -517 -12949 -2906180053"
+    },
+    {
+      "image": "X51008123599.jpg",
+      "ground_truth": {
+        "merchant_name": "OGN GROUP SDN BHD",
+        "transaction_date": "17/06/2018",
+        "total_amount": "28.30",
+        "address": "NO.29M, JALAN DINAR G U3/G, SEKSYEN U3, SUBANG PERDANA, 40150 SHAH ALAM"
+      },
+      "extracted_lines": 51,
+      "avg_confidence": 0.9873252242219215,
+      "time_seconds": 3.896845579147339,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "JIMART@SP3 OGN GROUP SDN BHD Roc: 1026984-X No.29M, Jalan Dinar G U3/G, Seksyen U3, Subang Perdana, 40150 Shah Alam 013-336 3999 GST Reg No: 002077622272 TAXINVOICE Invoice No : SP3-01-147902 Date : 17/06/2018 7:36:12 PM Cashier : Jimart Descriptior Qty Price Amount 1 SR 6001188379050 5 3.68 18.40 Kitchen Lighter 2015 2 SR 9555586101265 1 9.91 9.91 Cotton White Mop 450 W.HDL Total Item Discount 0.00 Total Sales Inclusive GST@ 0.00% 28.31 Rounding Adjustment: -0.01 TOTAL : 28.30 CASH 50.00 Change : 21.70 GST Summary % Amount(RM) Tax(RM) SR 28.31 0.00 0.00 i love jimart GOODS SOLD ARE NOT RETURNABLE Thank You.Please Come Again."
+    },
+    {
+      "image": "X51008123604.jpg",
+      "ground_truth": {
+        "merchant_name": "OGN GROUP SDN BHD",
+        "transaction_date": "24/06/2018",
+        "total_amount": "52.40",
+        "address": "NO.29M, JALAN DINAR G U3/G, SEKSYEN U3, SUBANG PERDANA, 40150 SHAH ALAM"
+      },
+      "extracted_lines": 63,
+      "avg_confidence": 0.9885524104511927,
+      "time_seconds": 4.933166742324829,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "JIMART@SP3 OGN GROUP SDN BHD Roc: 1026984-X No.29M, Jalan Dinar G U3/G, Seksyen U3, Subang Perdana, 40150 Shah Alam 013-336 3999 GST Reg No: 002077622272 TAXINVOICE Invoice No : SP3-01-148852 Date : 24/06/2018 4:37:37 PM Cashier : Jimart Descriptior Qty Price Amount 1 SR 0809152 1 7.45 7.45 Rhomb Scissors 4\" 2040 2 SR 1050901900021 1 7.45 7.45 Sharpening Stone 108#8 3 SR 9555047307540 1 4.62 4.62 LAVA Water Jug 2.25L 4 SR 24900007 12 2.74 32.88 Glass W/Flower LG10001 Total Item Discount 0.00 Total Sales Inclusive GST@ 0.00% 52.40 Rounding Adjustment: 0.00 TOTAL : 52.40 CASH 53.00 Change : 0.60 GST Summary% Amount(RM) Tax(RM) SR 0.00 52.40 0.00 i love jimart GOODS SOLD ARE NOT RETURNABLE Thank You.Please Come Again."
+    },
+    {
+      "image": "X51008128052.jpg",
+      "ground_truth": {
+        "merchant_name": "PANDAH INDAH PULAU KETAM RESTAURANT",
+        "transaction_date": "30-04-2018",
+        "total_amount": "93.00",
+        "address": "M4-A-8, JALAN PANDAH INDAH 4/1A, PANDAH INDAH, 55100 KUALA LUMPUR."
+      },
+      "extracted_lines": 32,
+      "avg_confidence": 0.9370991718024015,
+      "time_seconds": 5.805904388427734,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "PandaH INdaH PulaU KEtam REstaurANT M4-A-8, JALAN PANDAH INDAH 4/1A, PANDAH INDAH, 55100 KUALA LUMPUR. TEL:012-2673122 / 010-2022293 GUEST CHECK * * Table 6 Check #: 113355 Pax(s):0 Date : 30-04-2018 19:50:14 Server : CASHIER KUO POH (C) (2 PAX) 6.00 TEA EXTRA PERSON (1 PAX) 2.00 TONG HOU 10.00 MUTTAN SLICE 15.00 SOUP 0.00 TOM YUM 0.00 NO. OF HEAD (2 SET ABOVE) 60.00  Subtotal : 93.00 93.00 TOTAL:"
+    },
+    {
+      "image": "X51008128062.jpg",
+      "ground_truth": {
+        "merchant_name": "RESTAURANT JIAWEI JIAWEI HOUSE",
+        "transaction_date": "11/5/2018",
+        "total_amount": "27.00",
+        "address": "13, JLN TASIK UTAMA 8 MEDAN NIAGA DAMAI SG BESI 57000 KL"
+      },
+      "extracted_lines": 41,
+      "avg_confidence": 0.9514537708061498,
+      "time_seconds": 5.453627109527588,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "RESTAURANT JIAWEI JIAWEI HOUSE 002693074-K 13, JLN TASIK UTAMA 8 MEDAN NIAGA DAMAI SG BESI 57000 KL INVOICE Invoice :13834 Cashier:admin POSNo:1 Date : 11/5/2018 13:14:32 Table T. AWAY \" 7 ITEM QTY U/P(RM) DISC(%) Ani Lt (RM) Butter Cream Chicken Rice 3 9.00 0.00 Sub Total Before Discouna RM 27.00 Service Charge RM 0.00 Total Sales RM 27,00 RoundingAdjustment : RM 0.00 TOTAL RM 27.00 CASH RM 50.00 CHANGE RM 23.00"
+    },
+    {
+      "image": "X51008128065.jpg",
+      "ground_truth": {
+        "merchant_name": "99 SPEED MART S/B",
+        "transaction_date": "03-05-18",
+        "total_amount": "19.90",
+        "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1249-TMN PANDAN CAHAYA"
+      },
+      "extracted_lines": 28,
+      "avg_confidence": 0.9834344110318592,
+      "time_seconds": 5.728285551071167,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "99 SPEED MART S/B (519537-X) LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1249-TMN PANDAN CAHAYA GST ID. NO : 000181747712 INVOICE NO : 18386/103/T0314 09:41PM 568008 03-05-18 2249 CARLSBERG SMOOTH DRAUG RM14.30 s 483 CARLSBERG CAN 32OML (IC RM5.60 s Total Sales (Inclusive GST) RM 19.90 CASH RM 19.90 CHANGE RM .00 GST Summary Amount(RM) Tax(RM) s = 6% 18.77 1.13 Thank You. Please come again Keep the invoice for applicable returns"
+    },
+    {
+      "image": "X51008142005.jpg",
+      "ground_truth": {
+        "merchant_name": "ONE ONE THREE SEAFOOD RESTAURANT SDN BHD",
+        "transaction_date": "28-04-2018",
+        "total_amount": "65.70",
+        "address": "NO.1, TAMAN SRI DENGKIL, JALAN AIR HITAM 43800 DENGKIL, SELANGOR."
+      },
+      "extracted_lines": 55,
+      "avg_confidence": 0.9864218354225158,
+      "time_seconds": 6.41214919090271,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "One one three Seafood restaurant sdn bhd (1120908-M) NO.1, TAMAN SRI DENGKIL, JALAN AIR HITAM 43800 DENGKIL, SELANGOR. (GST Reg. No : 000670224384) Tax Invoice Table 40 Bill#:V001-536988 Order#: 137088 Date : 28-04-2018 20:10:51 Cashier: 113 CASHIER Pax(s): 0 Qty Description Total TAX D 20.00 SR - Chicken Item D 15.00 SR Vege item D 22.00 SR 1 Sausage Fried Rice (L) D 5.00 SR Beverage 62.00 Total (Excluding GST): 3.72 GST Payabie: 65.72 Total (Inclusive of GST): -0.02 Rounding Adj 65.70 TOTAL : 28-04-2018 21:08:20 Closed: 1 Server: 113 CASHIER 65.70 CASH : Amount(RM) Tax(RM) GST Summary 62.00 3.72 (@ 6%) SR **** Thank You ****"
+    },
+    {
+      "image": "X51008142030.jpg",
+      "ground_truth": {
+        "merchant_name": "ONE ONE THREE SEAFOOD RESTAURANT SDN BHD",
+        "transaction_date": "05-06-2018",
+        "total_amount": "52.00",
+        "address": "NO. 1, TAMAN SRI DENGKIL, JALAN AIR HITAM 43800 DENGKIL, SELANGOR."
+      },
+      "extracted_lines": 49,
+      "avg_confidence": 0.9652331203830485,
+      "time_seconds": 7.568991661071777,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "One one three Seafood restaurant sdn bhd (1120908-M) NO.1, TAMAN SRI DENGKIL, JALAN AIR HITAM 43800 DENGKIL, SELANGOR. (GST Reg. No : 000670224384) Tax Invoice Table 37 Bill#:V001-539829 Order#: 139931 Date : 05-06-2018 20:23:14 Pax(s): 0 Cashier: 113 CASHIER Total TAX Qty Description D 15.00 SR Omellete Item TS 00'08 1 D Vege Item (S) D 22.00 SR Rice w Seafood /Meat Item Single D 5.00 SR 1 Baeeg Total (Excluding GST): 52.00 Total (Inclusive of GST): 52.00 52.00 TOTAL: Closed: 1 05-06-2018 20:56:06 Server: 113 CASHIER CASH: 52.00 GST Summary Amount(RM) Tax(RM) (@ 0%) 52.00 0.00 SR"
+    },
+    {
+      "image": "X51008142031.jpg",
+      "ground_truth": {
+        "merchant_name": "ONE ONE THREE SEAFOOD RESTAURANT SDN BHD",
+        "transaction_date": "22-05-2018",
+        "total_amount": "71.00",
+        "address": "NO. 1, TAMAN SRI DENGKIL, JALAN AIR HITAM 43800 DENGKIL, SELANGOR."
+      },
+      "extracted_lines": 58,
+      "avg_confidence": 0.9504257070607153,
+      "time_seconds": 8.431174516677856,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "one one three seafood restaurant sdn Bhd (1120908-M) No.1, Taman SRi DengkIl, Jalan air HItam 43800 DENGKIL, SELANGOR. (GST Reg. No : 000670224384) Tax Invoice Table 38 Bill#:V001--538701 Order#: 138803 Cate : 22-05-2018 19:54:52 Cashier: 113 CASHIER Pax(s): 0 Qty Description Total TAX I D 32.00 SR Chicken Item 1 G 4.00 SR White Rice L D 18.00 SR Vege Item (M) 1 8.00 SR Rice w Seafood /Meat Item Single 1 0 5.00 SR Beverage Total (Excluding GST): 67.00 GST Payable: 4.02 Total (Inclusive of GST): 71.02 RoundingAdj: -0.02 TOTAL : 71.00 Closed: 1 22-05-2018 21:16:12 Server: 113 CASHIER CASH : 71.00 GST Summary Amount(RM) Tax(RM) SR (@ 6%) 67.00 4.02"
+    },
+    {
+      "image": "X51008142032.jpg",
+      "ground_truth": {
+        "merchant_name": "ONE ONE THREE SEAFOOD RESTAURANT SDN BHD",
+        "transaction_date": "28-05-2018",
+        "total_amount": "112.35",
+        "address": "NO. 1, TAMAN SRI DENGKIL, JALAN AIR HITAM 43800 DENGKIL, SELANGOR."
+      },
+      "extracted_lines": 58,
+      "avg_confidence": 0.9516700824786877,
+      "time_seconds": 8.125858306884766,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "One one three Seafood restaurant Sdn bho (1120908-M) No.1; TAman SRI DeNgkIl, Jalan aIr HItam 43800 DENGKIL, SELANGOR. (GST Reg. No : 000670224384) Tax Invoice Table 03 Bill#:V001-539233 Order#: 139336 Date : 28-05-2018 23:28:57 Cashier: 113 CASHIER Pax(s): 0 Qty Description Total TAX 1 D 70.00 SR Grouper 0 15.00 SR Vege item 0 8.00 SR Omellete Item 1 D 8.00 SR White Rice 1 D 5.00 SR Beverage Total (Excluding GST): 106.00 GST Payable: 6.36 112.36 Total (Inclusive of GST): -0.01 RoundingAdj: TOTAL : 112.35 28-05-2018 23:50:00 Closed: 1 Server: 113 CASHIER 112.35 Cash : Tax(RM) GST Summary Amount(RM) 6.36 106.00 SR (@ 6%) **** T1O"
+    },
+    {
+      "image": "X51008142033.jpg",
+      "ground_truth": {
+        "merchant_name": "ONE ONE THREE SEAFOOD RESTAURANT SDN BHD",
+        "transaction_date": "19-05-2018",
+        "total_amount": "42.40",
+        "address": "NO. 1, TAMAN SRI DENGKIL, JALAN AIR HITAM 43800 DENGKIL, SELANGOR."
+      },
+      "extracted_lines": 49,
+      "avg_confidence": 0.9859458341890451,
+      "time_seconds": 6.715681791305542,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "One one three seafood restaurant sdn Bhd (1120908-M) NO.1, TAMAN SRI DENGKIL, JALAN AIR HITAM 43800 DENGKIL, SELANGOR. (GST Reg. No : 000670224384) Tax Invoice Table 37 Bill#:V001-538524 Order#: 138624 Date : 19-05-2018 12:46:58 Cashier: 113 CASHIER Pax(s): 0 Qty Description Total TAX 0 15,00 SR Rice w Seafood /Meat Item Single 1 D 5.00 SR Beverage 1 D 20.00 SR Noodle Item Single Total (Excluding GST): 40.00 GST Payable: 2.40 Total (Inclusive of GST): 42.40 TOTAL : 42.40 Closed: 1 19-05-2018 14:43:41 Server: 113 CASHIER CASH: 42.40 GST Summary Amount(RM) Tax(RM) SR (@ 6%) 40.00 2.40 **** Thank You ****"
+    },
+    {
+      "image": "X51008142034.jpg",
+      "ground_truth": {
+        "merchant_name": "MEGAH RETAIL SDN BHD",
+        "transaction_date": "09/05/2018",
+        "total_amount": "4.70",
+        "address": "3-7, GROUND FLOOR, JLN PURTA DENGKIL 1 TMN PUTRA DENGKIL 43800 DENGKIL, SELANGOR DARUL EHSAN"
+      },
+      "extracted_lines": 46,
+      "avg_confidence": 0.936934079165044,
+      "time_seconds": 6.417550563812256,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MEGAH RETAIL SDN BHD 3-7, GROUND FLOOR, JLN PURTA DENGKIL 1 TMN PUTRA DENGKIL BSH BENU BNNE BXONU B08EN SST Reg No. : 000936312832 TAX INVOICE 03/290900 Inv No.:H018E09/0101 FOO 09/05/2018 1:12:43 PM Item Code Qty U/Price Amt 350ML CALPIS ORIGINAL SR-9556404118038 1 2.49 2.49 500ml COke SR-9555589200392 1 2.20 2.20 Sub Total : RM 4.69 Rounding Adj : RM 0.01 Total Sales Inclusive Gex : RM 4.70 Cash): RM 5.00 Change : RM 0.30 GST Summary Amount GST Amt SR86.00X 4.43 0.26 ZReO.OOX 0.00 0.00 No. of Item : 2 Total Qty. : 2 PrintedBy : 290900 GOODS SOLD ARE NOT RETURNABLE THANK YoU, PleasE CoME Again"
+    },
+    {
+      "image": "X51008142038.jpg",
+      "ground_truth": {
+        "merchant_name": "99 SPEED MART S/B",
+        "transaction_date": "28-01-18",
+        "total_amount": "27.90",
+        "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1225-DENGKIL"
+      },
+      "extracted_lines": 29,
+      "avg_confidence": 0.9784046802027472,
+      "time_seconds": 5.3610992431640625,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "99 SPEED MART S/B (519537-X) LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1225-DENGKIL GST ID. NO : 000181747712 INVOICE NO : 18291/102/T0163 11:59AM 567640 28-01-18 973 COKE LIGHT SOOML RM4.40s @2 X RM 2.20 5581 SPRITZER MINERAL WATER RM23.50 s Total Sales (Inclusive GST) RM 27.90 CASH RM 28.00 CHANGE RM .10 GST Summary Amount(RM) Tax(RM) s = 6% 26.33 1.57 Thank You. Please come again Keep the invoice for applicable returns"
+    },
+    {
+      "image": "X51008142058.jpg",
+      "ground_truth": {
+        "merchant_name": "KEDAI PAPAN YEW CHUAN",
+        "transaction_date": "20/04/2018",
+        "total_amount": "87.45",
+        "address": "LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR"
+      },
+      "extracted_lines": 69,
+      "avg_confidence": 0.9694302660831506,
+      "time_seconds": 7.548288822174072,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "KEDAI PAPAN YEW CHUAN (0005583085-K) LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR TEL : 03-87686092 FAX 03-87686092 GST ID : 000781500416 TAX INVOICE Bill To: SUCI ALAM JAYA TRANSPORT NO 1 JALAN AMAN 2 TAMAN DESA 43800 DENGKIL SELANGOR 017-6057770 Doc No : CS00012013 Date: 20/04/2018 Cashier : USER Time: 16:03:00 Salesperson . Ref.: (GST) (1SS) Item Qty S/Price S/Price Amount Tax 101756 5 16.50 17.49 87.45 SR SIMEN Total Qty: 5 87.45 Total Sales (Excluding GST) 82.50 Discount : 0.00 Total GST : 4.95 Rounding 0.00 Total Sales (Inclusive of GST) : 87.45 CASH : 87.45 Change : 0.00 GST SUMMARY Tax Code $\\or$ Amt(RM) Tax(RM) SR 9 82.50 4.95 Total : 82.50 4.95 GOODS SOLD ARE NOT RETURNABLE, THANK YOU"
+    },
+    {
+      "image": "X51008142059.jpg",
+      "ground_truth": {
+        "merchant_name": "KEDAI PAPAN YEW CHUAN",
+        "transaction_date": "17/04/2018",
+        "total_amount": "190.80",
+        "address": "LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR"
+      },
+      "extracted_lines": 76,
+      "avg_confidence": 0.9555250939569975,
+      "time_seconds": 9.263398170471191,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "KEDAI PAPAN YEW CHUAN (0005583085-K) LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR. FAX :03-87686092 TEL : 03-87686092 GST ID : 000781500416 TAX INVOICE Bill To : SUCI ALAM JAYA TRANSPORT NO 1 JALAN AMAN 2 TAMAN DESA 43800 DENGKIL SELANGOR 017-6057770 Doc No. :CS00011904 Date: 17/04/2018 Cesssr : USER Time: 10:50:00 Salesperson Ref.: 1\u221a (GST) (GST) Item A1o S/Price SDpc/e Amount Tax 101756 10 16.50 17.49 174.90 SR SIMEN 100160 5 3.00 3.18 15.90 SR KAPUR AIR (A1) Total Qty: 15 190.80 Total Sales (Excluding GST) 180.00 Discount: 0.00 Total GST: 10.80 Rounding 0.00 Total/Sales (Inclusive of GsT): 190.80 CASH : 190.80 Change : 0.00 GST SUMMARY Tax Code $\\o$ Amt (RM) Tax(RM) SR 6 180.00 10.80 Total : 180.00 10.80 GOODS SOLD ARE NOT RETURNABLE, THANK YOU"
+    },
+    {
+      "image": "X51008142060.jpg",
+      "ground_truth": {
+        "merchant_name": "KEDAI PAPAN YEW CHUAN",
+        "transaction_date": "26/05/2018",
+        "total_amount": "121.90",
+        "address": "LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR"
+      },
+      "extracted_lines": 69,
+      "avg_confidence": 0.9668778988762178,
+      "time_seconds": 8.679931402206421,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "KEDAI PAPAN YEW CHUAN (0005583085-K) LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR. TEL :03-87686092 FAX:03-87686092 GST ID : 000781500416 TAX INVOICE Bill To : SUCI ALAM JAYA TRANSPORT NO 1 JALAN AMAN 2 TAMAN DESA 43800 DENGKIL SELANGOR 017-6057770 Doc No. :CS00013125 Date: 26/05/2018 Cashier :USER Time: 11:22:00 Salesperson Ref.: (GST) (SS) Qty Item S/Price SDelee Amount Tax 100588 5. 23.00 24.38 121.90 SR SILING PRIMP 1X9 (B) Total Qty: 9 121.90 Total Sales (Excluding GST): 115.00 Discount: 0.00 Total GST : 6.90 Rounding 0.00 Total Sales (Inclusive of GST): 121.90 CASH : 121.90 Change : 0.00 GST SUMMARY Tax Code $\\o$ Amt(RM) Tax(RM) SR 9 115.00 6.90 Total: 115.00 6.90 GOODS SOLD ARE NOT RETURNABLE, THANK YOU. * RE-PRINT **"
+    },
+    {
+      "image": "X51008142061.jpg",
+      "ground_truth": {
+        "merchant_name": "KEDAI PAPAN YEW CHUAN",
+        "transaction_date": "03/05/2018",
+        "total_amount": "178.08",
+        "address": "LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR"
+      },
+      "extracted_lines": 75,
+      "avg_confidence": 0.9527399357159932,
+      "time_seconds": 10.022153377532959,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "KEDAI PAPAN YEW CHUAN (0005583085-K) LOT 276 JALAN BANTING 43800 DENGKIL. SELANGOR. TEL : 03-87686092 FAX: 03-87686092 GST ID : 000781500416 TAX INVOICE Buil To SUCI ALAM JAYA TRANSPORT NO 1 JALAN AMAN 2 TAMAN DESA 43800 DENGKIL SELANGOR 017-6057770 Doc No. CS00012431 Date: 03/05/2018 Cashier : USER Time: 13:54:00 Salesperson Ref.: \u221e (ST) (SS) Qty Item S/Price S/Price Amount Tax 100135 4 8.00 8.48 33.92 SR BESI R 5.5 (CQ) 100139 8 17.00 18.02 144.16 SR BESI Y 10 (CQ) TT1 12 178.08 Total Sales (Excluding GST) 168.00 Discount: 0.00 Total GST : 10.08 Rounding 0.00 Total Sales (Inclusive of GsT): 178.08 CASH : 178.08 Change : 0.00 GST SUMMARY Tax Code % Amt (RM) Tax (RM) SR 6 168.00 10 08 Total : 168.00 10.08 GOODS SOLD ARE NOT RETURNABLE, THANK YOU."
+    },
+    {
+      "image": "X51008142062.jpg",
+      "ground_truth": {
+        "merchant_name": "KEDAI PAPAN YEW CHUAN",
+        "transaction_date": "02/05/2018",
+        "total_amount": "361.46",
+        "address": "LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR"
+      },
+      "extracted_lines": 78,
+      "avg_confidence": 0.9584185091348795,
+      "time_seconds": 8.927952289581299,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "KEDAI PAPAN YEW CHUAN (0005583085-K) LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR. TEL:03-87686092 FAX : 03-87686092 GST ID : 000781500416 TAX INVOICE Bill To : SUCI ALAM JAYA TRANSPORT NO 1 JALAN AMAN 2 TAMAN DESA 43800 DENGKIL SELANGOR 017-6057770 Doc No. : CS00012389 Date: 02/05/2018 Cashier : USER Time: : 14.17:00 Salesperson Ref.: (GST) (SS) Item Qty S/Price S/Price Amount Tax 100211 1,200 0.23 0.24 292.56 SR BATU SIMEN 101870 - 6500 00 68.90 SR PASIR HALUS (D) Total Qty: 1,201 361.46 Total Sales (Excluding GST): 341.00 Discount: 0.00 Total GST : 20.46 Rounding : 0.00 Total Sales (Inclusive of GST): 361.46 CASH : 361.46 Change : 0.00 GST SUMMARY Tax Code % Amt(RN Tax(RM) SR 6 341.00 20.46 Total : 341.00 20.46 GOODS SOLD ARE NOT RETURNABLE, THANK YOU."
+    },
+    {
+      "image": "X51008142063.jpg",
+      "ground_truth": {
+        "merchant_name": "KEDAI PAPAN YEW CHUAN",
+        "transaction_date": "30/04/2018",
+        "total_amount": "404.39",
+        "address": "LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR"
+      },
+      "extracted_lines": 82,
+      "avg_confidence": 0.9724695598933755,
+      "time_seconds": 10.411467790603638,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "KEDAI PAPAN YEW CHUAN (0005583085-K) LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR. TEL :03-87686092 FAX 03-87686092 GST ID : 000781500416 TAX INVOICE Bill To: SUCI ALAM JAYA TRANSPORT NO 1 JALAN AMAN 2 TAMAN DESA 43800 DENGKIL SELANGOR 017-6057770 Doc No. : CS00012330 Date: 30/04/2018 Cashier : USER Time : 13:01:00 Salesperson: Ret.: (1SS) (GST) Item Qty S/Price Saece Amount Tax 0139 6 1700 18 0. 108.12 SR BESI Y 10 (CQ) 100135 4 8.00 8.48 33.92 SR BESI R 5.5 (CQ) 101756 15 16.50 17.49 262.35 SR SIMEN Total Qty: 25 404.39 Total Sales (Excluding GST): 381.50 Discount : 0.00 Total GST : 22.89 Rounding: 0.00 Total Sales (Inclusive of GST): 404.39 CASH : 404.39 Change : 0.00 GST SUMMARY Tax Code $\\$ Amt(RM) Tax(RM) SR 6 381.50 22.89 Total: 381.50 22.89 GOODS SOLD ARE NOT RETURNABLE. THANK YOU."
+    },
+    {
+      "image": "X51008142065.jpg",
+      "ground_truth": {
+        "merchant_name": "KEDAI PAPAN YEW CHUAN",
+        "transaction_date": "23/05/2018",
+        "total_amount": "162.71",
+        "address": "LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR."
+      },
+      "extracted_lines": 86,
+      "avg_confidence": 0.96824045895144,
+      "time_seconds": 11.645265579223633,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "KEDAI PAPAN YEW CHUAN (0005583085-K) LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR. TEL :03-87686092 FAX : 03-87686092 GST ID : 000781500416 TAX INVOICE Bill To : SUCI ALAM JAYA TRANSPORT NO 1 JALAN AMAN 2 TAMAN DESA 43800 DENGKIL SELANGOR 017-6057770 Doc No. CS00013033 Date: 23/05/2018 Cashier : USER Time: 15:28:00 Salesperson Ref.:  (GST) (155) Qty S/Price Saec/e Amount Tax Item 1 65.00 68.90 68.90 SR 101870 PASIR HALUS (D) 5 16.50 17.49 87.45 SR 101756 SIMEN 2 3.00 3.18 6.36 100160 SR KAPUR AIR (A1) Total Qty: 8 162.71 Total Sales (Excluding GST) 153.50 Discount : 0.00 Total GST: 9.21 Rounding: 0.00 Total Sales (Inclusive of GsT): 162.71 CASH : 162.71 Change : 0.00 GST SUMMARY Tax Code % Amt(RM) Tax(RM) SR 6 153.50 9.21 Total: 153.50 9.21 GOODS SOLD ARE NOT RETURNABLE, THANK YOU. ** RE-PRINT **"
+    },
+    {
+      "image": "X51008142068.jpg",
+      "ground_truth": {
+        "merchant_name": "KEDAI PAPAN YEW CHUAN",
+        "transaction_date": "11/05/2018",
+        "total_amount": "68.90",
+        "address": "LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR"
+      },
+      "extracted_lines": 67,
+      "avg_confidence": 0.9863790282562598,
+      "time_seconds": 9.107316970825195,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "KEDAI PAPAN YEW CHUAN (0005583085-K) LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR. TEL :03-87686092 FAX:03-87686092 GST ID : 000781500416 TAX INVOICE Bill To SUCI ALAM JAYA TRANSPORT NO 1 JALAN AMAN 2 TAMAN DESA 43800 DENGKIL SELANGOR 017-6057770 Doc No. CS00012658 Date: 11/05/2018 Cashier : USER Time: 16:52:00 Salesperson Ref.: (GST) (GST) Item Qty S/Price S/Price Amount Tax 101870 1 65.00 68.90 68.90 SR PASIR HALUS (D) Total Qty. 1 68.90 Total Sales (Excluding GST): 65.00 Discount: 0.00 Total GST: 3.90 Rounding 0.00 Total Sales (Inclusive of GST) : 68.90 CASH : 68.90 Change : 0.00 GST SUMMARY Tax Code $\\ora$ Amt(RM) Tax(RM) SR 6 65.00 3.90 Total: 65.00 3.90 GOODS SOLD ARE NOT RETURNABLE. THANK YOU"
+    },
+    {
+      "image": "X51008145450.jpg",
+      "ground_truth": {
+        "merchant_name": "GH DISTRIBUTOR & MARKETING SDN BHD",
+        "transaction_date": "20/06/2018",
+        "total_amount": "85.20",
+        "address": "216, MACALISTER ROAD, 10400 PENANG, 10400 PENANG."
+      },
+      "extracted_lines": 47,
+      "avg_confidence": 0.9686344443483555,
+      "time_seconds": 3.7913782596588135,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "GHEE HIANG Gh dIstributOR & MarketIng son bhd (1097826-H) 216, Macalister Road, 10400 Penang. 10400 Penang. Tel:04-227 2222 GST Reg.No. : 001315377152 TAX INVOICE Invoice No : 216_01/21047 Date : 20/06/2018 #1 12:53 PM Cashier : PART TIMERS 05 PRN ON : 20/06/2018 12:56 PM QTY ITEM RM *** Retail/Takeaway *** 4 TAU SAR PNEAH (S) 16PCS @9.00 36.00 SR NNO DB TAU SAR PNEAH (S) 12PCS @7.60 15.20 SR BEH TEH SAW 8PCS @8.00 16.00 SR PHONG PNEAH 6PCS @9.00 18.00 SR 10 SubTotal 85.20 Net Total 85.20 Cash 100.20 CHANGE 15.00 *** 20/06/2018 12:56 PM *** ax Summary Amount Tax SR:GST @O% 85.20 0.00 THANK YOU, PLEaSE CoME AGAIN Goods Sold Are Non Refundable"
+    },
+    {
+      "image": "X51008145504.jpg",
+      "ground_truth": {
+        "merchant_name": "AMTECH ELECTRICAL SUPPLIES",
+        "transaction_date": "27/06/18",
+        "total_amount": "136.00",
+        "address": "107,JALAN BANDAR RAWANG 2, PUSAT BANDAR RAWANG, 48000 RAWANG,SELANGOR D E"
+      },
+      "extracted_lines": 52,
+      "avg_confidence": 0.9820120609723605,
+      "time_seconds": 3.3550868034362793,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "AMTECH ELECTRICAL SUPPLIES (001963477-M) (GST ID No 001285423104) 107, JALAN BANDAR RAWANG 2, PUSAT BANDAR RAWANG, 48000 RAWANG.SELANGOR D.E email: amtech886@yahoo.com Tel/F ax 03-60936886 Tax Invoice Bill No : POS/27408 Date 27/06/18 5:02-32 PM Cashier : amt Payment : Cash Item Qty Price Amount 3OW SUPER T8 LED TUBE*D/L -FNM @16.00 00004285 5 16.00 80.00 SR 2X4OW LED F/FITTING (EMPTY)-ITK @14.00 00002348 4 14.00 56.00 SR Gross Amt: 136.00 GST(6%): 0.00 Net Amt : 136.00 Received 150.00 Change 14.00 Round Adj : 0.00 GST Summary Amount(RM) Tax(RM) SR @ 0% 136.00 0.00 THANK YOU"
+    },
+    {
+      "image": "X51008145505.jpg",
+      "ground_truth": {
+        "merchant_name": "KT WONG TRADING",
+        "transaction_date": "09/06/2018",
+        "total_amount": "489.30",
+        "address": "22, JALAN PERINDUSTRIAN HIJAU 5, TAMAN PERINDUSTRIAN HIJAU,"
+      },
+      "extracted_lines": 52,
+      "avg_confidence": 0.972249951500159,
+      "time_seconds": 3.841709613800049,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "Cash Sale KT WONG TRADING (001904043-H) 22, Jalan Perindustrian Hijau 5, Taman Perindustrian Hijau, Phone: +603-6093 9078 GST Registration No.: D00613294080 Document No. : KTW031475 Date : 09/06/2018 12:17:20 PM DESC PRICE Disc AMOUNT TAX CODE QTY BERAS ASAS 10KG*** 15 *BAG * 24.90 X 373.50 SR SUN SOS TIRAM 6KG 4BOTOL* 15.95 63.80 SR COKE 24 X 325ML 2PETI * 26.00 X 52.00 SR Sub Total Inclusive GST : 489.30 Rounding Adj. : 0.00 Rounded Total (RM): 489.30 GST Summary Amount Tax SR @ 0% 489.30 0.00 Payment Detail 09/06/2018 Cash 489.30"
+    },
+    {
+      "image": "X51008164420.jpg",
+      "ground_truth": {
+        "merchant_name": "POPULAR BOOK CO. (M) SDN BHD",
+        "transaction_date": "03/04/18",
+        "total_amount": "7.30",
+        "address": "NO 8, JALAN 7/118B, DESA TUN RAZAK 56000 KUALA LUMPUR, MALAYSIA"
+      },
+      "extracted_lines": 43,
+      "avg_confidence": 0.9736558205859606,
+      "time_seconds": 7.603657960891724,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "POPULAR BOOK CO. (M) SDN BHD (Co. No. 113825-W) (GST Reg No. 001492992000) No 8, Jalan 7/ll8B, Desa Tun Razak 56000 Kuala Lumpur, Malaysia AMPANG POINT CENTRE Tel : 03-42601064/66 03/04/18 19:19 Slip No.: 6030099332 Mazidah Yasin Trans: 80272 Description Amount MaxHD-10K Stapler 7.30 T WBD Issues 20% Rebate Total RM Incl. of GST 7.30 Cash -10.00 CHANGE 2.70 Item Count 2 GST Summary Amount (RM) Tax (RM) T @ 6% 6.89 0.41 %0  Z 0.00 0.00 Total Savings 0.00 BE A POPULAR CARD MEMBER AND ENJOY SPECIAL DISCOUNTS THANK YOU. PLEASE COME AGAIN. www.popular.com.my Buy Chinese books online www.popularonline.com.my HM09eR8088"
+    },
+    {
+      "image": "X51008164510.jpg",
+      "ground_truth": {
+        "merchant_name": "OCEAN LC PACKAGING ENTERPRISE",
+        "transaction_date": "27/06/2018",
+        "total_amount": "RM152.00",
+        "address": "41-1, JLN RADIN ANUM 2, SRI PETALING, 57000 KUALA LUMPUR."
+      },
+      "extracted_lines": 23,
+      "avg_confidence": 0.971247250619142,
+      "time_seconds": 3.599154472351074,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "OCEAN IC PACKAGING ENTERPRISE GST NO: 000945983488 41-1, JLN RADIN ANUM 2, SRI PETALING, 57O00 KUALA LUMPUR. H/P:012-3163818 FAX:0390542829 TAX INVOICE #027553 27/06/2018 12:45 01 Lai 000000 4x 38.00 RM152.00 Others SUBTOTAL RN152.00 GST TAXABLE RM152.00 GST 0% RMO.00 ITEMS 4Q RM152-00 CASH"
+    },
+    {
+      "image": "X51008164524.jpg",
+      "ground_truth": {
+        "merchant_name": "MR. D.I.Y. (M) SDN BHD",
+        "transaction_date": "15-07-18",
+        "total_amount": "7.15",
+        "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR"
+      },
+      "extracted_lines": 38,
+      "avg_confidence": 0.9855272989524039,
+      "time_seconds": 5.80281662940979,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "MR. D.I.Y. (M) SDN BHD (CO.REG : 860671-D) LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No :000306020352) (PUSAT PERNIAGAAN BUNGA RAYA, MANTIN) -TAX INVOICE- SPRAYER SX-260# 550ML S* HAOGHD01-3 - 70 9065940 4X 1.79 7.16 Item(s) : 1 Qty(s) : 4 Total Incl. GST RM 7.16 ROUNDING ADJUSTMENT -RM 0.01 TOTAL ROUNDED RM 7.15 CASH RM 20.20 CHANGE RM 13.05 GST Summary Amt(RM) Tax(RM) GST SR@0% 7.16 0.00 15-07-18 10:35 SH01 ZI33 T2 R000010082 OPERATOR TRAINEE CASHIER EXCHANGE ARE ALLOWED WITHIN 7 DAYS WITH RECEIPT. STRICTLY NO CASH REFUND."
+    },
+    {
+      "image": "X51008164525.jpg",
+      "ground_truth": {
+        "merchant_name": "PASAR RAYA MEGA MAJU (SEMENYIH) SDN BHD",
+        "transaction_date": "03/07/2018",
+        "total_amount": "30.45",
+        "address": "NO 24, 25 & 26, JALAN PUSAT PERNIAGAAN BUNGA RAYA 4, PUSAT PERNIAGAAN BUNGA RAYA,"
+      },
+      "extracted_lines": 50,
+      "avg_confidence": 0.9610850268602371,
+      "time_seconds": 5.803882360458374,
+      "merchant_match": true,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "PASAR RAYA MEGA MAJU (SEMENYIH) SDN BHD (767840-W) NO 24,25 & 26, JALAN PUSAT PERNIAGAAN BUNGA RAYA 4, PUSAT PERNIAGAAN BUNGA RAYA, TEL: FAX: GST Reg No: 000746659840 Invoice No : 01-283886 Date : 03/07/2018 5:22:43 PM Cashier : SITI TAX INVOICE Description Qty Price Amount 1 SR0 9555544201075 7 435 17.40 PRO BALANCE 400GM - BEFF 2 SR0 9555544201198 3 4.35 13.05 PRO BALANCE LAMB 400GM Total 30.45 Discount: 0.00 Total Sales Inclusive GST @0.00%: 30.45 Cash Received : 30.50 Change : 0.05 GST Summary % Amount(RM) Tax(RM) 0.00 30.45 SRO 0.00 Thank You. Please Come Again Terima Kasin. Sila Datang Layi"
+    },
+    {
+      "image": "X51008164969.jpg",
+      "ground_truth": {
+        "merchant_name": "ONE ONE THREE SEAFOOD RESTAURANT SDN BHD",
+        "transaction_date": "14-06-2018",
+        "total_amount": "59.00",
+        "address": "NO. 1, TAMAN SRI DENGKIL, JALAN AIR HITAM 43800 DENGKIL, SELANGOR."
+      },
+      "extracted_lines": 56,
+      "avg_confidence": 0.9787397075976644,
+      "time_seconds": 5.635564565658569,
+      "merchant_match": false,
+      "date_match": true,
+      "total_match": true,
+      "extracted_text": "One three seafood restaurant son bhd (1120908-M) 43800 DENGKIL, SELANGOR. (GST Reg. No : 000670224384) Tax Invoice Table 24 Bill#:V001-540401 Order#: 140508 Date : 14-06-2018 20:41:44 Cashier: 113 CASHIER Pax(s): 0 Qty Description Total TAX 1 D 28.00 SR Tilapia 1 D 16.00 SR Vege item D 7.00 SR 1 White Rice D 5.00 SR 1 Beverage 1 D 3.00 SR Herbal Tea Item 59.00 Total (Excluding GST): 59.00 Total (Inclusive of GST): 59.00 TOTAL: 14-06-2018 21:22:27 Closed: 1 Server: 113 CASHIER 59.00 CASH Tax(RM) Amount(RM) GST Sumnary 59.00 0.00 SR ( 0%) ***"
+    }
+  ]
+}
